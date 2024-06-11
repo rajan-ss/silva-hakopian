@@ -43,5 +43,50 @@ get_header();
   </div>
 </section>
 
+<section class="py-28">
+	<div class="container text-center">
+		<div class="[&_h2]:max-w-[680px] [&_h2]:mx-auto">
+			<p class="section-tag">Find Your Reason</p>
+			<h2>Top reasons to activate your membership today</h2>
+		</div>
+		<div class="flex flex-row gap-16">
+			<div>
+				<div class="[&_p]:bg-ss-pink [&_p]:rounded-full [&_p]:w-14 [&_p]:h-14 [&_p]:mx-auto [&_p]:text-xl [&_p]:font-bold [&_p]:leading-normal [&_p]:text-white [&_p]:flex [&_p]:justify-center [&_p]:items-center">
+					<p>01</p>
+				</div>
+				<p>Rewards for your healthy choices and incentives to keep you motivated</p>
+			</div>
+			<div>
+				<div class="[&_p]:bg-ss-pink [&_p]:rounded-full [&_p]:w-14 [&_p]:h-14 [&_p]:mx-auto [&_p]:text-xl [&_p]:font-bold [&_p]:leading-normal [&_p]:text-white [&_p]:flex [&_p]:justify-center [&_p]:items-center ">
+					<p>02</p>
+				</div>
+				<p>Discounts on popular brands like Starbucks, Amazon, REI & More 2</p>
+			</div>
+			<div>
+				<div class="[&_p]:bg-ss-pink [&_p]:rounded-full [&_p]:w-14 [&_p]:h-14 [&_p]:mx-auto [&_p]:text-xl [&_p]:font-bold [&_p]:leading-normal [&_p]:text-white [&_p]:flex [&_p]:justify-center [&_p]:items-center">
+					<p>03</p>
+				</div>
+				<p>Confidence that you are taking steps to live a longer, healthier life</p>
+			</div>
+			<div>
+				<div class="[&_p]:bg-ss-pink [&_p]:rounded-full [&_p]:w-14 [&_p]:h-14 [&_p]:mx-auto [&_p]:text-xl [&_p]:font-bold [&_p]:leading-normal [&_p]:text-white [&_p]:flex [&_p]:justify-center [&_p]:items-center">
+					<p>04</p>
+				</div>
+				<p>Discounts at the grocery store when you buy healthy foods</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="container text-center bg-[url('/img/hero-pattern.svg')]">
+	<div class="[&_h2]:max-w-[955px] [&_h2]:mx-auto">
+			<p class="section-tag">Cash-back Option</p>
+			<h2>100% Return Of Premium Rider On Your Life Insurance Policy</h2>
+			<a href="#" class="btn btn-primary">Schedule An Appointment</a>
+		</div>
+	</div>
+</section>
+
 <?php
 get_footer();
