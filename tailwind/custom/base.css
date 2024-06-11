@@ -1,0 +1,302 @@
+/**
+ * Custom styles to immediately follow Tailwind’s `base` layer
+ *
+ * “Add things like base typography styles [or] opinionated global resets.”
+ *
+ * — from https://tailwindcss.com/docs/plugins#adding-base-styles
+ */
+
+/**
+ * This uses the background and foreground colors declared in the
+ * `theme.json` file and is applied both to the frontend and in the block
+ * editor.
+*/
+@layer base {
+	html,
+	body {
+		@apply w-full h-full
+		;
+	}
+
+	body {
+		@apply
+		font-base
+		leading-normal
+		text-[1rem]
+		xl:text-[1.125rem]
+		lg:leading-[1.67]
+		font-normal
+		min-w-[320px] 
+		overflow-x-hidden 
+		m-0 
+		antialiased 
+		bg-white
+		text-black
+		;
+	}
+
+	picture {
+		@apply 
+		block 
+		mb-4
+		;
+	}
+
+	img {
+		@apply 
+		w-auto
+		h-auto 
+		max-w-full 
+		align-middle
+		;
+	}
+
+	h1, .h1, h2, .h2,  h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+		@apply		
+		font-lead
+		font-bold		
+		mb-2
+		2xl:mb-4 
+		leading-tight
+		;
+	}
+
+	h1, .h1 {
+		@apply 
+		2xl:text-[3.125rem] /*50px*/
+		lg:text-[2.625rem] 
+		text-[2.25rem] 
+		font-black
+		;
+	}
+
+	h2, .h2 {
+		@apply 
+		2xl:text-[2.5rem] /*40px*/
+		lg:text-[2.25rem] 
+		text-[1.75rem]
+		; 
+	}
+
+	h3, .h3 {
+		@apply 
+		2xl:text-[1.875rem] /*30px*/
+		lg:text-[1.625rem] 
+		text-[1.375rem]	
+		; 
+	}
+
+	h4, .h4 {
+		@apply 
+		2xl:text-[1.5rem] /*24px*/
+		lg:text-[1.375rem] 
+		text-[1.25rem]		
+		; 
+	}
+
+	h5, .h5 {
+		@apply 
+		2xl:text-[1.25rem] /*20px*/
+		lg:text-[1.125rem] 
+		text-[1rem]	
+		; 
+	}
+
+	h6, .h6 {
+		@apply 
+		2xl:text-[1.125rem] /*18px*/
+		text-sm
+		; 
+	}
+
+	.site-wrapper {
+		@apply 
+		relative 
+		overflow-hidden 
+		my-0 
+		mx-auto 
+		flex 
+		items-stretch 
+		flex-col 
+		min-h-full
+		;
+	}
+
+	.site-content {
+		@apply 
+		grow
+		;
+	}
+
+	.site-header,
+	.site-content,
+	.site-footer {
+		@apply
+		shrink-0
+		;
+	}
+
+	.container {
+		@apply 
+		pl-4 
+		pr-4
+		;
+	}
+
+	p {
+		@apply
+		mb-2
+		2xl:mb-4
+		;
+	}
+
+	a {
+		@apply 
+		text-primary 		
+		transition-all
+		;
+	}
+
+	hr {
+		@apply 
+		my-2.5
+		;
+	}
+
+		/* Lists Default Styling */
+		ul, ol {
+			@apply
+			space-y-2
+			lg:space-y-3
+			mb-4
+			pl-5
+			;
+		}
+	
+		ul ul, ol ol, ul ol, ol ul {
+			@apply
+			mt-4
+			;
+		}
+	
+		ul {
+			@apply
+				list-disc
+				marker:text-primary
+			;
+		}
+	
+		ol {
+			@apply
+				list-decimal
+			;
+		}
+		strong,b{
+			@apply
+			font-bold
+			;
+		}
+		/* Table */
+		table {
+			@apply 
+			border-collapse 
+			w-full
+			;
+		}
+	
+		caption {
+			@apply 
+			text-center 
+			text-lg
+			font-bold
+			mb-2
+			;
+		}
+	
+		th, td {
+			@apply 
+			border
+			border-gray-400
+			px-4
+			py-2
+			;
+		}
+	
+		dl{
+			@apply
+			mb-4
+			;
+		}
+		dl dt {
+			@apply
+			font-bold
+			;
+		}
+	
+		dl dd {
+			@apply 
+			ml-4
+			;
+		}
+	
+		blockquote {
+			@apply 
+			italic
+			border-l-4
+			border-primary
+			bg-primary/10
+			pl-4
+			py-2
+			mb-4
+			;
+		}
+	
+		abbr, acronym, dfn{
+			@apply
+			border-dashed
+			border-b
+			border-b-black
+			;
+		}
+	
+		pre {
+			@apply
+			bg-primary/5
+			p-4
+			mb-4
+			;
+		}
+	
+		code, tt {
+			@apply 
+			font-mono 
+			bg-gray-50
+			p-1
+			;
+		}
+	
+		kbd {
+			@apply 
+			font-mono
+			border
+			border-gray-200
+			px-2
+			py-1
+			rounded
+			;
+		}
+	
+		var, samp {
+			@apply
+			font-mono
+			bg-gray-50
+			px-1
+			rounded
+			;
+		}
+		address{
+			@apply
+			mb-4
+			;
+		}
+}
