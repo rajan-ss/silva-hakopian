@@ -24,13 +24,18 @@ module.exports = {
 				primary: {
 					DEFAULT: '#77D7E0',
 				},
-				'ss-pink': '#FE7B7C',
-				'ss-dark-blue': '#1C3A4F',
+				'ss-pink': {
+					DEFAULT: '#FE7B7C',
+				},
+				'ss-dark-blue': {
+					DEFAULT: '#1C3A4F',
+				},
+			},
 			screens: {
 				'2xl': '1312px',
 			},
 			fontFamily: {
-				'base': ['DM Sans', ...defaultTheme.fontFamily.sans],
+				base: ['"DM Sans"', ...defaultTheme.fontFamily.sans],
 				'icomoon': ['icomoon'],
 			},
 		},
@@ -51,5 +56,4 @@ module.exports = {
 		// require('@tailwindcss/aspect-ratio'),
 		// require('@tailwindcss/container-queries'),
 	],
-},
-}
+};

@@ -20,6 +20,7 @@
 
 	body {
 		@apply
+		font-base
 		leading-normal
 		text-[1rem]
 		xl:text-[1.125rem]
