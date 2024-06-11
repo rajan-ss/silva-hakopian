@@ -26,10 +26,14 @@ get_header();
   <br>
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit officia vitae, nam repudiandae nihil odio cum aut ipsam doloremque tenetur corporis culpa. Delectus numquam itaque sint perspiciatis! Saepe, iste facere.</p>
   <br>
+  <br>
   <a href="#" class="btn btn-primary">Primary</a>
   <br>
+	<br>
   <a href="#" class="btn btn-secondary">Secondary</a>
 	<br>
+	<br>
+	<p class="section-tag">Section Titles</p>
 </section>
 
 <?php
