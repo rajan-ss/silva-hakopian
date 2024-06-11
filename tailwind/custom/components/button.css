@@ -4,31 +4,56 @@
   inline-block
   align-top
   min-w-[100px]
-  2xl:min-w-[150px]    
-  rounded-[8px]
+  2xl:min-w-[150px]
+  rounded-xl
   bg-primary
-  text-white
+  text-ss-dark-blue
   border
-  border-transparent
+  border-primary
   text-center
   text-[15px]
   lg:text-[16px]
-  xl:text-[18px]
-  leading-normal
-  font-normal
+  leading-tight
+  font-semibold
   py-3
   md:py-3.5
   xl:py-4
-  px-5
-  md:px-6
-  xl:px-7
+  px-4
+  md:px-5
+  xl:px-6
   transition-all
-  ease-in-out 
+  ease-in-out
   whitespace-normal
   cursor-pointer
+  ;
+}
 
-  hover:bg-white
+.btn-primary{
+	@apply   hover:bg-white
   hover:text-primary
   hover:border-primary
-  ; 
+
+	focus:bg-white
+  focus:text-primary
+  focus:border-primary
+
+	active:bg-white
+  active:text-primary
+  active:border-primary;
+}
+
+.btn-secondary{
+	@apply bg-white
+	border-ss-dark-blue/10
+	hover:bg-primary
+  hover:text-ss-dark-blue
+  hover:border-ss-dark-blue
+
+	focus:bg-primary
+  focus:text-ss-dark-blue
+  focus:border-ss-dark-blue
+
+	active:bg-primary
+  active:text-ss-dark-blue
+  active:border-ss-dark-blue;
 }

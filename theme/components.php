@@ -28,6 +28,8 @@ get_header();
   <br>
   <a href="#" class="btn btn-primary">Primary</a>
   <br>
+  <a href="#" class="btn btn-secondary">Secondary</a>
+	<br>
 </section>
 
 <?php
