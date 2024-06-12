@@ -32,6 +32,11 @@ get_header();
 	<br>
 	<a href="#" class="btn btn-secondary">Secondary</a>
 	<br>
+  <h3>Button with icon</h3>
+  <a href="tel:4422292409" class="btn btn-secondary group">
+    <i class="icon-call text-primary mr-3 group-hover:text-ss-dark-blue"></i>
+    442-229-2409
+  </a>
 	<br>
 	<p class="section-tag">Section Titles</p>
 	<br>
@@ -74,6 +79,80 @@ get_header();
 			</p>
 		</li>
 	</ul>
+
+  <h2>Accordion</h2>
+  <div class="accordion">
+				<div class="transition rounded-xl">
+					<!-- header -->
+					<div class="accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
+						<div class="[&_p]:bg-primary [&_p]:rounded-full h-10 w-10 [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:justify-center [&_p]:items-center">
+							<p>01</p>
+						</div>
+						<h3>Savings and rewards for healthy living</h3>
+					</div>
+					<div class="accordion-content px-6 pt-0 overflow-hidden max-h-0 rounded-b-xl [&_p]:pl-9 [&_p]:opacity-70">
+						<p>
+							Your clients’ policy wil l automatical ly include the John Hancock Vitality PLUS program, which means they can earn premium savings and rewards for the everyday steps they take to live healthy.
+						</p>
+					</div>
+				</div>
+				<div class="transition rounded-xl">
+					<!-- header -->
+					<div class="accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
+						<div class="[&_p]:bg-primary [&_p]:rounded-full h-10 w-10 [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:justify-center [&_p]:items-center">
+							<p>02</p>
+						</div>
+						<h3>Guaranteed conversion feature</h3>
+					</div>
+					<div class="accordion-content px-6 pt-0 overflow-hidden max-h-0 rounded-b-xl [&_p]:pl-9 [&_p]:opacity-70">
+						<p>
+							Your clients’ policy wil l automatical ly include the John Hancock Vitality PLUS program, which means they can earn premium savings and rewards for the everyday steps they take to live healthy.
+						</p>
+					</div>
+				</div>
+				<div class="transition rounded-xl">
+					<!-- header -->
+					<div class="accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
+						<div class="[&_p]:bg-primary [&_p]:rounded-full h-10 w-10 [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:justify-center [&_p]:items-center">
+							<p>03</p>
+						</div>
+						<h3>Extra financial protection to meet the unexpected</h3>
+					</div>
+					<div class="accordion-content px-6 pt-0 overflow-hidden max-h-0 rounded-b-xl [&_p]:pl-9 [&_p]:opacity-70">
+						<p>
+							Your clients’ policy wil l automatical ly include the John Hancock Vitality PLUS program, which means they can earn premium savings and rewards for the everyday steps they take to live healthy.
+						</p>
+					</div>
+				</div>
+				<div class="transition rounded-xl">
+					<!-- header -->
+					<div class="accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
+						<div class="[&_p]:bg-primary [&_p]:rounded-full h-10 w-10 [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:justify-center [&_p]:items-center">
+							<p>04</p>
+						</div>
+						<h3>Cost-effective coverage for fixed period of time</h3>
+					</div>
+					<div class="accordion-content px-6 pt-0 overflow-hidden max-h-0 rounded-b-xl [&_p]:pl-9 [&_p]:opacity-70">
+						<p>
+							Your clients’ policy wil l automatical ly include the John Hancock Vitality PLUS program, which means they can earn premium savings and rewards for the everyday steps they take to live healthy.
+						</p>
+					</div>
+				</div>
+				<div class="transition rounded-xl">
+					<!-- header -->
+					<div class="accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
+						<div class="[&_p]:bg-primary [&_p]:rounded-full h-10 w-10 [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:justify-center [&_p]:items-center">
+							<p>05</p>
+						</div>
+						<h3>Simplified Vitality experience</h3>
+					</div>
+					<div class="accordion-content px-6 pt-0 overflow-hidden max-h-0 rounded-b-xl [&_p]:pl-9 [&_p]:opacity-70">
+						<p>
+							Your clients’ policy wil l automatical ly include the John Hancock Vitality PLUS program, which means they can earn premium savings and rewards for the everyday steps they take to live healthy.
+						</p>
+					</div>
+				</div>
+			</div>
 </section>
 
 <?php
