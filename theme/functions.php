@@ -145,6 +145,7 @@ add_action( 'widgets_init', 'silva_hakopian_widgets_init' );
  * Enqueue scripts and styles.
  */
 function silva_hakopian_scripts() {
+	wp_enqueue_style( 'silva-hakopian-icomoon', get_template_directory_uri() . '/lib/icomoon/style.css', array(), SILVA_HAKOPIAN_VERSION );
 	wp_enqueue_style( 'silva-hakopian-style', get_stylesheet_uri(), array(), SILVA_HAKOPIAN_VERSION );
 	wp_enqueue_script( 'silva-hakopian-script', get_template_directory_uri() . '/js/script.min.js', array(), SILVA_HAKOPIAN_VERSION, true );
 

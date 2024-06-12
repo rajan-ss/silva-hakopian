@@ -34,6 +34,30 @@ get_header();
 	<br>
 	<br>
 	<p class="section-tag">Section Titles</p>
+  <br>
+    <p>Clients</p>
+    <div class="flex flex-row-reverse justify-end items-center max-sm:absolute bottom-0 left-1/2 max-sm:-translate-x-1/2 pt-[18px] pb-[10px] sm:pr-[14px] [&_p]:text-sm [&_p]:leading-[1.14] [&_p]:mb-0 lg:-mr-12 xl:mr-0">
+      <p>
+        <span class="font-lead font-semibold leading-[1.1] text-lg">
+          2500+
+        </span><br>
+        Happy Clients
+      </p>
+      <div class="flex ml-[18px]">
+        <figure class="-ml-[18px]">
+          <img src="<?php echo site_url()?>/wp-content/uploads/2024/06/client-4.png" alt="Client 4" width="52" height="52" loading="lazy">
+        </figure>
+        <figure class="-ml-[18px]">
+          <img src="<?php echo site_url()?>/wp-content/uploads/2024/06/client-3.png" alt="Client 3" width="52" height="52" loading="lazy">
+        </figure>
+        <figure class="-ml-[18px]">
+          <img src="<?php echo site_url()?>/wp-content/uploads/2024/06/client-2.png" alt="Client 2" width="52" height="52" loading="lazy">
+        </figure>
+        <figure class="-ml-[18px]">
+          <img src="<?php echo site_url()?>/wp-content/uploads/2024/06/client-1.png" alt="Client 1" width="52" height="52" loading="lazy">
+        </figure>
+      </div>
+    </div>
 </section>
 
 <?php

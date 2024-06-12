@@ -19,7 +19,6 @@
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-	<link rel="stylesheet" href="./lib/icomoon/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
@@ -34,8 +33,8 @@
 		<a href="#content" class="sr-only"><?php esc_html_e('Skip to content', 'silva-hakopian'); ?></a>
 
 		<header class="site-header">
-			<div class="container">
-				<h1 class="text-black">This is header.</h1>
+			<div class="container flex justify-between">
+				
 			</div>
 		</header>
 

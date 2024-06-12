@@ -7,9 +7,9 @@
  * https://tailwindcss.com/docs/plugins#adding-utilities
  */
 
- .section-tag{
+.section-tag {
 	@apply text-ss-pink
 	font-medium
 	uppercase
-	leading-[1.11]
- }
+	leading-[1.11];
+}

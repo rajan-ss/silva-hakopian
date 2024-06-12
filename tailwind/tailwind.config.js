@@ -1,6 +1,6 @@
 // Set the Preflight flag based on the build target.
 const includePreflight = 'editor' === process.env._TW_TARGET ? false : true;
-const defaultTheme = require('tailwindcss/defaultTheme')
+const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
 	presets: [
@@ -30,13 +30,16 @@ module.exports = {
 				'ss-dark-blue': {
 					DEFAULT: '#1C3A4F',
 				},
+				'ss-pale': {
+					DEFAULT: '#607584',
+				},
 			},
 			screens: {
 				'2xl': '1312px',
 			},
 			fontFamily: {
 				base: ['"DM Sans"', ...defaultTheme.fontFamily.sans],
-				'icomoon': ['icomoon'],
+				icomoon: ['icomoon'],
 			},
 		},
 	},
