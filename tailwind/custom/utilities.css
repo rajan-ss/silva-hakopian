@@ -13,3 +13,13 @@
 	uppercase
 	leading-[1.11];
 }
+.accordion-content {
+	@apply ease-in-out
+	transition-all
+	duration-300;
+}
+
+.accordion .active{
+	@apply bg-white
+	[&_h3]:font-bold
+}
