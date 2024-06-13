@@ -26,3 +26,19 @@ accordionHeader.forEach((header) => {
 		}
 	});
 });
+
+	const swiper = new Swiper('.image-slider', {
+		// Optional parameters
+		spaceBetween: 62,
+		slidesPerView: "auto",
+		loop: true,
+		centeredSlides: true,
+		speed: 3000,
+		autoplay: {
+			delay: 1,
+			disableOnInteraction: false,
+		},
+		loopedSlides: 4,
+		allowTouchMove: false,
+		disableOnInteraction: true,
+	});

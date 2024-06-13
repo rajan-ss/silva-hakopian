@@ -41,7 +41,7 @@ get_header();
 							<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/client-2.png" alt="Client 2" width="52" height="52" loading="lazy">
 						</figure>
 						<figure class="-ml-[18px]">
-							<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/client-1.png" alt="Client 1" width="52" height="52" loading="lazy">
+							<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/client-1.png" width="52" height="52" loading="lazy">
 						</figure>
 					</div>
 				</div>
@@ -176,7 +176,7 @@ get_header();
 							<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/Ellipse-Image-2.png" alt="Client 2" width="52" height="52" loading="lazy">
 						</figure>
 						<figure class="-ml-[18px]">
-							<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/Ellipse-Image-1.png" alt="Client 1" width="52" height="52" loading="lazy">
+							<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/Ellipse-Image-1.png" width="52" height="52" loading="lazy">
 						</figure>
 					</div>
 					<div class="[&_p]:leading-[0.88] [&_p]:mb-0">
@@ -603,6 +603,78 @@ get_header();
 	</div>
 </section>
 <!--End of Get In Touch Section-->
+
+<!-- Image Slider Section  -->
+<section class="bg-primary/20 py-16">
+	<div class="container text-center pb-10">
+		<h4>Our Trusted Partners</h4>
+	</div>
+	<div class="swiper py-5 lg:py-0 image-slider [&_.swiper-slide_img]:max-h-[80px] sm:[&_.swiper-slide_img]:max-h-[120px] [&_.swiper-slide_img]:max-w-[100%] [&_.swiper-slide_img]:w-auto md:[&_.swiper-slide_img]:w-full xl:[&_.swiper-slide_img]:max-h-none [&_.swiper-slide]:w-auto">
+		<div class="swiper-wrapper items-center">
+			<div class="swiper-slide">
+				<figure>
+					<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/slider-img-6.png" width="145" height="40" loading="lazy" alt="Slider Image 6">
+				</figure>
+			</div>
+			<div class="swiper-slide">
+				<figure>
+					<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/slider-img-5.png" width="145" height="40" loading="lazy" alt="Slider Image 5">
+				</figure>
+			</div>
+			<div class="swiper-slide">
+				<figure>
+					<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/slider-img-4.png" width="145" height="40" loading="lazy" alt="Slider Image 4">
+				</figure>
+			</div>
+			<div class="swiper-slide">
+				<figure>
+					<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/slider-img-3.png" width="145" height="40" loading="lazy" alt="Slider Image 3">
+				</figure>
+			</div>
+			<div class="swiper-slide">
+				<figure>
+					<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/slider-img-2.png" width="145" height="40" loading="lazy" alt="Slider Image 2">
+				</figure>
+			</div>
+			<div class="swiper-slide">
+				<figure>
+					<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/slider-img-1.png" width="145" height="40" loading="lazy" alt="Slider Image 1">
+				</figure>
+			</div>
+
+			<div class="swiper-slide">
+				<figure>
+					<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/slider-img-6.png" width="145" height="40" loading="lazy" alt="Slider Image 6">
+				</figure>
+			</div>
+			<div class="swiper-slide">
+				<figure>
+					<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/slider-img-5.png" width="145" height="40" loading="lazy" alt="Slider Image 5">
+				</figure>
+			</div>
+			<div class="swiper-slide">
+				<figure>
+					<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/slider-img-4.png" width="145" height="40" loading="lazy" alt="Slider Image 4">
+				</figure>
+			</div>
+			<div class="swiper-slide">
+				<figure>
+					<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/slider-img-3.png" width="145" height="40" loading="lazy" alt="Slider Image 3">
+				</figure>
+			</div>
+			<div class="swiper-slide">
+				<figure>
+					<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/slider-img-2.png" width="145" height="40" loading="lazy" alt="Slider Image 2">
+				</figure>
+			</div>
+			<div class="swiper-slide">
+				<figure>
+					<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/slider-img-1.png" width="145" height="40" loading="lazy" alt="Slider Image 1">
+				</figure>
+			</div>
+		</div>
+	</div>
+</section>
 
 
 <?php
