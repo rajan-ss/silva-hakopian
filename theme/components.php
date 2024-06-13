@@ -32,11 +32,11 @@ get_header();
 	<br>
 	<a href="#" class="btn btn-secondary">Secondary</a>
 	<br>
-  <h3>Button with icon</h3>
-  <a href="tel:4422292409" class="btn btn-secondary group">
-    <i class="icon-call text-primary mr-3 group-hover:text-ss-dark-blue"></i>
-    442-229-2409
-  </a>
+	<h3>Button with icon</h3>
+	<a href="tel:4422292409" class="btn btn-secondary group">
+		<i class="icon-call text-primary mr-3 group-hover:text-ss-dark-blue"></i>
+		442-229-2409
+	</a>
 	<br>
 	<p class="section-tag">Section Titles</p>
 	<br>
@@ -80,80 +80,145 @@ get_header();
 		</li>
 	</ul>
 
-  <h2>Accordion</h2>
-  <div class="accordion">
-				<div class="transition rounded-xl">
-					<!-- header -->
-					<div class="accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
-						<div class="[&_p]:bg-primary [&_p]:rounded-full h-10 w-10 [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:justify-center [&_p]:items-center">
-							<p>01</p>
-						</div>
-						<h3>Savings and rewards for healthy living</h3>
-					</div>
-					<div class="accordion-content px-6 pt-0 overflow-hidden max-h-0 rounded-b-xl [&_p]:pl-9 [&_p]:opacity-70">
-						<p>
-							Your clients’ policy wil l automatical ly include the John Hancock Vitality PLUS program, which means they can earn premium savings and rewards for the everyday steps they take to live healthy.
-						</p>
-					</div>
+	<h2>Accordion</h2>
+	<div class="accordion">
+		<div class="transition rounded-xl">
+			<!-- header -->
+			<div class="accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
+				<div class="[&_p]:bg-primary [&_p]:rounded-full h-10 w-10 [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:justify-center [&_p]:items-center">
+					<p>01</p>
 				</div>
-				<div class="transition rounded-xl">
-					<!-- header -->
-					<div class="accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
-						<div class="[&_p]:bg-primary [&_p]:rounded-full h-10 w-10 [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:justify-center [&_p]:items-center">
-							<p>02</p>
-						</div>
-						<h3>Guaranteed conversion feature</h3>
-					</div>
-					<div class="accordion-content px-6 pt-0 overflow-hidden max-h-0 rounded-b-xl [&_p]:pl-9 [&_p]:opacity-70">
-						<p>
-							Your clients’ policy wil l automatical ly include the John Hancock Vitality PLUS program, which means they can earn premium savings and rewards for the everyday steps they take to live healthy.
-						</p>
-					</div>
+				<h3>Savings and rewards for healthy living</h3>
+			</div>
+			<div class="accordion-content px-6 pt-0 overflow-hidden max-h-0 rounded-b-xl [&_p]:pl-9 [&_p]:opacity-70">
+				<p>
+					Your clients’ policy wil l automatical ly include the John Hancock Vitality PLUS program, which means they can earn premium savings and rewards for the everyday steps they take to live healthy.
+				</p>
+			</div>
+		</div>
+		<div class="transition rounded-xl">
+			<!-- header -->
+			<div class="accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
+				<div class="[&_p]:bg-primary [&_p]:rounded-full h-10 w-10 [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:justify-center [&_p]:items-center">
+					<p>02</p>
 				</div>
-				<div class="transition rounded-xl">
-					<!-- header -->
-					<div class="accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
-						<div class="[&_p]:bg-primary [&_p]:rounded-full h-10 w-10 [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:justify-center [&_p]:items-center">
-							<p>03</p>
-						</div>
-						<h3>Extra financial protection to meet the unexpected</h3>
-					</div>
-					<div class="accordion-content px-6 pt-0 overflow-hidden max-h-0 rounded-b-xl [&_p]:pl-9 [&_p]:opacity-70">
-						<p>
-							Your clients’ policy wil l automatical ly include the John Hancock Vitality PLUS program, which means they can earn premium savings and rewards for the everyday steps they take to live healthy.
-						</p>
-					</div>
+				<h3>Guaranteed conversion feature</h3>
+			</div>
+			<div class="accordion-content px-6 pt-0 overflow-hidden max-h-0 rounded-b-xl [&_p]:pl-9 [&_p]:opacity-70">
+				<p>
+					Your clients’ policy wil l automatical ly include the John Hancock Vitality PLUS program, which means they can earn premium savings and rewards for the everyday steps they take to live healthy.
+				</p>
+			</div>
+		</div>
+		<div class="transition rounded-xl">
+			<!-- header -->
+			<div class="accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
+				<div class="[&_p]:bg-primary [&_p]:rounded-full h-10 w-10 [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:justify-center [&_p]:items-center">
+					<p>03</p>
 				</div>
-				<div class="transition rounded-xl">
-					<!-- header -->
-					<div class="accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
-						<div class="[&_p]:bg-primary [&_p]:rounded-full h-10 w-10 [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:justify-center [&_p]:items-center">
-							<p>04</p>
-						</div>
-						<h3>Cost-effective coverage for fixed period of time</h3>
-					</div>
-					<div class="accordion-content px-6 pt-0 overflow-hidden max-h-0 rounded-b-xl [&_p]:pl-9 [&_p]:opacity-70">
-						<p>
-							Your clients’ policy wil l automatical ly include the John Hancock Vitality PLUS program, which means they can earn premium savings and rewards for the everyday steps they take to live healthy.
-						</p>
-					</div>
+				<h3>Extra financial protection to meet the unexpected</h3>
+			</div>
+			<div class="accordion-content px-6 pt-0 overflow-hidden max-h-0 rounded-b-xl [&_p]:pl-9 [&_p]:opacity-70">
+				<p>
+					Your clients’ policy wil l automatical ly include the John Hancock Vitality PLUS program, which means they can earn premium savings and rewards for the everyday steps they take to live healthy.
+				</p>
+			</div>
+		</div>
+		<div class="transition rounded-xl">
+			<!-- header -->
+			<div class="accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
+				<div class="[&_p]:bg-primary [&_p]:rounded-full h-10 w-10 [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:justify-center [&_p]:items-center">
+					<p>04</p>
 				</div>
-				<div class="transition rounded-xl">
-					<!-- header -->
-					<div class="accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
-						<div class="[&_p]:bg-primary [&_p]:rounded-full h-10 w-10 [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:justify-center [&_p]:items-center">
-							<p>05</p>
+				<h3>Cost-effective coverage for fixed period of time</h3>
+			</div>
+			<div class="accordion-content px-6 pt-0 overflow-hidden max-h-0 rounded-b-xl [&_p]:pl-9 [&_p]:opacity-70">
+				<p>
+					Your clients’ policy wil l automatical ly include the John Hancock Vitality PLUS program, which means they can earn premium savings and rewards for the everyday steps they take to live healthy.
+				</p>
+			</div>
+		</div>
+		<div class="transition rounded-xl">
+			<!-- header -->
+			<div class="accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
+				<div class="[&_p]:bg-primary [&_p]:rounded-full h-10 w-10 [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:justify-center [&_p]:items-center">
+					<p>05</p>
+				</div>
+				<h3>Simplified Vitality experience</h3>
+			</div>
+			<div class="accordion-content px-6 pt-0 overflow-hidden max-h-0 rounded-b-xl [&_p]:pl-9 [&_p]:opacity-70">
+				<p>
+					Your clients’ policy wil l automatical ly include the John Hancock Vitality PLUS program, which means they can earn premium savings and rewards for the everyday steps they take to live healthy.
+				</p>
+			</div>
+		</div>
+	</div>
+	<br>
+	<h2>Vitality Accordion</h2>
+	<div class="vitality-accordion space-y-6">
+		<div class="transition rounded-xl border border-ss-pink/30">
+			<div class="relative before:absolute before:content-['\e900'] before:right-6 before:top-5 lg:before:top-4 before:font-icomoon before:size-6 accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h5 py-4 px-6">
+				<i class="icon-support-accordion text-ss-pink text-2xl"></i>
+				<h3>Wearing a fitness device</h3>
+			</div>
+			<div class="relative before:absolute before:left-5 before:right-5 before:h-[1px] before:bg-black/10 accordion-content px-6 pt-0 overflow-hidden max-h-0 rounded-b-xl [&_p]:pl-9 [&_p]:pt-6 [&_p]:opacity-70">
+				<p>
+					Vitality PLUS members can choose from a list of new free or discounted fitness devices, earn the latest Apple Watch for as little as $25 plus tax5, or use a compatible device they already own. You can earn Vitality Points as your device logs your activity level — in steps, calories burned & heart rate.
+				</p>
+			</div>
+		</div>
+		<div class="transition rounded-xl border border-ss-pink/30">
+			<div class="relative before:absolute before:content-['\e900'] before:right-6 before:top-5 lg:before:top-4 before:font-icomoon before:size-6 accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h5 py-4 px-6">
+				<i class="icon-support-accordion text-ss-pink text-2xl"></i>
+				<h3>Checking in at the gym</h3>
+			</div>
+			<div class="relative before:absolute before:left-5 before:right-5 before:h-[1px] before:bg-black/10 accordion-content px-6 pt-0 overflow-hidden max-h-0 rounded-b-xl [&_p]:pl-9 [&_p]:pt-6 [&_p]:opacity-70">
+				<p>
+					<span class="font-semibold pb-3 block">Earn points with the John Hancock Vitality app, each time you check in at the gym and workout.</span>
+					5Apple Watch program is not available in New York or Puerto Rico. Apple Watches ordered through John Hancock Vitality may not be shipped to addresses in Guam. Once you become a Vitality PLUS member and complete the Vitality Health Review (VHR), you can order Apple Watch by electronically signing, at checkout, a Retail Installment Agreement with the Vitality Group, for the retail price of the watch. After an initial payment of $25 plus tax, over the next two years, monthly out-of-pocket payments are based on the number of Standard Workouts (10,000 to 14,999 steps) and Advanced Workouts (15,000 steps) or the applicable Active Calorie or heart rate thresholds. The step counts required for Standard and Advanced Workouts are reduced for members beginning at age 71+. One-time upgrade fees plus taxes apply if you choose (GPS + Cellular) versions of Apple Watch, larger watch case sizes, and certain bands and case materials. For more information, please visit JohnHancock.com. Apple is not a participant in or sponsor of this promotion. Apple Watch Series 7 requires iPhone 6s or later with iOS 15 or later. Apple Watch SE requires iPhone 6s or later with iOS 14 or later. Apple Watch is a registered trademark of Apple Inc. All rights reserved.
+				</p>
+			</div>
+		</div>
+	</div>
+	<br>
+	<br>
+	<h2>Tab Content</h2>
+	<div class="lg:w-1/2 rounded-xl border-t-8 border-ss-pink shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)]">
+			<div class="py-9 px-8">
+				<div class="h-20 w-20 bg-ss-dark-blue rounded-full flex justify-center items-center">
+					<i class="icon-supprot text-white text-4xl"></i>
+				</div>
+				<div class="[&_h3]:py-6">
+					<h3>Being active and exercising</h3>
+					<h4 class="h5">Earn Vitality Points by:</h4>
+				</div>
+				<div class="vitality-accordion space-y-6">
+					<div class="transition rounded-xl border border-ss-pink/30">
+						<div class="relative before:absolute before:content-['\e900'] before:right-6 before:top-5 lg:before:top-4 before:font-icomoon before:size-6 accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h5 py-4 px-6">
+							<i class="icon-support-accordion text-ss-pink text-2xl"></i>
+							<h3>Wearing a fitness device</h3>
 						</div>
-						<h3>Simplified Vitality experience</h3>
+						<div class="relative before:absolute before:left-5 before:right-5 before:h-[1px] before:bg-black/10 accordion-content px-6 pt-0 overflow-hidden max-h-0 rounded-b-xl [&_p]:pl-9 [&_p]:pt-6 [&_p]:opacity-70">
+							<p>
+								Vitality PLUS members can choose from a list of new free or discounted fitness devices, earn the latest Apple Watch for as little as $25 plus tax5, or use a compatible device they already own. You can earn Vitality Points as your device logs your activity level — in steps, calories burned & heart rate.
+							</p>
+						</div>
 					</div>
-					<div class="accordion-content px-6 pt-0 overflow-hidden max-h-0 rounded-b-xl [&_p]:pl-9 [&_p]:opacity-70">
-						<p>
-							Your clients’ policy wil l automatical ly include the John Hancock Vitality PLUS program, which means they can earn premium savings and rewards for the everyday steps they take to live healthy.
-						</p>
+					<div class="transition rounded-xl border border-ss-pink/30">
+						<div class="relative before:absolute before:content-['\e900'] before:right-6 before:top-5 lg:before:top-4 before:font-icomoon before:size-6 accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h5 py-4 px-6">
+							<i class="icon-support-accordion text-ss-pink text-2xl"></i>
+							<h3>Checking in at the gym</h3>
+						</div>
+						<div class="relative before:absolute before:left-5 before:right-5 before:h-[1px] before:bg-black/10 accordion-content px-6 pt-0 overflow-hidden max-h-0 rounded-b-xl [&_p]:pl-9 [&_p]:pt-6 [&_p]:opacity-70">
+							<p>
+								<span class="font-semibold pb-3 block">Earn points with the John Hancock Vitality app, each time you check in at the gym and workout.</span>
+								5Apple Watch program is not available in New York or Puerto Rico. Apple Watches ordered through John Hancock Vitality may not be shipped to addresses in Guam. Once you become a Vitality PLUS member and complete the Vitality Health Review (VHR), you can order Apple Watch by electronically signing, at checkout, a Retail Installment Agreement with the Vitality Group, for the retail price of the watch. After an initial payment of $25 plus tax, over the next two years, monthly out-of-pocket payments are based on the number of Standard Workouts (10,000 to 14,999 steps) and Advanced Workouts (15,000 steps) or the applicable Active Calorie or heart rate thresholds. The step counts required for Standard and Advanced Workouts are reduced for members beginning at age 71+. One-time upgrade fees plus taxes apply if you choose (GPS + Cellular) versions of Apple Watch, larger watch case sizes, and certain bands and case materials. For more information, please visit JohnHancock.com. Apple is not a participant in or sponsor of this promotion. Apple Watch Series 7 requires iPhone 6s or later with iOS 15 or later. Apple Watch SE requires iPhone 6s or later with iOS 14 or later. Apple Watch is a registered trademark of Apple Inc. All rights reserved.
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
+		</div>
 </section>
-
 <?php
 get_footer();

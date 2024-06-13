@@ -21,5 +21,21 @@
 
 .accordion .active{
 	@apply bg-white
+	[&_h3]:font-bold;
+}
+
+.vitality-accordion .active{
+	@apply bg-white
 	[&_h3]:font-bold
+	relative;
+}
+
+.vitality-accordion .active::before{
+	@apply content-['\e908']
+	absolute
+	right-6
+	top-5
+	lg:top-4
+	font-icomoon
+	size-6;
 }

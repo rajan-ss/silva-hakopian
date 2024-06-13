@@ -33,6 +33,9 @@ module.exports = {
 				'ss-pale': {
 					DEFAULT: '#607584',
 				},
+				'ss-light-grey': {
+					DEFAULT: '#F4F5F9',
+				},
 			},
 			screens: {
 				'2xl': '1312px',

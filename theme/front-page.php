@@ -15,78 +15,79 @@
 
 get_header();
 ?>
-
+<!-- Start of Take Change Section -->
 <section class="container py-12 md:py-24 xl:py-32">
-  <div class="flex justify-between space-y-4 max-lg:flex-col">
-    <div class="flex flex-row justify-center items-end max-sm:relative max-sm:pt-24 max-sm:pb-20 w-full h-full lg:max-w-[611px] max-lg:mb-5 lg:mr-8 xl:mr-0">
-      <div class="flex flex-col h-full justify-between max-sm:pb-14">
-        <figure>
-          <img src="<?php echo site_url()?>/wp-content/uploads/2024/06/happy-family.png" alt="Happy Family" width="431" height="450" loading="lazy">
-        </figure>
-        <div class="flex flex-row-reverse justify-end items-center max-sm:absolute bottom-0 left-1/2 max-sm:-translate-x-1/2 pt-[18px] pb-[10px] sm:pr-[14px] [&_p]:text-sm [&_p]:leading-[1.14] [&_p]:mb-0 lg:-mr-12 xl:mr-0">
-          <p>
-            <span class="font-lead font-semibold leading-[1.1] text-lg">
-              2500+
-            </span><br>
-            Happy Clients
-          </p>
-          <div class="flex ml-[18px]">
-            <figure class="-ml-[18px]">
-              <img src="<?php echo site_url()?>/wp-content/uploads/2024/06/client-4.png" alt="Client 4" width="52" height="52" loading="lazy">
-            </figure>
-            <figure class="-ml-[18px]">
-              <img src="<?php echo site_url()?>/wp-content/uploads/2024/06/client-3.png" alt="Client 3" width="52" height="52" loading="lazy">
-            </figure>
-            <figure class="-ml-[18px]">
-              <img src="<?php echo site_url()?>/wp-content/uploads/2024/06/client-2.png" alt="Client 2" width="52" height="52" loading="lazy">
-            </figure>
-            <figure class="-ml-[18px]">
-              <img src="<?php echo site_url()?>/wp-content/uploads/2024/06/client-1.png" alt="Client 1" width="52" height="52" loading="lazy">
-            </figure>
-          </div>
-        </div>
-      </div>
-      <div class="flex flex-col items-end h-full -ml-[145px]">
-        <div class="flex items-center max-w-[218px] mb-4 sm:mb-8 max-sm:absolute -top-3 left-1/2 max-sm:-translate-x-1/2 bg-white px-5 py-4 rounded-xl shadow-[0_4px_24px_0] shadow-[#1c3a4f1a]">
-          <span class="font-bold text-[54px] text-primary mr-4 leading-[1.11]">160</span>	
-          <span class="font-medium text-xl leading-[1.1]">Years of Service</span>
-        </div>
-        <figure>
-          <img src="<?php echo site_url()?>/wp-content/uploads/2024/06/take-change-1.png" alt="Take Change" width="325" height="372" loading="lazy">
-        </figure>
-      </div>
-    </div>
-    <div class="[&_p]:mb-0 [&_p]:opacity-70 [&_h2]:mb-5 lg:max-w-[560px]">
-      <p><span class="section-tag opacity-100">Take Change</span></p>
-      <h2>Making the most of your Vitality PLUS benefits</h2>
-      <p>With John Hancock Vitality, you’re in control. You can participate when and how you want</p>
-      <div class="my-10 flex flex-col sm:flex-row max-sm:space-y-3 sm:space-x-6">
-        <a href="#" class="btn btn-primary uppercase">Book Now</a>
-        <a href="tel:4422292409" class="btn btn-secondary group">
+	<div class="flex justify-between space-y-4 max-lg:flex-col">
+		<div class="flex flex-row justify-center items-end max-sm:relative max-sm:pt-24 max-sm:pb-20 w-full h-full lg:max-w-[611px] max-lg:mb-5 lg:mr-8 xl:mr-0">
+			<div class="flex flex-col h-full justify-between max-sm:pb-14">
+				<figure>
+					<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/happy-family.png" alt="Happy Family" width="431" height="450" loading="lazy">
+				</figure>
+				<div class="flex flex-row-reverse justify-end items-center max-sm:absolute bottom-0 left-1/2 max-sm:-translate-x-1/2 pt-[18px] pb-[10px] sm:pr-[14px] [&_p]:text-sm [&_p]:leading-[1.14] [&_p]:mb-0 lg:-mr-12 xl:mr-0">
+					<p>
+						<span class="font-lead font-semibold leading-[1.1] text-lg">
+							2500+
+						</span><br>
+						Happy Clients
+					</p>
+					<div class="flex ml-[18px]">
+						<figure class="-ml-[18px]">
+							<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/client-4.png" alt="Client 4" width="52" height="52" loading="lazy">
+						</figure>
+						<figure class="-ml-[18px]">
+							<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/client-3.png" alt="Client 3" width="52" height="52" loading="lazy">
+						</figure>
+						<figure class="-ml-[18px]">
+							<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/client-2.png" alt="Client 2" width="52" height="52" loading="lazy">
+						</figure>
+						<figure class="-ml-[18px]">
+							<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/client-1.png" alt="Client 1" width="52" height="52" loading="lazy">
+						</figure>
+					</div>
+				</div>
+			</div>
+			<div class="flex flex-col items-end h-full -ml-[145px]">
+				<div class="flex items-center max-w-[218px] mb-4 sm:mb-8 max-sm:absolute -top-3 left-1/2 max-sm:-translate-x-1/2 bg-white px-5 py-4 rounded-xl shadow-[0_4px_24px_0] shadow-[#1c3a4f1a]">
+					<span class="font-bold text-[54px] text-primary mr-4 leading-[1.11]">160</span>
+					<span class="font-medium text-xl leading-[1.1]">Years of Service</span>
+				</div>
+				<figure>
+					<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/take-change-1.png" alt="Take Change" width="325" height="372" loading="lazy">
+				</figure>
+			</div>
+		</div>
+		<div class="[&_p]:mb-0 [&_p]:opacity-70 [&_h2]:mb-5 lg:max-w-[560px]">
+			<p><span class="section-tag opacity-100">Take Change</span></p>
+			<h2>Making the most of your Vitality PLUS benefits</h2>
+			<p>With John Hancock Vitality, you’re in control. You can participate when and how you want</p>
+			<div class="my-10 flex flex-col sm:flex-row max-sm:space-y-3 sm:space-x-6">
+				<a href="#" class="btn btn-primary uppercase">Book Now</a>
+				<a href="tel:4422292409" class="btn btn-secondary group">
 					<i class="icon-call text-primary mr-3 group-hover:text-ss-dark-blue"></i>
 					442-229-2409
 				</a>
-      </div>
-      <ul class="border-t border-primary pt-6 pl-0 list-none flex [&_p]:text-base [&_p]:leading-tight [&_i]:text-4xl [&_i]:text-ss-pale max-sm:flex-col sm:space-x-10 lg:space-y-0 *:mt-0 *:relative *:after:absolute *:after:-left-5 *:after:top-1/2 *:after:-translate-y-1/2 *:after:border-l *:after:border-primary *:after:h-[70px] first:[&_li]:after:hidden max-sm:*:after:hidden">
-        <!--<div class="border-t border-primary pt-6 flex [&_p]:text-base [&_p]:leading-tight relative after:absolute after:-left-5 after:border-l after:border-primary after:h-[70px]">-->
-        <li class="flex sm:flex-col gap-[10px] max-sm:items-center">
-          <i class="icon-connect"></i>
-          <p>The more you engage, the more points you earn.</p>
-        </li>
-        <li class="flex sm:flex-col gap-[10px] max-sm:items-center">
-          <i class="icon-documents"></i>
-          <p>Points determine your Vitality Status: Platinum, Gold, Silver or Bronze</p>
-        </li>
-        <li class="flex sm:flex-col gap-[10px] max-sm:items-center">
-          <i class="icon-trophy"></i>
-          <p>The higher your status, the greater the potential rewards!</p>
-        </li>
-      </ul>
-    </div>
-  </div>
+			</div>
+			<ul class="border-t border-primary pt-6 pl-0 list-none flex [&_p]:text-base [&_p]:leading-tight [&_i]:text-4xl [&_i]:text-ss-pale max-sm:flex-col sm:space-x-10 lg:space-y-0 *:mt-0 *:relative *:after:absolute *:after:-left-5 *:after:top-1/2 *:after:-translate-y-1/2 *:after:border-l *:after:border-primary *:after:h-[70px] first:[&_li]:after:hidden max-sm:*:after:hidden">
+				<!--<div class="border-t border-primary pt-6 flex [&_p]:text-base [&_p]:leading-tight relative after:absolute after:-left-5 after:border-l after:border-primary after:h-[70px]">-->
+				<li class="flex sm:flex-col gap-[10px] max-sm:items-center">
+					<i class="icon-connect"></i>
+					<p>The more you engage, the more points you earn.</p>
+				</li>
+				<li class="flex sm:flex-col gap-[10px] max-sm:items-center">
+					<i class="icon-documents"></i>
+					<p>Points determine your Vitality Status: Platinum, Gold, Silver or Bronze</p>
+				</li>
+				<li class="flex sm:flex-col gap-[10px] max-sm:items-center">
+					<i class="icon-trophy"></i>
+					<p>The higher your status, the greater the potential rewards!</p>
+				</li>
+			</ul>
+		</div>
+	</div>
 </section>
-<!--Take change section-->
+<!--End of Take Change Section-->
 
+<!--Start of Find Your Reason Section-->
 <section class="py-8 md:py-12 lg:py-16">
 	<div class="container text-center">
 		<div class="[&_h2]:max-w-[680px] [&_h2]:mx-auto [&_h2]:pb-8 lg:[&_h2]:pb-10">
@@ -129,11 +130,13 @@ get_header();
 		</div>
 	</div>
 </section>
+<!--End of Find Your Reason Section-->
 
+<!--Start of Cash Back Option Section-->
 <section class="py-8 md:py-12 lg:py-16">
 	<div class="container">
 		<div class="py-10 z-10 rounded-3xl text-center bg-primary/20 relative before:absolute before:inset-0 before:bg-[url('http://work/silvahakopian.com/www/wp-content/uploads/2024/06/Cash-back-Option.png')] before:rounded-3xl before:mix-blend-color-burn before:opacity-15 before:bg-no-repeat before:bg-cover before:bg-center">
-			<div class="[&_h2]:max-w-[955px] [&_h2]:mx-auto [&_h2]:pb-8">
+			<div class="[&_h2]:max-w-[955px] [&_h2]:mx-auto [&_h2]:pb-8 relative z-10">
 				<p class="section-tag">Cash-back Option</p>
 				<h2>100% Return Of Premium Rider On Your Life Insurance Policy</h2>
 				<a href="#" class="btn btn-primary">Schedule An Appointment</a>
@@ -141,7 +144,9 @@ get_header();
 		</div>
 	</div>
 </section>
+<!--End of Cash Back Option Section-->
 
+<!--Start of Why Insurance Section-->
 <section class="py-8 md:py-12 lg:py-16">
 	<div class="container">
 		<div class="text-center lg:text-start">
@@ -222,7 +227,9 @@ get_header();
 		</div>
 	</div>
 </section>
+<!--End of Why Insurance Section-->
 
+<!--Start of Benefits Section-->
 <section class="bg-primary/10 py-12 md:py-16 lg:py-20">
 	<div class="container flex flex-col lg:flex-row gap-12">
 		<div class="lg:w-1/2">
@@ -232,7 +239,6 @@ get_header();
 			</div>
 			<div class="accordion">
 				<div class="transition rounded-xl">
-					<!-- header -->
 					<div class="accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
 						<div class="[&_p]:bg-primary [&_p]:rounded-full h-10 w-10 [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:justify-center [&_p]:items-center">
 							<p>01</p>
@@ -246,7 +252,6 @@ get_header();
 					</div>
 				</div>
 				<div class="transition rounded-xl">
-					<!-- header -->
 					<div class="accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
 						<div class="[&_p]:bg-primary [&_p]:rounded-full h-10 w-10 [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:justify-center [&_p]:items-center">
 							<p>02</p>
@@ -260,7 +265,6 @@ get_header();
 					</div>
 				</div>
 				<div class="transition rounded-xl">
-					<!-- header -->
 					<div class="accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
 						<div class="[&_p]:bg-primary [&_p]:rounded-full h-10 w-10 [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:justify-center [&_p]:items-center">
 							<p>03</p>
@@ -274,7 +278,6 @@ get_header();
 					</div>
 				</div>
 				<div class="transition rounded-xl">
-					<!-- header -->
 					<div class="accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
 						<div class="[&_p]:bg-primary [&_p]:rounded-full h-10 w-10 [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:justify-center [&_p]:items-center">
 							<p>04</p>
@@ -288,7 +291,6 @@ get_header();
 					</div>
 				</div>
 				<div class="transition rounded-xl">
-					<!-- header -->
 					<div class="accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
 						<div class="[&_p]:bg-primary [&_p]:rounded-full h-10 w-10 [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:justify-center [&_p]:items-center">
 							<p>05</p>
@@ -305,15 +307,111 @@ get_header();
 		</div>
 		<div class="flex flex-row-reverse justify-center gap-5 lg:w-1/2">
 			<figure class="[&_img]:rounded-2xl">
-			<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/Benefits-3.jpg" alt="Benefits-3" width="280" height="465" loading="lazy">
+				<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/Benefits-3.jpg" alt="Benefits-3" width="280" height="465" loading="lazy">
 			</figure>
 			<div class="flex flex-col items-center gap-5 sm:-mr-12">
 				<figure class="[&_img]:rounded-2xl">
-				<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/Benefits-1.jpg" alt="Benefits-1" width="242" height="277" loading="lazy">
+					<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/Benefits-1.jpg" alt="Benefits-1" width="242" height="277" loading="lazy">
 				</figure>
 				<figure class="[&_img]:rounded-2xl">
-				<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/authentic-small-youthful-marketing-agency.jpg" alt="authentic-small-youthful-marketing-agency" width="346" height="225" loading="lazy">
+					<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/authentic-small-youthful-marketing-agency.jpg" alt="authentic-small-youthful-marketing-agency" width="346" height="225" loading="lazy">
 				</figure>
+			</div>
+		</div>
+	</div>
+</section>
+<!--End of Benefits Section-->
+
+<!--Start of Vitality Rewards Section-->
+<section class="py-8 md:py-12 lg:py-16">
+	<div class="container flex flex-col lg:flex-row gap-12">
+		<div class="lg:w-1/2">
+			<div class="text-center lg:text-start">
+				<p class="section-tag">Vitality Rewards</p>
+				<h2>Supporting You & Earning Points</h2>
+				<div class="[&_p]:opacity-70">
+					<p>Select tiles that match your interests and learn how John Hancock Vitality can support you and help you earn rewards.</p>
+				</div>
+			</div>
+			<div class="flex flex-col gap-4 max-w-[400px] max-lg:w-full max-lg:mx-auto pb-6">
+				<div class="rounded-lg bg-ss-pink">
+					<div class="cursor-pointer flex gap-5 items-center [&_p]:m-0 [&_p]:font-bold [&_p]:text-white py-3 px-6">
+						<i class="icon-support-accordion text-white text-2xl"></i>
+						<p>Being active and exercising</p>
+					</div>
+				</div>
+				<div class="rounded-lg bg-ss-light-grey">
+					<div class="cursor-pointer flex gap-5 items-center [&_p]:m-0 [&_p]:opacity-70 py-3 px-6">
+						<i class="icon-support-accordion text-ss-pink text-2xl"></i>
+						<p>Eat a healthy diet</p>
+					</div>
+				</div>
+				<div class="rounded-lg bg-ss-light-grey">
+					<div class="cursor-pointer flex gap-5 items-center [&_p]:m-0 [&_p]:opacity-70 py-3 px-6">
+						<i class="icon-support-accordion text-ss-pink text-2xl"></i>
+						<p>Improving your sleep</p>
+					</div>
+				</div>
+				<div class="rounded-lg bg-ss-light-grey">
+					<div class="cursor-pointer flex gap-5 items-center [&_p]:m-0 [&_p]:opacity-70 py-3 px-6">
+						<i class="icon-support-accordion text-ss-pink text-2xl"></i>
+						<p>Caring for your mental health</p>
+					</div>
+				</div>
+				<div class="rounded-lg bg-ss-light-grey">
+					<div class="cursor-pointer flex gap-5 items-center [&_p]:m-0 [&_p]:opacity-70 py-3 px-6">
+						<i class="icon-support-accordion text-ss-pink text-2xl"></i>
+						<p>Building on your wellness knowledge</p>
+					</div>
+				</div>
+				<div class="rounded-lg bg-ss-light-grey">
+					<div class="cursor-pointer flex gap-5 items-center [&_p]:m-0 [&_p]:opacity-70 py-3 px-6">
+						<i class="icon-support-accordion text-ss-pink text-2xl"></i>
+						<p>Prioritizing preventative care</p>
+					</div>
+				</div>
+			</div>
+			<div class="text-center lg:text-start">
+				<a href="tel:4422292409" class="btn btn-secondary group">
+					<i class="icon-call text-primary mr-3 group-hover:text-ss-dark-blue"></i>
+					442-229-2409
+				</a>
+			</div>
+		</div>
+		<div class="lg:w-1/2 rounded-xl border-t-8 border-ss-pink shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)]">
+			<div class="py-9 px-8">
+				<div class="h-20 w-20 bg-ss-dark-blue rounded-full flex justify-center items-center">
+					<i class="icon-supprot text-white text-4xl"></i>
+				</div>
+				<div class="[&_h3]:py-6">
+					<h3>Being active and exercising</h3>
+					<h4 class="h5">Earn Vitality Points by:</h4>
+				</div>
+				<div class="vitality-accordion space-y-6">
+					<div class="transition rounded-xl border border-ss-pink/30">
+						<div class="relative before:absolute before:content-['\e900'] before:right-6 before:top-5 lg:before:top-4 before:font-icomoon before:size-6 accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h5 py-4 px-6">
+							<i class="icon-support-accordion text-ss-pink text-2xl"></i>
+							<h3>Wearing a fitness device</h3>
+						</div>
+						<div class="relative before:absolute before:left-5 before:right-5 before:h-[1px] before:bg-black/10 accordion-content px-6 pt-0 overflow-hidden max-h-0 rounded-b-xl [&_p]:pl-9 [&_p]:pt-6 [&_p]:opacity-70">
+							<p>
+								Vitality PLUS members can choose from a list of new free or discounted fitness devices, earn the latest Apple Watch for as little as $25 plus tax5, or use a compatible device they already own. You can earn Vitality Points as your device logs your activity level — in steps, calories burned & heart rate.
+							</p>
+						</div>
+					</div>
+					<div class="transition rounded-xl border border-ss-pink/30">
+						<div class="relative before:absolute before:content-['\e900'] before:right-6 before:top-5 lg:before:top-4 before:font-icomoon before:size-6 accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h5 py-4 px-6">
+							<i class="icon-support-accordion text-ss-pink text-2xl"></i>
+							<h3>Checking in at the gym</h3>
+						</div>
+						<div class="relative before:absolute before:left-5 before:right-5 before:h-[1px] before:bg-black/10 accordion-content px-6 pt-0 overflow-hidden max-h-0 rounded-b-xl [&_p]:pl-9 [&_p]:pt-6 [&_p]:opacity-70">
+							<p>
+								<span class="font-semibold pb-3 block">Earn points with the John Hancock Vitality app, each time you check in at the gym and workout.</span>
+								5Apple Watch program is not available in New York or Puerto Rico. Apple Watches ordered through John Hancock Vitality may not be shipped to addresses in Guam. Once you become a Vitality PLUS member and complete the Vitality Health Review (VHR), you can order Apple Watch by electronically signing, at checkout, a Retail Installment Agreement with the Vitality Group, for the retail price of the watch. After an initial payment of $25 plus tax, over the next two years, monthly out-of-pocket payments are based on the number of Standard Workouts (10,000 to 14,999 steps) and Advanced Workouts (15,000 steps) or the applicable Active Calorie or heart rate thresholds. The step counts required for Standard and Advanced Workouts are reduced for members beginning at age 71+. One-time upgrade fees plus taxes apply if you choose (GPS + Cellular) versions of Apple Watch, larger watch case sizes, and certain bands and case materials. For more information, please visit JohnHancock.com. Apple is not a participant in or sponsor of this promotion. Apple Watch Series 7 requires iPhone 6s or later with iOS 15 or later. Apple Watch SE requires iPhone 6s or later with iOS 14 or later. Apple Watch is a registered trademark of Apple Inc. All rights reserved.
+							</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
