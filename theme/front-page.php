@@ -322,6 +322,61 @@ get_header();
 </section>
 <!--End of Benefits Section-->
 
+<!--Start of Working Steps Section-->
+<section class="py-8 md:py-12 lg:py-16 bg-ss-dark-blue">
+	<div class="container">
+		<div class="text-center [&_h2]:text-white pb-10">
+			<p class="section-tag">Working Steps</p>
+			<h2>Easy Working Process</h2>
+		</div>
+		<div class="flex flex-row justify-between bg-[url('http://work/silvahakopian.com/www/wp-content/uploads/2024/06/Dotted-Line.png')] bg-no-repeat bg-top bg-contain max-h-[645px]">
+			<div class="max-w-[320px] text-center">
+				<div class="flex justify-center pb-6">
+					<div class="relative h-40 w-40 bg-primary rounded-full flex justify-center items-center">
+						<i class="icon-health text-white text-7xl"></i>
+						<div class="absolute top-0 left-0 [&_p]:bg-ss-pink [&_p]:rounded-full [&_p]:w-10 [&_p]:h-10 [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:justify-center [&_p]:items-center [&_p]:border-4 [&_p]:border-ss-dark-blue">
+							<p>01</p>
+						</div>
+					</div>
+				</div>
+				<div class="text-white [&_p]:opacity-70">
+					<h4>Set up your John Hancock Vitality account</h4>
+					<p>Activate your member account using your name, email address, date of birth and the last six digits of your SSN.</p>
+				</div>
+			</div>
+			<div class="max-w-[385px] text-center">
+				<div class="flex justify-center pb-6">
+					<div class="relative h-40 w-40 bg-primary rounded-full flex justify-center items-center">
+						<i class="icon-checkup text-white text-7xl"></i>
+						<div class="absolute top-0 left-0 [&_p]:bg-ss-pink [&_p]:rounded-full [&_p]:w-10 [&_p]:h-10 [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:justify-center [&_p]:items-center [&_p]:border-4 [&_p]:border-ss-dark-blue">
+							<p>02</p>
+						</div>
+					</div>
+				</div>
+				<div class="text-white [&_p]:opacity-70">
+					<h4>Complete your Vitality Health Review (VHR)</h4>
+					<p>A brief, private health survey that starts your Vitality experience, tailors personalized goals and gives you Vitality Points towards rewards.</p>
+				</div>
+			</div>
+			<div class="max-w-[325px] text-center">
+				<div class="flex justify-center pb-6">
+					<div class="relative h-40 w-40 bg-primary rounded-full flex justify-center items-center">
+						<i class="icon-supprot text-white text-7xl"></i>
+						<div class="absolute top-0 left-0 [&_p]:bg-ss-pink [&_p]:rounded-full [&_p]:w-10 [&_p]:h-10 [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:justify-center [&_p]:items-center [&_p]:border-4 [&_p]:border-ss-dark-blue">
+							<p>03</p>
+						</div>
+					</div>
+				</div>
+				<div class="text-white [&_p]:opacity-70">
+					<h4>Enjoy the benefits</h4>
+					<p>Once you complete your VHR, you can explore all the John Hancock Vitality benefits, order a free or discounted fitness device, earn the latest Apple Watch for as little as $25 plus tax5, or link a compatible device you already own.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--End of Working Steps Section-->
+
 <!--Start of Vitality Rewards Section-->
 <section class="py-8 md:py-12 lg:py-16">
 	<div class="container flex flex-col lg:flex-row gap-12">
