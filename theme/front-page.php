@@ -193,8 +193,8 @@ get_header();
 					</p>
 				</div>
 
-				<div class="[&_p]:opacity-70 flex sm:flex-row flex-col pt-6">
-					<ul class="[&_li]:flex [&_li]:flex-row [&_li]:items-start [&_li]:gap-[18px] [&_p]:m-0">
+				<div class="[&_p]:opacity-70 flex sm:flex-row flex-col pt-6 [&>ul_>li]:flex [&>ul_>li]:flex-row [&>ul_>li]:items-start [&>ul_>li]:gap-[18px] [&_p]:m-0">
+					<ul>
 						<li>
 							<i class="icon-support-accordion text-ss-pink text-2xl"></i>
 							<p>
@@ -208,7 +208,7 @@ get_header();
 							</p>
 						</li>
 					</ul>
-					<ul class="[&_li]:flex [&_li]:flex-row [&_li]:items-start [&_li]:gap-[18px] [&_p]:m-0">
+					<ul>
 						<li>
 							<i class="icon-support-accordion text-ss-pink text-2xl"></i>
 							<p>
