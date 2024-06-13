@@ -39,3 +39,16 @@
 	font-icomoon
 	size-6;
 }
+
+.faq-accordion .active{
+	@apply
+	relative;
+}
+.faq-accordion .active::before{
+	@apply content-['\e908']
+	absolute
+	right-2
+	top-3
+	font-icomoon
+	size-6;
+}
