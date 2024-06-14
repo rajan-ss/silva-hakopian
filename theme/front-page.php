@@ -20,8 +20,8 @@ get_header();
 	<div class="flex justify-between space-y-4 max-lg:flex-col">
 		<div class="flex flex-row justify-center items-end max-sm:relative max-sm:pt-24 max-sm:pb-20 w-full h-full lg:max-w-[611px] max-lg:mb-5 lg:mr-8 xl:mr-0">
 			<div class="flex flex-col h-full justify-between max-sm:pb-14">
-				<figure>
-					<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/happy-family.png" alt="Happy Family" width="431" height="450" loading="lazy">
+				<figure class="[&_img]:rounded-2xl">
+					<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/happy-family.jpg" alt="Happy Family" width="431" height="450" loading="lazy">
 				</figure>
 				<div class="flex flex-row-reverse justify-end items-center max-sm:absolute bottom-0 left-1/2 max-sm:-translate-x-1/2 pt-[18px] pb-[10px] sm:pr-[14px] [&_p]:text-sm [&_p]:leading-[1.14] [&_p]:mb-0 lg:-mr-12 xl:mr-0">
 					<p>
@@ -32,16 +32,16 @@ get_header();
 					</p>
 					<div class="flex ml-[18px]">
 						<figure class="-ml-[18px]">
-							<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/client-4.png" alt="Client 4" width="52" height="52" loading="lazy">
+							<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/Ellipse-Image-4.png" alt="Client 4" width="52" height="52" loading="lazy">
 						</figure>
 						<figure class="-ml-[18px]">
-							<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/client-3.png" alt="Client 3" width="52" height="52" loading="lazy">
+							<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/Ellipse-Image-3.png" alt="Client 3" width="52" height="52" loading="lazy">
 						</figure>
 						<figure class="-ml-[18px]">
-							<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/client-2.png" alt="Client 2" width="52" height="52" loading="lazy">
+							<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/Ellipse-Image-2.png" alt="Client 2" width="52" height="52" loading="lazy">
 						</figure>
 						<figure class="-ml-[18px]">
-							<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/client-1.png" width="52" height="52" loading="lazy" alt="Client 1">
+							<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/Ellipse-Image-1.png" alt="Client 1" width="52" height="52" loading="lazy">
 						</figure>
 					</div>
 				</div>
@@ -51,8 +51,8 @@ get_header();
 					<span class="font-bold text-[54px] text-primary mr-4 leading-[1.11]">160</span>
 					<span class="font-medium text-xl leading-[1.1]">Years of Service</span>
 				</div>
-				<figure>
-					<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/take-change-1.png" alt="Take Change" width="325" height="372" loading="lazy">
+				<figure class="[&_img]:rounded-2xl">
+					<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/take-change-1.jpg" alt="Take Change" width="325" height="372" loading="lazy">
 				</figure>
 			</div>
 		</div>
@@ -249,7 +249,7 @@ get_header();
 					<h4><span class="block font-normal pb-3">John Hancock Vitality makes it easier to buy healthy food3 at participating grocery stores.</span>Each month, Vitality PLUS members can:</h4>
 				</div>
 			</div>
-			<div class="[&_p]:capitalize [&_p]:m-0 lg:[&_p]:text-xl [&>ul_>li]:flex [&>ul_>li]:flex-row [&>ul_>li]:items-start [&>ul_>li]:gap-[18px]">
+			<div class="[&_p]:capitalize [&_p]:m-0 lg:[&_p]:text-xl [&>ul_>li]:flex [&>ul_>li]:flex-row [&>ul_>li]:items-start [&>ul_>li]:gap-[18px] [&_ul]:pl-0">
 				<ul>
 					<li>
 						<i class="icon-support-accordion text-ss-pink text-2xl"></i>
@@ -284,7 +284,7 @@ get_header();
 				</div>
 			</div>
 			<h4><span class="block font-normal pb-3">There are two ways you can earn points:"</span></h4>
-			<div class="[&_p]:capitalize [&_p]:m-0 lg:[&_p]:text-xl [&>ul_>li]:flex [&>ul_>li]:flex-row [&>ul_>li]:items-start [&>ul_>li]:gap-[18px]">
+			<div class="[&_p]:capitalize [&_p]:m-0 lg:[&_p]:text-xl [&>ul_>li]:flex [&>ul_>li]:flex-row [&>ul_>li]:items-start [&>ul_>li]:gap-[18px] [&_ul]:pl-0">
 				<ul>
 					<li>
 						<i class="icon-support-accordion text-ss-pink text-2xl"></i>
@@ -305,7 +305,7 @@ get_header();
 					<h4><span class="block font-normal pb-3">Mental health is an essential part of your overall wellness. To support members’ well-being, Vitality PLUS offers a free, one-year subscription to Headspace®7 — a leading meditation app.</span> You can also earn Vitality Points using:</h4>
 				</div>
 			</div>
-			<div class="[&_p]:capitalize [&_p]:m-0 lg:[&_p]:text-xl [&>ul_>li]:flex [&>ul_>li]:flex-row [&>ul_>li]:items-start [&>ul_>li]:gap-[18px]">
+			<div class="[&_p]:capitalize [&_p]:m-0 lg:[&_p]:text-xl [&>ul_>li]:flex [&>ul_>li]:flex-row [&>ul_>li]:items-start [&>ul_>li]:gap-[18px] [&_ul]:pl-0">
 				<ul>
 					<li>
 						<i class="icon-support-accordion text-ss-pink text-2xl"></i>
@@ -339,7 +339,7 @@ get_header();
 					<h4><span class="block font-normal pb-3">John Hancock Vitality makes it easy to explore new ways to prioritize your health and well-being. </span>Earn Vitality Points when you:</h4>
 				</div>
 			</div>
-			<div class="[&_p]:capitalize [&_p]:m-0 lg:[&_p]:text-xl [&>ul_>li]:flex [&>ul_>li]:flex-row [&>ul_>li]:items-start [&>ul_>li]:gap-[18px] [&>ol_>li]:marker:text-ss-dark-blue [&>ol_>li]:marker:text-xl">
+			<div class="[&_p]:capitalize [&_p]:m-0 lg:[&_p]:text-xl [&>ul_>li]:flex [&>ul_>li]:flex-row [&>ul_>li]:items-start [&>ul_>li]:gap-[18px] [&>ol_>li]:marker:text-ss-dark-blue [&>ol_>li]:marker:text-xl [&_ul]:pl-0">
 				<ul>
 					<li>
 						<i class="icon-support-accordion text-ss-pink text-2xl"></i>
@@ -379,7 +379,7 @@ get_header();
 					<h4><span class="block font-normal pb-3">John Hancock Vitality PLUS members can earn thousands of Vitality Points every year for attending preventative care appointments including:</span></h4>
 				</div>
 			</div>
-			<div class="[&_p]:capitalize [&_p]:m-0 lg:[&_p]:text-xl [&>ul_>li]:flex [&>ul_>li]:flex-row [&>ul_>li]:items-start [&>ul_>li]:gap-[18px] [&>ol_>li]:marker:text-ss-dark-blue [&>ol_>li]:marker:text-xl">
+			<div class="[&_p]:capitalize [&_p]:m-0 lg:[&_p]:text-xl [&>ul_>li]:flex [&>ul_>li]:flex-row [&>ul_>li]:items-start [&>ul_>li]:gap-[18px] [&>ol_>li]:marker:text-ss-dark-blue [&>ol_>li]:marker:text-xl [&_ul]:pl-0">
 				<ul>
 					<li>
 						<i class="icon-support-accordion text-ss-pink text-2xl"></i>
@@ -435,7 +435,7 @@ get_header();
 					<p>Activate your member account using your name, email address, date of birth and the last six digits of your SSN.</p>
 				</div>
 			</div>
-			<div class="max-w-[385px] text-center lg:translate-y-20">
+			<div class="max-w-[385px] text-center lg:translate-y-12">
 				<div class="flex justify-center pb-6">
 					<div class="relative h-40 w-40 bg-ss-cta-aqua rounded-full flex justify-center items-center">
 						<i class="icon-checkup text-white text-7xl"></i>
@@ -473,7 +473,7 @@ get_header();
 	<div class="container">
 		<div class="text-center lg:text-start">
 			<p><span class="section-tag">Why Insurance</span></p>
-			<div class="flex flex-col lg:flex-row lg:justify-between justify-center items-center pb-9">
+			<div class="flex flex-col lg:flex-row lg:justify-between justify-center items-center pb-9 [&_h2]:mb-0">
 				<h2>Why Simple Term With Vitality Program?</h2>
 				<a href="tel:4422292409" class="btn btn-secondary group">
 					<i class="icon-call text-primary mr-3 group-hover:text-ss-dark-blue"></i>
@@ -515,7 +515,7 @@ get_header();
 					</p>
 				</div>
 
-				<div class="[&_p]:opacity-70 flex sm:flex-row flex-col pt-6 [&>ul_>li]:flex [&>ul_>li]:flex-row [&>ul_>li]:items-start [&>ul_>li]:gap-[18px] [&_p]:m-0">
+				<div class="[&_p]:opacity-70 flex sm:flex-row flex-col justify-between gap-5 pt-6 [&>ul_>li]:flex [&>ul_>li]:flex-row [&>ul_>li]:items-start [&>ul_>li]:gap-[18px] [&_ul]:pl-0 [&_p]:m-0">
 					<ul>
 						<li>
 							<i class="icon-support-accordion text-ss-pink text-2xl"></i>
@@ -567,7 +567,7 @@ get_header();
 						</div>
 						<h3>Savings and rewards for healthy living</h3>
 					</div>
-					<div class="accordion-content px-6 pt-0 overflow-hidden max-h-0 rounded-b-xl [&_p]:pl-9 [&_p]:opacity-70">
+					<div class="accordion-content px-6 pt-0 overflow-hidden max-h-0 rounded-b-xl [&_p]:pl-16 [&_p]:opacity-70">
 						<p>
 							Your clients’ policy wil l automatical ly include the John Hancock Vitality PLUS program, which means they can earn premium savings and rewards for the everyday steps they take to live healthy.
 						</p>
@@ -580,7 +580,7 @@ get_header();
 						</div>
 						<h3>Guaranteed conversion feature</h3>
 					</div>
-					<div class="accordion-content px-6 pt-0 overflow-hidden max-h-0 rounded-b-xl [&_p]:pl-9 [&_p]:opacity-70">
+					<div class="accordion-content px-6 pt-0 overflow-hidden max-h-0 rounded-b-xl [&_p]:pl-16 [&_p]:opacity-70">
 						<p>
 							Your clients’ policy wil l automatical ly include the John Hancock Vitality PLUS program, which means they can earn premium savings and rewards for the everyday steps they take to live healthy.
 						</p>
@@ -593,7 +593,7 @@ get_header();
 						</div>
 						<h3>Extra financial protection to meet the unexpected</h3>
 					</div>
-					<div class="accordion-content px-6 pt-0 overflow-hidden max-h-0 rounded-b-xl [&_p]:pl-9 [&_p]:opacity-70">
+					<div class="accordion-content px-6 pt-0 overflow-hidden max-h-0 rounded-b-xl [&_p]:pl-16 [&_p]:opacity-70">
 						<p>
 							Your clients’ policy wil l automatical ly include the John Hancock Vitality PLUS program, which means they can earn premium savings and rewards for the everyday steps they take to live healthy.
 						</p>
@@ -606,7 +606,7 @@ get_header();
 						</div>
 						<h3>Cost-effective coverage for fixed period of time</h3>
 					</div>
-					<div class="accordion-content px-6 pt-0 overflow-hidden max-h-0 rounded-b-xl [&_p]:pl-9 [&_p]:opacity-70">
+					<div class="accordion-content px-6 pt-0 overflow-hidden max-h-0 rounded-b-xl [&_p]:pl-16 [&_p]:opacity-70">
 						<p>
 							Your clients’ policy wil l automatical ly include the John Hancock Vitality PLUS program, which means they can earn premium savings and rewards for the everyday steps they take to live healthy.
 						</p>
@@ -619,7 +619,7 @@ get_header();
 						</div>
 						<h3>Simplified Vitality experience</h3>
 					</div>
-					<div class="accordion-content px-6 pt-0 overflow-hidden max-h-0 rounded-b-xl [&_p]:pl-9 [&_p]:opacity-70">
+					<div class="accordion-content px-6 pt-0 overflow-hidden max-h-0 rounded-b-xl [&_p]:pl-16 [&_p]:opacity-70">
 						<p>
 							Your clients’ policy wil l automatical ly include the John Hancock Vitality PLUS program, which means they can earn premium savings and rewards for the everyday steps they take to live healthy.
 						</p>
@@ -647,8 +647,8 @@ get_header();
 <!--Start of Video Section  -->
 <section class="pb-8 md:pb-12 lg:pb-16 pt-16 md:pt-24 lg:pt-32">
 	<div class="container">
-		<div class="relative text-white [&_video]:rounded-2xl before:rounded-2xl before:absolute before:inset-0 before:bg-gradient-to-t before:to-[#fe7b7c66] before:from-[#1c3a4f29]">
-			<div class="absolute inset-0 top-16 text-center" id="video-overlay">
+		<div class="relative text-white [&_video]:rounded-2xl [&_video]:w-full max-sm:[&_video]:h-80 [&_video]:object-cover [&_video]:object-center before:rounded-2xl before:absolute before:inset-0 before:bg-gradient-to-t before:to-[#fe7b7c66] before:from-[#1c3a4f29]">
+			<div class="absolute inset-0 top-4 sm:top-16 text-center" id="video-overlay">
 				<div class="bg-[url('http://work/silvahakopian.com/www/wp-content/uploads/2024/06/watch-video-badge.png')] bg-cover bg-center bg-no-repeat max-w-[155px] mx-auto">
 					<p>Watch Video</p>
 				</div>
@@ -677,9 +677,9 @@ get_header();
 				<div>
 					<h2>Have questions Get answers</h2>
 				</div>
-				<div class="faq-accordion space-y-6">
+				<div class="faq-accordion">
 					<div class="transition border-b border-ss-dark-blue/20">
-						<div class="relative before:absolute before:content-['\e900'] before:right-2 before:opacity-20 before:top-3 before:font-icomoon before:size-6 accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h5 py-4 [&_h3]:pr-5">
+						<div class="relative before:absolute before:content-['\e900'] before:right-2 before:opacity-20 before:top-3 before:font-icomoon before:size-6 accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5">
 							<h3>Who is Vitality?</h3>
 						</div>
 						<div class="accordion-content pt-0 overflow-hidden max-h-0 [&_p]:opacity-70">
@@ -688,8 +688,8 @@ get_header();
 							</p>
 						</div>
 					</div>
-					<div class="transition border-b border-ss-dark-blue/20">
-						<div class="relative before:absolute before:content-['\e900'] before:right-2 before:opacity-20 before:top-3 before:font-icomoon before:size-6 accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h5 py-4 [&_h3]:pr-5">
+					<div class="transition border-b border-ss-dark-blue/20 mt-0">
+						<div class="relative before:absolute before:content-['\e900'] before:right-2 before:opacity-20 before:top-3 before:font-icomoon before:size-6 accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5">
 							<h3>Can a client who is rated still benefit from the program?</h3>
 						</div>
 						<div class="accordion-content pt-0 overflow-hidden max-h-0 [&_p]:opacity-70">
@@ -699,7 +699,7 @@ get_header();
 						</div>
 					</div>
 					<div class="transition border-b border-ss-dark-blue/20">
-						<div class="relative before:absolute before:content-['\e900'] before:right-2 before:opacity-20 before:top-3 before:font-icomoon before:size-6 accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h5 py-4 [&_h3]:pr-5">
+						<div class="relative before:absolute before:content-['\e900'] before:right-2 before:opacity-20 before:top-3 before:font-icomoon before:size-6 accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5">
 							<h3>Can my older clients benefit from the program?</h3>
 						</div>
 						<div class="accordion-content pt-0 overflow-hidden max-h-0 [&_p]:opacity-70">
@@ -712,7 +712,7 @@ get_header();
 						</div>
 					</div>
 					<div class="transition border-b border-ss-dark-blue/20">
-						<div class="relative before:absolute before:content-['\e900'] before:right-2 before:opacity-20 before:top-3 before:font-icomoon before:size-6 accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h5 py-4 [&_h3]:pr-5">
+						<div class="relative before:absolute before:content-['\e900'] before:right-2 before:opacity-20 before:top-3 before:font-icomoon before:size-6 accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5">
 							<h3>How does the Apple Watch program work?</h3>
 						</div>
 						<div class="accordion-content pt-0 overflow-hidden max-h-0">
@@ -795,15 +795,15 @@ get_header();
 							</div>
 						</div>
 					</div>
-					<div class="transition border-b border-ss-dark-blue/20">
-						<div class="relative before:absolute before:content-['\e900'] before:right-2 before:opacity-20 before:top-3 before:font-icomoon before:size-6 accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h5 py-4">
+					<div class="transition">
+						<div class="relative before:absolute before:content-['\e900'] before:right-2 before:opacity-20 before:top-3 before:font-icomoon before:size-6 accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4">
 							<h3>What is considered a Standard or Advanced Workout?</h3>
 						</div>
 						<div class="accordion-content pt-0 overflow-hidden max-h-0 [&_p]:opacity-70">
 							<p>
 								Your clients’ monthly Apple Watch payments will be based on the number of Standard or Advanced Workouts they complete each month. The chart below details the many ways they can accomplish this:
 							</p>
-							<table class="table-auto text-left [&_th]:font-semibold my-5 border-ss-dark-blue/20 capitalize">
+							<table class="table-auto text-left [&_th]:font-semibold my-5 border-ss-dark-blue/10 capitalize bg-gray-100">
 								<thead>
 									<tr>
 										<th></th>
@@ -854,7 +854,7 @@ get_header();
 
 <!--Start of Image Slider Section  -->
 <section class="bg-primary/20 py-16">
-	<div class="container text-center pb-10">
+	<div class="container text-center pb-10 [&_h4]:uppercase">
 		<h4>Our Trusted Partners</h4>
 	</div>
 	<div class="swiper py-5 lg:py-0 image-slider [&_.swiper-slide_img]:max-h-[80px] sm:[&_.swiper-slide_img]:max-h-[120px] [&_.swiper-slide_img]:max-w-[100%] [&_.swiper-slide_img]:w-auto md:[&_.swiper-slide_img]:w-full xl:[&_.swiper-slide_img]:max-h-none [&_.swiper-slide]:w-auto">
