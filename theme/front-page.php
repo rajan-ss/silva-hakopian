@@ -95,7 +95,7 @@ get_header();
 			<p><span class="section-tag">Find Your Reason</span></p>
 			<h2>Top reasons to activate your membership today</h2>
 		</div>
-		<div class="flex flex-col sm:flex-row gap-4 counter-increment">
+		<div class="flex flex-col md:flex-row gap-4 counter-increment">
 			<div>
 				<div class="[&_p]:bg-ss-pink [&_p]:rounded-full [&_p]:w-14 [&_p]:h-14 [&_p]:mx-auto [&_p]:text-xl [&_p]:font-bold [&_p]:leading-normal [&_p]:text-white [&_p]:flex [&_p]:justify-center [&_p]:items-center">
 					<p><span class="list-number"></span></p>

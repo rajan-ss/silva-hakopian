@@ -40,6 +40,9 @@ module.exports = {
 				'ss-light-grey': {
 					DEFAULT: '#F4F5F9',
 				},
+				danger: {
+					DEFAULT: '#dc3545',
+				  },
 			},
 			screens: {
 				'2xl': '1312px',

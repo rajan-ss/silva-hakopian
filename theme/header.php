@@ -44,7 +44,7 @@
 								<i class="icon-mail text-white text-base group-hover:text-ss-pink transition ease-in-out duration-300"></i>
 							</span>
 						</span>
-						<span class="text-white group-hover:text-ss-pink max-lg:hidden transition ease-in-out duration-300">insurance@healthyhabit4life.com</span>	
+						<span class="text-white group-hover:text-ss-pink max-lg:hidden transition ease-in-out duration-300">insurance@healthyhabit4life.com</span>
 					</a>
 					<a href="tel:4422292409" class="flex items-center group">
 						<span class="border rounded-full border-ss-pink p-1 lg:mr-[14px] group-hover:border-white transition ease-in-out duration-300">
@@ -52,12 +52,12 @@
 								<i class="icon-call text-white text-base group-hover:text-ss-pink transition ease-in-out duration-300"></i>
 							</span>
 						</span>
-						<span class="text-white group-hover:text-ss-pink max-lg:hidden transition ease-in-out duration-300">442-229-2409</span>	
+						<span class="text-white group-hover:text-ss-pink max-lg:hidden transition ease-in-out duration-300">442-229-2409</span>
 					</a>
 					<a href="#" class="btn btn-secondary uppercase bg-white/10 text-white">
 						Get a quote
 					</a>
-				</div> 
+				</div>
 			</div>
 		</header>
 
@@ -70,7 +70,13 @@
 						<a href="#" class="btn btn-primary mb-4">schedule an appointment</a>
 					</div>
 					<figure class="lg:absolute right-0 bottom-12">
-						<img src="<?php echo site_url()?>/wp-content/uploads/2024/06/header-banner.png" alt="Hero Banner" width="778" height="500" loading="lazy">
+						<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/header-banner.png" alt="Hero Banner" width="778" height="500" loading="lazy">
 					</figure>
 				</div>
 			</section>
+			<div class="container py-8 sm:py-12 lg:py-16">
+				<div class="inline-form rounded-xl border-t-8 border-ss-pink shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] py-11 px-10 [&_h2]:pb-6">
+					<h2>Get An Insurance Quote To Get Started!</h2>
+					<?php echo do_shortcode('[gravityform id="1" title="false" description="false" ajax=true]'); ?>
+				</div>
+			</div>

@@ -198,3 +198,6 @@ require get_template_directory() . '/inc/template-tags.php';
  * Functions which enhance the theme by hooking into WordPress.
  */
 require get_template_directory() . '/inc/template-functions.php';
+
+// Gravity form Disable loading of CSS files
+add_filter( 'gform_disable_css', '__return_true' );
