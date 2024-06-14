@@ -10,6 +10,7 @@ module.exports = {
 	content: [
 		// Ensure changes to PHP files and `theme.json` trigger a rebuild.
 		'./theme/**/*.php',
+		'**/*.js',
 	],
 	theme: {
 		container: {
@@ -23,6 +24,9 @@ module.exports = {
 			colors: {
 				primary: {
 					DEFAULT: '#77D7E0',
+				},
+				'ss-cta-aqua': {
+					DEFAULT: '#4FC7D2',
 				},
 				'ss-pink': {
 					DEFAULT: '#FE7B7C',

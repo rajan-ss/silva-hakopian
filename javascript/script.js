@@ -11,9 +11,9 @@
 
 const accordionHeader = document.querySelectorAll(".accordion-header");
 accordionHeader.forEach((header) => {
-	header.addEventListener("click", function() {
+	header.addEventListener("click", function () {
 		const accordionContent = header.parentElement.querySelector(".accordion-content");
-		let accordionMaxHeight = accordionContent.style.maxHeight;
+		const accordionMaxHeight = accordionContent.style.maxHeight;
 
 		// Condition handling
 		if (accordionMaxHeight == "0px" || accordionMaxHeight.length == 0) {
@@ -27,18 +27,50 @@ accordionHeader.forEach((header) => {
 	});
 });
 
-	const swiper = new Swiper('.image-slider', {
-		// Optional parameters
-		spaceBetween: 62,
-		slidesPerView: "auto",
-		loop: true,
-		centeredSlides: true,
-		speed: 3000,
-		autoplay: {
-			delay: 1,
-			disableOnInteraction: false,
-		},
-		loopedSlides: 4,
-		allowTouchMove: false,
-		disableOnInteraction: true,
-	});
+const swiper = new Swiper('.image-slider', {
+	// Optional parameters
+	spaceBetween: 62,
+	slidesPerView: "auto",
+	loop: true,
+	centeredSlides: true,
+	speed: 3000,
+	autoplay: {
+		delay: 1,
+		disableOnInteraction: false,
+	},
+	loopedSlides: 4,
+	allowTouchMove: false,
+	disableOnInteraction: true,
+});
+
+// Tabs
+const tabs = document.querySelectorAll('[data-tab-target]')
+const tabContents = document.querySelectorAll('[data-tab-content]')
+
+tabs.forEach((tab) => {
+	tab.addEventListener('click', () => {
+		const target = document.querySelector(tab.dataset.tabTarget)
+		tabContents.forEach((tab) => {
+			tab.classList.add('hidden')
+		})
+		tabs.forEach((tab) => {
+			if (tab.classList.contains('selected')) {
+				tab.classList.remove('selected')
+			}
+		})
+		target.classList.remove('hidden')
+		tab.classList.add('selected')
+	})
+})
+
+
+const playVideo = document.getElementById('play-video')
+const video = document.getElementById('video')
+const videoOverlay = document.getElementById('video-overlay')
+playVideo.addEventListener('click', () => {
+	video.play()
+	console.log(videoOverlay)
+	videoOverlay.classList.add('hidden')
+	// console.log(videoOverlay.parentElement)
+	videoOverlay.parentElement.classList.add('before:opacity-0')
+});

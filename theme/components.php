@@ -262,7 +262,7 @@ get_header();
 		</div>
 
 		<h2>Sleep better Get rewarded Tab</h2>
-		<div class="lg:w-1/2 rounded-xl border-t-8 border-ss-pink shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] py-9 px-8">
+		<div class="lg:w-1/2 rounded-xl border-t-8 border-ss-pink shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] py-9 px-8 hidden" id="tab3-content">
 			<div>
 				<div class="h-20 w-20 bg-ss-dark-blue rounded-full flex justify-center items-center">
 					<i class="icon-supprot text-white text-4xl"></i>
@@ -286,7 +286,7 @@ get_header();
 		</div>
 
 		<h2>Support your mental health Tab</h2>
-		<div class="lg:w-1/2 rounded-xl border-t-8 border-ss-pink shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] py-9 px-8">
+		<div class="lg:w-1/2 rounded-xl border-t-8 border-ss-pink shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] py-9 px-8 hidden" id="tab4-content">
 			<div>
 				<div class="h-20 w-20 bg-ss-dark-blue rounded-full flex justify-center items-center">
 					<i class="icon-supprot text-white text-4xl"></i>
@@ -322,7 +322,7 @@ get_header();
 		</div>
 
 		<h2>Find new ways to live a longer, healthier life Tab</h2>
-		<div class="lg:w-1/2 rounded-xl border-t-8 border-ss-pink shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] py-9 px-8">
+		<div class="lg:w-1/2 rounded-xl border-t-8 border-ss-pink shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] py-9 px-8 hidden" id="tab5-content">
 			<div>
 				<div class="h-20 w-20 bg-ss-dark-blue rounded-full flex justify-center items-center">
 					<i class="icon-supprot text-white text-4xl"></i>
@@ -364,7 +364,7 @@ get_header();
 		</div>
 
 		<h2>Get credit for your annual checkups and visits Tab</h2>
-		<div class="lg:w-1/2 rounded-xl border-t-8 border-ss-pink shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] py-9 px-8">
+		<div class="lg:w-1/2 rounded-xl border-t-8 border-ss-pink shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] py-9 px-8 hidden" id="tab6-content">
 			<div>
 				<div class="h-20 w-20 bg-ss-dark-blue rounded-full flex justify-center items-center">
 					<i class="icon-supprot text-white text-4xl"></i>

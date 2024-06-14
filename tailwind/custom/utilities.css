@@ -19,18 +19,18 @@
 	duration-300;
 }
 
-.accordion .active{
+.accordion .active {
 	@apply bg-white
 	[&_h3]:font-bold;
 }
 
-.vitality-accordion .active{
+.vitality-accordion .active {
 	@apply bg-white
 	[&_h3]:font-bold
 	relative;
 }
 
-.vitality-accordion .active::before{
+.vitality-accordion .active::before {
 	@apply content-['\e908']
 	absolute
 	right-6
@@ -40,15 +40,31 @@
 	size-6;
 }
 
-.faq-accordion .active{
-	@apply
-	relative;
+.faq-accordion .active {
+	@apply relative;
 }
-.faq-accordion .active::before{
+.faq-accordion .active::before {
 	@apply content-['\e908']
 	absolute
 	right-2
 	top-3
 	font-icomoon
 	size-6;
+}
+
+.tab-header.selected {
+	@apply bg-ss-pink
+	[&_p]:text-white
+	[&_p]:font-bold
+	[&_p]:opacity-100
+	[&_i]:text-white;
+}
+
+.counter-increment {
+	counter-reset: item;
+}
+
+.list-number:before {
+	counter-increment: item+1;
+	content: counter(item,decimal-leading-zero);
 }
