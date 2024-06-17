@@ -1,6 +1,5 @@
 .btn {
-  @apply
-  relative
+	@apply relative
   inline-block
   align-top
   min-w-[100px]
@@ -25,12 +24,11 @@
   ease-in-out
   whitespace-normal
   cursor-pointer
-	uppercase
-  ;
+	uppercase;
 }
 
-.btn-primary{
-	@apply   hover:bg-white
+.btn-primary {
+	@apply hover:bg-white
   hover:text-primary
   hover:border-primary
 
@@ -43,7 +41,7 @@
   active:border-primary;
 }
 
-.btn-secondary{
+.btn-secondary {
 	@apply bg-white
 	border-ss-dark-blue/10
 	hover:bg-primary
@@ -57,4 +55,9 @@
 	active:bg-primary
   active:text-ss-dark-blue
   active:border-ss-dark-blue;
+}
+
+.btn-block {
+	@apply block w-full
+	rounded-none;
 }

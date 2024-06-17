@@ -28,22 +28,26 @@ accordionHeader.forEach((header) => {
 });
 
 const swiper = new Swiper('.image-slider', {
-	// Optional parameters
-	spaceBetween: 62,
-	slidesPerView: "auto",
-	loop: true,
-	centeredSlides: true,
-	speed: 3000,
+	spaceBetween: 50,
+	slidesPerView: 3,
 	autoplay: {
-		delay: 1,
-		disableOnInteraction: false,
+		delay: 3000,
 	},
+	loop: true,
 	loopedSlides: 4,
-	allowTouchMove: false,
-	disableOnInteraction: true,
+
+	breakpoints: {
+		768: {
+			slidesPerView: 4,
+		},
+		1024: {
+			slidesPerView: 7,
+			spaceBetween: 62,
+		},
+	},
 });
 
-// Tabs
+//Tabs
 const tabs = document.querySelectorAll('[data-tab-target]')
 const tabContents = document.querySelectorAll('[data-tab-content]')
 
@@ -63,7 +67,7 @@ tabs.forEach((tab) => {
 	})
 })
 
-
+//Video Play Button
 const playVideo = document.getElementById('play-video')
 const video = document.getElementById('video')
 const videoOverlay = document.getElementById('video-overlay')
@@ -73,4 +77,21 @@ playVideo.addEventListener('click', () => {
 	videoOverlay.classList.add('hidden')
 	// console.log(videoOverlay.parentElement)
 	videoOverlay.parentElement.classList.add('before:opacity-0')
+});
+
+// New script for stick footer
+function stickyFooter() {
+	let stickyFooter = $('.sticky-footer');
+	let stickyFooterHeight = stickyFooter.innerHeight();
+	let siteFooter = $('.site-footer');
+	siteFooter.css('margin-bottom', stickyFooterHeight);
+}
+stickyFooter();
+
+let debounceTimeout;
+$(window).on('resize', function () {
+	clearTimeout(debounceTimeout);
+	debounceTimeout = setTimeout(function () {
+	stickyFooter();
+	}, 250);
 });

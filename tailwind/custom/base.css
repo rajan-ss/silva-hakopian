@@ -14,13 +14,11 @@
 @layer base {
 	html,
 	body {
-		@apply w-full h-full
-		;
+		@apply w-full h-full;
 	}
 
 	body {
-		@apply
-		font-base
+		@apply font-base
 		leading-normal
 		text-[1rem]
 		xl:text-[1.125rem]
@@ -31,272 +29,237 @@
 		m-0
 		antialiased
 		bg-white
-		text-ss-dark-blue
-		;
+		text-ss-dark-blue;
 	}
 
 	picture {
-		@apply
-		block
-		mb-4
-		;
+		@apply block
+		mb-4;
 	}
 
 	img {
-		@apply
-		w-auto
+		@apply w-auto
 		h-auto
 		max-w-full
-		align-middle
-		;
+		align-middle;
 	}
 
-	h1, .h1, h2, .h2,  h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-		@apply
-		font-bold
+	h1,
+	.h1,
+	h2,
+	.h2,
+	h3,
+	.h3,
+	h4,
+	.h4,
+	h5,
+	.h5,
+	h6,
+	.h6 {
+		@apply font-bold
 		mb-2
 		2xl:mb-4
 		leading-tight
-		capitalize
-		;
+		capitalize;
 	}
 
-	h1, .h1 {
-		@apply
-		text-white
+	h1,
+	.h1 {
+		@apply text-white
 		2xl:text-[3.375rem] /*54px*/
 		lg:text-[2.625rem]
-		text-[2.25rem]
-		;
+		text-[2.25rem];
 	}
 
-	h2, .h2 {
-		@apply
-		2xl:text-[3rem] /*48px*/
+	h2,
+	.h2 {
+		@apply 2xl:text-[3rem] /*48px*/
 		lg:text-[2.25rem]
-		text-[1.75rem]
-		;
+		text-[1.75rem];
 	}
 
-	h3, .h3 {
-		@apply
-		2xl:text-[1.875rem] /*30px*/
+	h3,
+	.h3 {
+		@apply 2xl:text-[1.875rem] /*30px*/
 		lg:text-[1.625rem]
-		text-[1.375rem]
-		;
+		text-[1.375rem];
 	}
 
-	h4, .h4 {
-		@apply
-		2xl:text-[1.5rem] /*24px*/
+	h4,
+	.h4 {
+		@apply 2xl:text-[1.5rem] /*24px*/
 		lg:text-[1.375rem]
-		text-[1.25rem]
-		;
+		text-[1.25rem];
 	}
 
-	h5, .h5 {
-		@apply
-		2xl:text-[1.25rem] /*20px*/
+	h5,
+	.h5 {
+		@apply 2xl:text-[1.25rem] /*20px*/
 		lg:text-[1.125rem]
-		text-[1rem]
-		;
+		text-[1rem];
 	}
 
-	h6, .h6 {
-		@apply
-		2xl:text-[1.125rem] /*18px*/
-		text-sm
-		;
+	h6,
+	.h6 {
+		@apply 2xl:text-[1.125rem] /*18px*/
+		text-sm;
 	}
 
 	.site-wrapper {
-		@apply
-		relative
+		@apply relative
 		overflow-hidden
 		my-0
 		mx-auto
 		flex
 		items-stretch
 		flex-col
-		min-h-full
-		;
+		min-h-full;
+	}
+
+	.sticky-footer {
+		@apply fixed
+		inset-x-0
+		bottom-0
+		z-10;
 	}
 
 	.site-content {
-		@apply
-		grow
-		;
+		@apply grow;
 	}
 
 	.site-header,
 	.site-content,
 	.site-footer {
-		@apply
-		shrink-0
-		;
+		@apply shrink-0;
 	}
 
 	.container {
-		@apply
-		pl-4
-		pr-4
-		;
+		@apply pl-4
+		pr-4;
 	}
 
 	p {
-		@apply
-		mb-2
-		2xl:mb-4
-		;
+		@apply mb-2
+		2xl:mb-4;
 	}
 
 	a {
-		@apply
-		text-primary
-		transition-all
-		;
+		@apply text-primary
+		transition-all;
 	}
 
 	hr {
-		@apply
-		my-2.5
-		;
+		@apply my-2.5;
 	}
 
-		/* Lists Default Styling */
-		ul, ol {
-			@apply
-			space-y-2
+	/* Lists Default Styling */
+	ul,
+	ol {
+		@apply space-y-2
 			lg:space-y-3
 			mb-4
-			pl-5
-			;
-		}
+			pl-5;
+	}
 
-		ul ul, ol ol, ul ol, ol ul {
-			@apply
-			mt-4
-			;
-		}
+	ul ul,
+	ol ol,
+	ul ol,
+	ol ul {
+		@apply mt-4;
+	}
 
-		ul {
-			@apply
-				list-disc
-				marker:text-primary
-			;
-		}
+	ul {
+		@apply list-disc
+				marker:text-primary;
+	}
 
-		ol {
-			@apply
-				list-decimal
-			;
-		}
-		strong,b{
-			@apply
-			font-bold
-			;
-		}
-		/* Table */
-		table {
-			@apply
-			border-collapse
-			w-full
-			;
-		}
+	ol {
+		@apply list-decimal;
+	}
+	strong,
+	b {
+		@apply font-bold;
+	}
+	/* Table */
+	table {
+		@apply border-collapse
+			w-full;
+	}
 
-		caption {
-			@apply
-			text-center
+	caption {
+		@apply text-center
 			text-lg
 			font-bold
-			mb-2
-			;
-		}
+			mb-2;
+	}
 
-		th, td {
-			@apply
-			border
+	th,
+	td {
+		@apply border
 			border-gray-400
 			px-4
-			py-2
-			;
-		}
+			py-2;
+	}
 
-		dl{
-			@apply
-			mb-4
-			;
-		}
-		dl dt {
-			@apply
-			font-bold
-			;
-		}
+	dl {
+		@apply mb-4;
+	}
+	dl dt {
+		@apply font-bold;
+	}
 
-		dl dd {
-			@apply
-			ml-4
-			;
-		}
+	dl dd {
+		@apply ml-4;
+	}
 
-		blockquote {
-			@apply
-			italic
+	blockquote {
+		@apply italic
 			border-l-4
 			border-primary
 			bg-primary/10
 			pl-4
 			py-2
-			mb-4
-			;
-		}
+			mb-4;
+	}
 
-		abbr, acronym, dfn{
-			@apply
-			border-dashed
+	abbr,
+	acronym,
+	dfn {
+		@apply border-dashed
 			border-b
-			border-b-black
-			;
-		}
+			border-b-black;
+	}
 
-		pre {
-			@apply
-			bg-primary/5
+	pre {
+		@apply bg-primary/5
 			p-4
-			mb-4
-			;
-		}
+			mb-4;
+	}
 
-		code, tt {
-			@apply
-			font-mono
+	code,
+	tt {
+		@apply font-mono
 			bg-gray-50
-			p-1
-			;
-		}
+			p-1;
+	}
 
-		kbd {
-			@apply
-			font-mono
+	kbd {
+		@apply font-mono
 			border
 			border-gray-200
 			px-2
 			py-1
-			rounded
-			;
-		}
+			rounded;
+	}
 
-		var, samp {
-			@apply
-			font-mono
+	var,
+	samp {
+		@apply font-mono
 			bg-gray-50
 			px-1
-			rounded
-			;
-		}
-		address{
-			@apply
-			mb-4
-			;
-		}
+			rounded;
+	}
+	address {
+		@apply mb-4;
+	}
 }

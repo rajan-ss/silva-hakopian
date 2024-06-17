@@ -14,7 +14,7 @@
 
 </div><!-- #content -->
 
-<footer class="bg-ss-dark-blue">
+<footer class="bg-ss-dark-blue site-footer">
 	<div class="container pt-12 pb-10 flex max-lg:flex-col max-lg:items-center justify-between gap-4">
 		<div>
 			<figure class="pb-10">
@@ -69,6 +69,9 @@
 		</div>
 	</div>
 </footer>
+<div class="sticky-footer">
+	<a href="tel:4422292409" class="btn btn-primary btn-block">442-229-2409</a>
+</div>
 
 </div><!-- #page/.site-wrapper -->
 
