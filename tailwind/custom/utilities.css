@@ -11,6 +11,7 @@
 	@apply text-ss-pink
 	font-medium
 	uppercase
+	pb-3
 	leading-[1.11];
 }
 .accordion-content {
@@ -69,35 +70,3 @@
 	content: counter(item,decimal-leading-zero);
 }
 
-.inline-form #gform_fields_1{
-	@apply flex
-	lg:flex-row
-	flex-col
-	gap-5
-	items-center
-	w-full
-}
-
-.inline-form #gform_1 {
-	@apply flex
-	lg:flex-row
-	flex-col
-	gap-14
-	items-center
-	w-full
-
-}
-
-.inline-form .gform-body{
-	@apply w-full
-	lg:w-[80%]
-}
-
-.inline-form .gform_footer{
-	@apply w-full
-	lg:w-[20%]
-}
-
-.inline-form .gform_footer input{
-	@apply whitespace-nowrap
-}

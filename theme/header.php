@@ -75,7 +75,7 @@
 				</div>
 			</section>
 			<div class="container py-8 sm:py-12 lg:py-16">
-				<div class="inline-form rounded-xl border-t-8 border-ss-pink shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] py-11 px-10 [&_h2]:pb-6">
+				<div class="inline-form rounded-xl border-t-8 border-ss-pink shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] py-11 px-10 [&_h2]:pb-6 -mt-28 relative bg-white z-10">
 					<h2>Get An Insurance Quote To Get Started!</h2>
 					<?php echo do_shortcode('[gravityform id="1" title="false" description="false" ajax=true]'); ?>
 				</div>

@@ -56,7 +56,7 @@ get_header();
 				</figure>
 			</div>
 		</div>
-		<div class="[&_p]:mb-0 [&_h2]:mb-5 lg:max-w-[560px]">
+		<div class="[&_h2]:mb-5 lg:max-w-[560px]">
 			<p><span class="section-tag opacity-100">Take Change</span></p>
 			<h2>Making the most of your Vitality PLUS benefits</h2>
 			<p><span class="opacity-70">With John Hancock Vitality, you’re in control. You can participate when and how you want</span></p>
@@ -150,11 +150,11 @@ get_header();
 <!--Start of Vitality Rewards Section-->
 <section class="pt-8 md:pt-12 lg:pt-16 pb-16 md:pb-24 lg:pb-32">
 	<div class="container flex flex-col lg:flex-row gap-12">
-		<div class="lg:w-1/2">
+		<div class="lg:w-1/2 w-full">
 			<div>
 				<p><span class="section-tag">Vitality Rewards</span></p>
 				<h2>Supporting You & Earning Points</h2>
-				<div class="[&_p]:opacity-70">
+				<div class="[&_p]:opacity-70 [&_p]:pb-5">
 					<p>Select tiles that match your interests and learn how John Hancock Vitality can support you and help you earn rewards.</p>
 				</div>
 			</div>
@@ -203,7 +203,7 @@ get_header();
 				</a>
 			</div>
 		</div>
-		<div class="lg:w-1/2  py-9 px-8 rounded-xl border-t-8 border-ss-pink shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)]" id="tab1" data-tab-content>
+		<div class="lg:w-1/2 w-full py-5 md:py-9 px-4 md:px-8 rounded-xl border-t-8 border-ss-pink shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)]" id="tab1" data-tab-content>
 			<div>
 				<div class="h-20 w-20 bg-ss-dark-blue rounded-full flex justify-center items-center">
 					<i class="icon-supprot text-white text-4xl"></i>
@@ -239,7 +239,7 @@ get_header();
 				</div>
 			</div>
 		</div>
-		<div class="lg:w-1/2 rounded-xl border-t-8 border-ss-pink shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] py-9 px-8 hidden [&_h4]:h5" id="tab2" data-tab-content>
+		<div class="lg:w-1/2 w-full rounded-xl border-t-8 border-ss-pink shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] py-5 md:py-9 px-4 md:px-8 hidden [&_h4]:h5" id="tab2" data-tab-content>
 			<div>
 				<div class="h-20 w-20 bg-ss-dark-blue rounded-full flex justify-center items-center">
 					<i class="icon-supprot text-white text-4xl"></i>
@@ -273,7 +273,7 @@ get_header();
 				<h4><span class="block font-normal pb-3">*Remember to check which grocery stores participate before you shop.</span>3 HealthyFood savings are based on qualifying purchases and may vary based on the terms of the John Hancock Vitality Program. The HealthyFood program is currently not available in Guam.</h4>
 			</div>
 		</div>
-		<div class="lg:w-1/2 rounded-xl border-t-8 border-ss-pink shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] py-9 px-8 hidden [&_h4]:h5" id="tab3" data-tab-content>
+		<div class="lg:w-1/2 w-full rounded-xl border-t-8 border-ss-pink shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] py-5 md:py-9 px-4 md:px-8 hidden [&_h4]:h5" id="tab3" data-tab-content>
 			<div>
 				<div class="h-20 w-20 bg-ss-dark-blue rounded-full flex justify-center items-center">
 					<i class="icon-supprot text-white text-4xl"></i>
@@ -295,7 +295,7 @@ get_header();
 				</ul>
 			</div>
 		</div>
-		<div class="lg:w-1/2 rounded-xl border-t-8 border-ss-pink shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] py-9 px-8 hidden [&_h4]:h5" id="tab4" data-tab-content>
+		<div class="lg:w-1/2 w-full rounded-xl border-t-8 border-ss-pink shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] py-5 md:py-9 px-4 md:px-8 hidden [&_h4]:h5" id="tab4" data-tab-content>
 			<div>
 				<div class="h-20 w-20 bg-ss-dark-blue rounded-full flex justify-center items-center">
 					<i class="icon-supprot text-white text-4xl"></i>
@@ -329,7 +329,7 @@ get_header();
 				<h4><span class="block font-normal pb-3">7 The meditation portion of the program is compatible with apps such as Breathe, Buddhify, Calm and Headspace.</span></h4>
 			</div>
 		</div>
-		<div class="lg:w-1/2 rounded-xl border-t-8 border-ss-pink shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] py-9 px-8 hidden" id="tab5" data-tab-content>
+		<div class="lg:w-1/2 w-full rounded-xl border-t-8 border-ss-pink shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] py-5 md:py-9 px-4 md:px-8 hidden" id="tab5" data-tab-content>
 			<div>
 				<div class="h-20 w-20 bg-ss-dark-blue rounded-full flex justify-center items-center">
 					<i class="icon-supprot text-white text-4xl"></i>
@@ -369,7 +369,7 @@ get_header();
 				</ul>
 			</div>
 		</div>
-		<div class="lg:w-1/2 rounded-xl border-t-8 border-ss-pink shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] py-9 px-8 hidden" id="tab6" data-tab-content>
+		<div class="lg:w-1/2 w-full rounded-xl border-t-8 border-ss-pink shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] py-5 md:py-9 px-4 md:px-8 hidden" id="tab6" data-tab-content>
 			<div>
 				<div class="h-20 w-20 bg-ss-dark-blue rounded-full flex justify-center items-center">
 					<i class="icon-supprot text-white text-4xl"></i>
@@ -473,7 +473,7 @@ get_header();
 	<div class="container">
 		<div class="text-center lg:text-start">
 			<p><span class="section-tag">Why Insurance</span></p>
-			<div class="flex flex-col lg:flex-row lg:justify-between justify-center items-center pb-9 [&_h2]:mb-0">
+			<div class="flex flex-col lg:flex-row lg:justify-between justify-center items-center pb-9 lg:[&_h2]:mb-0">
 				<h2>Why Simple Term With Vitality Program?</h2>
 				<a href="tel:4422292409" class="btn btn-secondary group">
 					<i class="icon-call text-primary mr-3 group-hover:text-ss-dark-blue"></i>
@@ -515,7 +515,7 @@ get_header();
 					</p>
 				</div>
 
-				<div class="[&_p]:opacity-70 flex sm:flex-row flex-col justify-between gap-5 pt-6 [&>ul_>li]:flex [&>ul_>li]:flex-row [&>ul_>li]:items-start [&>ul_>li]:gap-[18px] [&_ul]:pl-0 [&_p]:m-0">
+				<div class="[&_p]:opacity-70 flex sm:flex-row flex-col justify-between sm:gap-5 pt-6 [&>ul_>li]:flex [&>ul_>li]:flex-row [&>ul_>li]:items-start [&>ul_>li]:gap-[18px] [&_ul]:pl-0 [&_p]:m-0">
 					<ul>
 						<li>
 							<i class="icon-support-accordion text-ss-pink text-2xl"></i>
@@ -668,183 +668,181 @@ get_header();
 
 <!--Start of Get In Touch Section-->
 <section class="py-8 md:py-12 lg:py-16">
-	<div class="container flex flex-col lg:flex-row gap-12">
-		<div class="lg:w-2/5">
-			<h2>Get in Touch Form</h2>
+	<div class="container flex flex-col lg:flex-row items-start gap-12">
+		<div class="w-full lg:w-2/5 get-in-touch-form shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] p-4 md:p-8 [&_h2]:pb-4 md:[&_h2]:pb-8">
+			<h2>Get in Touch</h2>
+			<?php echo do_shortcode('[gravityform id="3" title="false" description="false" ajax=true]'); ?>
 		</div>
-		<div class="lg:w-3/5">
-			<div class="py-9 px-8">
-				<div>
-					<h2>Have questions Get answers</h2>
+		<div class="w-full lg:w-3/5 p-4 md:p-8">
+			<div class="[&_h2]:pb-4 md:[&_h2]:pb-8">
+				<h2>Have questions Get answers</h2>
+			</div>
+			<div class="faq-accordion">
+				<div class="transition border-b border-ss-dark-blue/20">
+					<div class="relative before:absolute before:content-['\e900'] before:right-2 before:opacity-20 before:top-3 before:font-icomoon before:size-6 accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5">
+						<h3>Who is Vitality?</h3>
+					</div>
+					<div class="accordion-content pt-0 overflow-hidden max-h-0 [&_p]:opacity-70">
+						<p>
+							We’re collaborating with Vitality because they’re the global leader in integrating wellness benefits with life insurance products. Vitality has an established track-record of creating interactive, personalized programs. Millions of members worldwide use their online tools to identify and track health and lifestyle goals
+						</p>
+					</div>
 				</div>
-				<div class="faq-accordion">
-					<div class="transition border-b border-ss-dark-blue/20">
-						<div class="relative before:absolute before:content-['\e900'] before:right-2 before:opacity-20 before:top-3 before:font-icomoon before:size-6 accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5">
-							<h3>Who is Vitality?</h3>
-						</div>
-						<div class="accordion-content pt-0 overflow-hidden max-h-0 [&_p]:opacity-70">
-							<p>
-								We’re collaborating with Vitality because they’re the global leader in integrating wellness benefits with life insurance products. Vitality has an established track-record of creating interactive, personalized programs. Millions of members worldwide use their online tools to identify and track health and lifestyle goals
-							</p>
-						</div>
+				<div class="transition border-b border-ss-dark-blue/20 mt-0">
+					<div class="relative before:absolute before:content-['\e900'] before:right-2 before:opacity-20 before:top-3 before:font-icomoon before:size-6 accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5">
+						<h3>Can a client who is rated still benefit from the program?</h3>
 					</div>
-					<div class="transition border-b border-ss-dark-blue/20 mt-0">
-						<div class="relative before:absolute before:content-['\e900'] before:right-2 before:opacity-20 before:top-3 before:font-icomoon before:size-6 accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5">
-							<h3>Can a client who is rated still benefit from the program?</h3>
-						</div>
-						<div class="accordion-content pt-0 overflow-hidden max-h-0 [&_p]:opacity-70">
-							<p>
-								Yes, even clients with medical impairments can benefit from the program. Remember, they don’t have to be an athlete to participate. Members can earn points by doing simple things like walking, taking online courses, or visiting the dentist. In fact, if your client is living with diabetes, the program offers additional resources and point-earning activities to help them live long, healthy lives. Visit JHSalesHub.com/Aspire for more information.
-							</p>
-						</div>
+					<div class="accordion-content pt-0 overflow-hidden max-h-0 [&_p]:opacity-70">
+						<p>
+							Yes, even clients with medical impairments can benefit from the program. Remember, they don’t have to be an athlete to participate. Members can earn points by doing simple things like walking, taking online courses, or visiting the dentist. In fact, if your client is living with diabetes, the program offers additional resources and point-earning activities to help them live long, healthy lives. Visit JHSalesHub.com/Aspire for more information.
+						</p>
 					</div>
-					<div class="transition border-b border-ss-dark-blue/20">
-						<div class="relative before:absolute before:content-['\e900'] before:right-2 before:opacity-20 before:top-3 before:font-icomoon before:size-6 accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5">
-							<h3>Can my older clients benefit from the program?</h3>
-						</div>
-						<div class="accordion-content pt-0 overflow-hidden max-h-0 [&_p]:opacity-70">
-							<p>
-								Yes, the Vitality Program is available for issue ages 71 through 90. This customized program takes into account an older client’s unique health and wellness considerations. That means, they’ll get rewarded for the things they do to stay healthy, but at a pace that makes sense for them.
-							</p>
-							<p>
-								Note: The customized program will automatically apply to in force policy owners who have other John Hancock Vitality policies once they reach age 71 or older.
-							</p>
-						</div>
+				</div>
+				<div class="transition border-b border-ss-dark-blue/20">
+					<div class="relative before:absolute before:content-['\e900'] before:right-2 before:opacity-20 before:top-3 before:font-icomoon before:size-6 accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5">
+						<h3>Can my older clients benefit from the program?</h3>
 					</div>
-					<div class="transition border-b border-ss-dark-blue/20">
-						<div class="relative before:absolute before:content-['\e900'] before:right-2 before:opacity-20 before:top-3 before:font-icomoon before:size-6 accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5">
-							<h3>How does the Apple Watch program work?</h3>
+					<div class="accordion-content pt-0 overflow-hidden max-h-0 [&_p]:opacity-70">
+						<p>
+							Yes, the Vitality Program is available for issue ages 71 through 90. This customized program takes into account an older client’s unique health and wellness considerations. That means, they’ll get rewarded for the things they do to stay healthy, but at a pace that makes sense for them.
+						</p>
+						<p>
+							Note: The customized program will automatically apply to in force policy owners who have other John Hancock Vitality policies once they reach age 71 or older.
+						</p>
+					</div>
+				</div>
+				<div class="transition border-b border-ss-dark-blue/20">
+					<div class="relative before:absolute before:content-['\e900'] before:right-2 before:opacity-20 before:top-3 before:font-icomoon before:size-6 accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5">
+						<h3>How does the Apple Watch program work?</h3>
+					</div>
+					<div class="accordion-content pt-0 overflow-hidden max-h-0">
+						<div class="marker:text-ss-dark-blue [&_p]:opacity-70 marker:opacity-70">
+							<p>
+								The program is available to both new and inforce John Hancock Vitality clients. Here is a brief overview of how the program works:
+							</p>
+							<ul>
+								<li>
+									<p>Vitality customers who take part in the Apple Watch program make an initial payment of $25 plus tax.</p>
+								</li>
+								<li>
+									<p>The remaining balance of their watch is divided into monthly payments over the course of two years.</p>
+								</li>
+								<li>
+									<p>Monthly payments can be reduced to as little as $0 with regular exercise.</p>
+								</li>
+							</ul>
+							<p>
+								<strong>Note:</strong> Upgrade costs may apply based on your client’s choice of case finish or band type. Their monthly payments will depend on the number of Vitality Points they earn through Standard or Advanced Workouts — see the table below for detailed payment information.
+							</p>
 						</div>
-						<div class="accordion-content pt-0 overflow-hidden max-h-0">
-							<div class="marker:text-ss-dark-blue [&_p]:opacity-70 marker:opacity-70">
-								<p>
-									The program is available to both new and inforce John Hancock Vitality clients. Here is a brief overview of how the program works:
-								</p>
-								<ul>
-									<li>
-										<p>Vitality customers who take part in the Apple Watch program make an initial payment of $25 plus tax.</p>
-									</li>
-									<li>
-										<p>The remaining balance of their watch is divided into monthly payments over the course of two years.</p>
-									</li>
-									<li>
-										<p>Monthly payments can be reduced to as little as $0 with regular exercise.</p>
-									</li>
-								</ul>
-								<p>
-									<strong>Note:</strong> Upgrade costs may apply based on your client’s choice of case finish or band type. Their monthly payments will depend on the number of Vitality Points they earn through Standard or Advanced Workouts — see the table below for detailed payment information.
-								</p>
-							</div>
-							<div class="flex flex-col lg:flex-row gap-3 bg-white p-3">
-								<div class="lg:w-1/2">
-									<div class="[&_p]:font-semibold">
-										<p>Apple Watch 8 and Ultra</p>
+						<div class="flex flex-col lg:flex-row gap-3 bg-white p-3">
+							<div class="lg:w-1/2">
+								<div class="[&_p]:font-semibold">
+									<p>Apple Watch 8 and Ultra</p>
+								</div>
+								<div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-2 xl:grid-cols-4 gap-2 [&_p]:text-white [&_p]:text-base [&_p]:font-semibold [&_p]:py-4 [&_p]:px-1 lg:[&_p]:py-6 lg:[&_p]:px-3 [&_p]:m-0 [&_p]:mx-auto [&_p]:flex [&_p]:justify-center [&_p]:items-center">
+									<div class="[&_p]:bg-ss-pink">
+										<p>$15.50</p>
+										<span class="text-sm font-semibold whitespace-nowrap">0 Points</span>
 									</div>
-									<div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-2 xl:grid-cols-4 gap-2 [&_p]:text-white [&_p]:text-base [&_p]:font-semibold [&_p]:py-4 [&_p]:px-1 lg:[&_p]:py-6 lg:[&_p]:px-3 [&_p]:m-0 [&_p]:mx-auto [&_p]:flex [&_p]:justify-center [&_p]:items-center">
-										<div class="[&_p]:bg-ss-pink">
-											<p>$15.50</p>
-											<span class="text-sm font-semibold whitespace-nowrap">0 Points</span>
-										</div>
-										<div class="[&_p]:bg-primary">
-											<p>$12.25</p>
-											<span class="text-sm font-semibold whitespace-nowrap">240 Points</span>
-										</div>
-										<div class="[&_p]:bg-ss-dark-blue">
-											<p>$7.00</p>
-											<span class="text-sm font-semibold whitespace-nowrap">360 Points</span>
-										</div>
-										<div class="[&_p]:bg-ss-dark-blue/60">
-											<p>$0</p>
-											<span class="text-sm font-semibold whitespace-nowrap">500 Points</span>
-										</div>
+									<div class="[&_p]:bg-primary">
+										<p>$12.25</p>
+										<span class="text-sm font-semibold whitespace-nowrap">240 Points</span>
 									</div>
-									<div class="[&_p]:opacity-70 [&_p]:text-sm">
-										<p>
-											Example: If your clients earn 360 points one month — they’ll pay $7.00. When they earn 500 points in one month, the cost is $0.
-										</p>
+									<div class="[&_p]:bg-ss-dark-blue">
+										<p>$7.00</p>
+										<span class="text-sm font-semibold whitespace-nowrap">360 Points</span>
+									</div>
+									<div class="[&_p]:bg-ss-dark-blue/60">
+										<p>$0</p>
+										<span class="text-sm font-semibold whitespace-nowrap">500 Points</span>
 									</div>
 								</div>
-								<div class="lg:w-1/2">
-									<div class="[&_p]:font-semibold">
-										<p>SE</p>
+								<div class="[&_p]:opacity-70 [&_p]:text-sm">
+									<p>
+										Example: If your clients earn 360 points one month — they’ll pay $7.00. When they earn 500 points in one month, the cost is $0.
+									</p>
+								</div>
+							</div>
+							<div class="lg:w-1/2">
+								<div class="[&_p]:font-semibold">
+									<p>SE</p>
+								</div>
+								<div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-2 xl:grid-cols-4 gap-2 [&_p]:text-white [&_p]:text-base [&_p]:font-semibold [&_p]:py-4 [&_p]:px-1 lg:[&_p]:py-6 lg:[&_p]:px-3 [&_p]:m-0 [&_p]:mx-auto [&_p]:flex [&_p]:justify-center [&_p]:items-center">
+									<div class="[&_p]:bg-ss-pink">
+										<p>$10.50</p>
+										<span class="text-sm font-semibold whitespace-nowrap">0 Points</span>
 									</div>
-									<div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-2 xl:grid-cols-4 gap-2 [&_p]:text-white [&_p]:text-base [&_p]:font-semibold [&_p]:py-4 [&_p]:px-1 lg:[&_p]:py-6 lg:[&_p]:px-3 [&_p]:m-0 [&_p]:mx-auto [&_p]:flex [&_p]:justify-center [&_p]:items-center">
-										<div class="[&_p]:bg-ss-pink">
-											<p>$10.50</p>
-											<span class="text-sm font-semibold whitespace-nowrap">0 Points</span>
-										</div>
-										<div class="[&_p]:bg-primary">
-											<p>$8.25</p>
-											<span class="text-sm font-semibold whitespace-nowrap">240 Points</span>
-										</div>
-										<div class="[&_p]:bg-ss-dark-blue">
-											<p>$4.75</p>
-											<span class="text-sm font-semibold whitespace-nowrap">360 Points</span>
-										</div>
-										<div class="[&_p]:bg-ss-dark-blue/60">
-											<p>$0</p>
-											<span class="text-sm font-semibold whitespace-nowrap">500 Points</span>
-										</div>
+									<div class="[&_p]:bg-primary">
+										<p>$8.25</p>
+										<span class="text-sm font-semibold whitespace-nowrap">240 Points</span>
 									</div>
-									<div class="[&_p]:opacity-70 [&_p]:text-sm">
-										<p>
-											Example: If your clients earn 360 points one month — they’ll pay $4.75. When they earn 500 points in one month, the cost is $0.
-										</p>
+									<div class="[&_p]:bg-ss-dark-blue">
+										<p>$4.75</p>
+										<span class="text-sm font-semibold whitespace-nowrap">360 Points</span>
 									</div>
+									<div class="[&_p]:bg-ss-dark-blue/60">
+										<p>$0</p>
+										<span class="text-sm font-semibold whitespace-nowrap">500 Points</span>
+									</div>
+								</div>
+								<div class="[&_p]:opacity-70 [&_p]:text-sm">
+									<p>
+										Example: If your clients earn 360 points one month — they’ll pay $4.75. When they earn 500 points in one month, the cost is $0.
+									</p>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="transition">
-						<div class="relative before:absolute before:content-['\e900'] before:right-2 before:opacity-20 before:top-3 before:font-icomoon before:size-6 accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4">
-							<h3>What is considered a Standard or Advanced Workout?</h3>
-						</div>
-						<div class="accordion-content pt-0 overflow-hidden max-h-0 [&_p]:opacity-70">
-							<p>
-								Your clients’ monthly Apple Watch payments will be based on the number of Standard or Advanced Workouts they complete each month. The chart below details the many ways they can accomplish this:
-							</p>
-							<table class="table-auto text-left [&_th]:font-semibold my-5 border-ss-dark-blue/10 capitalize bg-gray-100">
-								<thead>
-									<tr>
-										<th></th>
-										<th>Standard Workout (20 Vitality Points)</th>
-										<th>Advanced Workout (30 Vitality Points)</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<th>Active calories burned using Apple Watch</th>
-										<td>Personalized between 200–1,250</td>
-										<td>Personalized between 300–1,875</td>
-									</tr>
-									<tr>
-										<th>Steps using any supported device</th>
-										<td>10,000</td>
-										<td>15,000</td>
-									</tr>
-									<tr>
-										<th>Minimum calories burned using an approved Vitality device</th>
-										<td>200</td>
-										<td>300</td>
-									</tr>
-									<tr>
-										<th>Minutes of exercise @ 60% of max heart rate</th>
-										<td>30</td>
-										<td>45</td>
-									</tr>
-									<tr>
-										<th>Verified gym visit</th>
-										<td>30 minutes</td>
-										<td>Not Applicable</td>
-									</tr>
-								</tbody>
-							</table>
-							<p>
-								<strong>Note:</strong> Light Workouts are not applicable towards the payments of Apple Watch. Clients can earn Vitality Points through their Active Calories found in the John Hancock Vitality app: click the More tab, and then select Health app. They can also use the number of steps tracked or calories burned on any other supported device, exercise with a heart rate monitor, or log a verified gym visit to receive credit for a Standard or Advanced workout. For even more ways your clients can earn Vitality Points, please refer to our Earn Vitality Points for Healthy Living flyer. Apple Watch Series 7 and Apple Watch SE are available to John Hancock Vitality members who have not previously ordered an Apple Watch through the program.
-							</p>
-						</div>
+				</div>
+				<div class="transition">
+					<div class="relative before:absolute before:content-['\e900'] before:right-2 before:opacity-20 before:top-3 before:font-icomoon before:size-6 accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4">
+						<h3>What is considered a Standard or Advanced Workout?</h3>
 					</div>
-
+					<div class="accordion-content pt-0 overflow-hidden max-h-0 [&_p]:opacity-70">
+						<p>
+							Your clients’ monthly Apple Watch payments will be based on the number of Standard or Advanced Workouts they complete each month. The chart below details the many ways they can accomplish this:
+						</p>
+						<table class="table-auto text-left [&_th]:font-semibold my-5 border-ss-dark-blue/10 capitalize bg-gray-100">
+							<thead>
+								<tr>
+									<th></th>
+									<th>Standard Workout (20 Vitality Points)</th>
+									<th>Advanced Workout (30 Vitality Points)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th>Active calories burned using Apple Watch</th>
+									<td>Personalized between 200–1,250</td>
+									<td>Personalized between 300–1,875</td>
+								</tr>
+								<tr>
+									<th>Steps using any supported device</th>
+									<td>10,000</td>
+									<td>15,000</td>
+								</tr>
+								<tr>
+									<th>Minimum calories burned using an approved Vitality device</th>
+									<td>200</td>
+									<td>300</td>
+								</tr>
+								<tr>
+									<th>Minutes of exercise @ 60% of max heart rate</th>
+									<td>30</td>
+									<td>45</td>
+								</tr>
+								<tr>
+									<th>Verified gym visit</th>
+									<td>30 minutes</td>
+									<td>Not Applicable</td>
+								</tr>
+							</tbody>
+						</table>
+						<p>
+							<strong>Note:</strong> Light Workouts are not applicable towards the payments of Apple Watch. Clients can earn Vitality Points through their Active Calories found in the John Hancock Vitality app: click the More tab, and then select Health app. They can also use the number of steps tracked or calories burned on any other supported device, exercise with a heart rate monitor, or log a verified gym visit to receive credit for a Standard or Advanced workout. For even more ways your clients can earn Vitality Points, please refer to our Earn Vitality Points for Healthy Living flyer. Apple Watch Series 7 and Apple Watch SE are available to John Hancock Vitality members who have not previously ordered an Apple Watch through the program.
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>
