@@ -37,8 +37,7 @@
 	right-6
 	top-5
 	lg:top-4
-	font-icomoon
-	size-6;
+	font-icomoon;
 }
 
 .faq-accordion .active {
@@ -47,10 +46,9 @@
 .faq-accordion .active::before {
 	@apply content-['\e908']
 	absolute
-	right-2
 	top-3
-	font-icomoon
-	size-6;
+	right-0
+	font-icomoon;
 }
 
 .tab-header.selected {
@@ -66,7 +64,6 @@
 }
 
 .list-number:before {
-	counter-increment: item+1;
-	content: counter(item,decimal-leading-zero);
+	counter-increment: item + 1;
+	content: counter(item, decimal-leading-zero);
 }
-

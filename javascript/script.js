@@ -65,7 +65,7 @@ tabs.forEach((tab) => {
 		target.classList.remove('hidden')
 		tab.classList.add('selected')
 	})
-})
+});
 
 //Video Play Button
 const playVideo = document.getElementById('play-video')
@@ -94,4 +94,31 @@ $(window).on('resize', function () {
 	debounceTimeout = setTimeout(function () {
 	stickyFooter();
 	}, 250);
+});
+
+/* smooth scroll*/
+var winWidth = $(window).width()
+$(' a.js-has-smooth[href*="#"]:not([href="#"])').click(function () {
+	if (location.pathname.replace(/^\//, "") == this.pathname.replace(/^\//, "") && location.hostname == this.hostname) {
+		var target = $(this.hash)
+		target = target.length ? target : $("[name=" + this.hash.slice(1) + "]")
+		if (target.length) {
+			if (winWidth > 991) {
+				$("html, body").animate(
+					{
+						scrollTop: target.offset().top -200,
+					},
+					1000
+				)
+			} else {
+				$("html, body").animate(
+					{
+						scrollTop: target.offset().top,
+					},
+					1000
+				)
+			}
+			return false
+		}
+	}
 });

@@ -61,7 +61,8 @@ get_header();
 			<h2>Making the most of your Vitality PLUS benefits</h2>
 			<p><span class="opacity-70">With John Hancock Vitality, you’re in control. You can participate when and how you want</span></p>
 			<div class="my-10 flex flex-col sm:flex-row max-sm:space-y-3 sm:space-x-6">
-				<a href="#" class="btn btn-primary uppercase">Book Now</a>
+				<!-- <a href="https://calendly.com/silvah-ffl/free-consultation">Book Now</a> -->
+				<a href=""  class="btn btn-primary uppercase" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/silvah-ffl/free-consultation'});return false;">Book Now</a>
 				<a href="tel:4422292409" class="btn btn-secondary group">
 					<i class="icon-call text-primary mr-3 group-hover:text-ss-dark-blue"></i>
 					442-229-2409
@@ -140,7 +141,8 @@ get_header();
 			<div class="[&_h2]:max-w-[955px] [&_h2]:mx-auto [&_h2]:pb-8 relative z-10">
 				<p><span class="section-tag">Cash-back Option</span></p>
 				<h2>100% Return Of Premium Rider On Your Life Insurance Policy</h2>
-				<a href="#" class="btn btn-primary">Schedule An Appointment</a>
+				<a href="" class="btn btn-primary" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/silvah-ffl/free-consultation'});return false;">Schedule an Appointment </a>
+				<!-- Calendly link widget end -->
 			</div>
 		</div>
 	</div>
@@ -214,7 +216,7 @@ get_header();
 				</div>
 				<div class="vitality-accordion space-y-6">
 					<div class="transition rounded-xl border border-ss-pink/30">
-						<div class="relative before:absolute before:content-['\e900'] before:right-6 before:top-5 lg:before:top-4 before:font-icomoon before:size-6 accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h5 py-4 px-6 [&_h3]:pr-5">
+						<div class="relative before:absolute before:content-['\e900'] before:right-6 before:top-5 lg:before:top-4 before:font-icomoon accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h5 py-4 px-6 [&_h3]:pr-6">
 							<i class="icon-support-accordion text-ss-pink text-2xl"></i>
 							<h3>Wearing a fitness device</h3>
 						</div>
@@ -225,7 +227,7 @@ get_header();
 						</div>
 					</div>
 					<div class="transition rounded-xl border border-ss-pink/30">
-						<div class="relative before:absolute before:content-['\e900'] before:right-6 before:top-5 lg:before:top-4 before:font-icomoon before:size-6 accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h5 py-4 px-6 [&_h3]:pr-5">
+						<div class="relative before:absolute before:content-['\e900'] before:right-6 before:top-5 lg:before:top-4 before:font-icomoon accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h5 py-4 px-6 [&_h3]:pr-6">
 							<i class="icon-support-accordion text-ss-pink text-2xl"></i>
 							<h3>Checking in at the gym</h3>
 						</div>
@@ -679,7 +681,7 @@ get_header();
 			</div>
 			<div class="faq-accordion">
 				<div class="transition border-b border-ss-dark-blue/20">
-					<div class="relative before:absolute before:content-['\e900'] before:right-2 before:opacity-20 before:top-3 before:font-icomoon before:size-6 accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5">
+					<div class="relative before:absolute before:content-['\e900'] before:right-0 before:opacity-20 before:top-3 before:font-icomoon accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5">
 						<h3>Who is Vitality?</h3>
 					</div>
 					<div class="accordion-content pt-0 overflow-hidden max-h-0 [&_p]:opacity-70">
@@ -688,8 +690,8 @@ get_header();
 						</p>
 					</div>
 				</div>
-				<div class="transition border-b border-ss-dark-blue/20 mt-0">
-					<div class="relative before:absolute before:content-['\e900'] before:right-2 before:opacity-20 before:top-3 before:font-icomoon before:size-6 accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5">
+				<div class="transition border-b border-ss-dark-blue/20">
+					<div class="relative before:absolute before:content-['\e900'] before:right-0 before:opacity-20 before:top-3 before:font-icomoon accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5">
 						<h3>Can a client who is rated still benefit from the program?</h3>
 					</div>
 					<div class="accordion-content pt-0 overflow-hidden max-h-0 [&_p]:opacity-70">
@@ -699,7 +701,7 @@ get_header();
 					</div>
 				</div>
 				<div class="transition border-b border-ss-dark-blue/20">
-					<div class="relative before:absolute before:content-['\e900'] before:right-2 before:opacity-20 before:top-3 before:font-icomoon before:size-6 accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5">
+					<div class="relative before:absolute before:content-['\e900'] before:right-0 before:opacity-20 before:top-3 before:font-icomoon accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5">
 						<h3>Can my older clients benefit from the program?</h3>
 					</div>
 					<div class="accordion-content pt-0 overflow-hidden max-h-0 [&_p]:opacity-70">
@@ -712,7 +714,7 @@ get_header();
 					</div>
 				</div>
 				<div class="transition border-b border-ss-dark-blue/20">
-					<div class="relative before:absolute before:content-['\e900'] before:right-2 before:opacity-20 before:top-3 before:font-icomoon before:size-6 accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5">
+					<div class="relative before:absolute before:content-['\e900'] before:right-0 before:opacity-20 before:top-3 before:font-icomoon accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5">
 						<h3>How does the Apple Watch program work?</h3>
 					</div>
 					<div class="accordion-content pt-0 overflow-hidden max-h-0">
@@ -796,7 +798,7 @@ get_header();
 					</div>
 				</div>
 				<div class="transition">
-					<div class="relative before:absolute before:content-['\e900'] before:right-2 before:opacity-20 before:top-3 before:font-icomoon before:size-6 accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4">
+					<div class="relative before:absolute before:content-['\e900'] before:right-0 before:opacity-20 before:top-3 before:font-icomoon accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5">
 						<h3>What is considered a Standard or Advanced Workout?</h3>
 					</div>
 					<div class="accordion-content pt-0 overflow-hidden max-h-0 [&_p]:opacity-70">

@@ -54,7 +54,7 @@
 						</span>
 						<span class="text-white group-hover:text-ss-pink max-lg:hidden transition ease-in-out duration-300">442-229-2409</span>
 					</a>
-					<a href="#" class="btn btn-secondary uppercase bg-white/10 text-white">
+					<a href="#gform_3" class="btn btn-secondary uppercase bg-white/10 text-white js-has-smooth">
 						Get a quote
 					</a>
 				</div>
@@ -67,7 +67,8 @@
 					<div class="text-white lg:[&_p]:mb-10 [&_p]:w-4/5 [&_h1]:mb-4 lg:w-3/5 relative lg:z-10">
 						<h1>Secure The Future Of Your Family & Improve Your Health With Simple Term Vitality</h1>
 						<p>Book a <a href="#" class="text-ss-pink hover:text-white">FREE 15 minute</a> consultation call with Independent Life Agent Silva Hakopian CSL # 4318303</p>
-						<a href="#" class="btn btn-primary mb-4">schedule an appointment</a>
+						<a href="" class="btn btn-primary mb-4" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/silvah-ffl/free-consultation'});return false;">Schedule an Appointment </a>
+						<!-- Calendly link widget end -->
 					</div>
 					<figure class="lg:absolute right-0 bottom-12">
 						<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/header-banner.png" alt="Hero Banner" width="778" height="500" loading="lazy">
