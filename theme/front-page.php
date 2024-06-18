@@ -62,7 +62,7 @@ get_header();
 			<p><span class="opacity-70">With John Hancock Vitality, you’re in control. You can participate when and how you want</span></p>
 			<div class="my-10 flex flex-col sm:flex-row max-sm:space-y-3 sm:space-x-6">
 				<!-- <a href="https://calendly.com/silvah-ffl/free-consultation">Book Now</a> -->
-				<a href=""  class="btn btn-primary uppercase" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/silvah-ffl/free-consultation'});return false;">Book Now</a>
+				<a href="" class="btn btn-primary uppercase" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/silvah-ffl/free-consultation'});return false;">Book Now</a>
 				<a href="tel:4422292409" class="btn btn-secondary group">
 					<i class="icon-call text-primary mr-3 group-hover:text-ss-dark-blue"></i>
 					442-229-2409
@@ -215,29 +215,27 @@ get_header();
 					<h4>Earn Vitality Points by:</h4>
 				</div>
 				<div class="vitality-accordion space-y-6">
-					<div class="transition rounded-xl border border-ss-pink/30">
-						<div class="relative before:absolute before:content-['\e900'] before:right-6 before:top-5 lg:before:top-4 before:font-icomoon accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h5 py-4 px-6 [&_h3]:pr-6">
-							<i class="icon-support-accordion text-ss-pink text-2xl"></i>
+					<div class="item rounded-xl border border-ss-pink/30 overflow-hidden [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h5">
+						<button type="button" class="toggleFaqBtn flex items-center gap-5 w-full transition-all py-4 px-6 relative before:absolute before:content-['\e900'] before:right-6 before:top-5 lg:before:top-4 before:font-icomoon"> <i class="icon-support-accordion text-ss-pink text-2xl"></i>
 							<h3>Wearing a fitness device</h3>
-						</div>
-						<div class="relative before:absolute before:left-5 before:right-5 before:h-[1px] before:bg-black/10 accordion-content px-6 pt-0 overflow-hidden max-h-0 rounded-b-xl [&_p]:pt-6 [&_p]:opacity-70">
+						</button>
+						<div class="toggleBlock hidden relative before:absolute before:left-5 before:right-5 before:h-[1px] before:bg-black/10 px-6 pt-0 rounded-b-xl [&_p]:pt-6 [&_p]:opacity-70">
 							<p>
 								Vitality PLUS members can choose from a list of new free or discounted fitness devices, earn the latest Apple Watch for as little as $25 plus tax5, or use a compatible device they already own. You can earn Vitality Points as your device logs your activity level — in steps, calories burned & heart rate.
 							</p>
 						</div>
-					</div>
-					<div class="transition rounded-xl border border-ss-pink/30">
-						<div class="relative before:absolute before:content-['\e900'] before:right-6 before:top-5 lg:before:top-4 before:font-icomoon accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h5 py-4 px-6 [&_h3]:pr-6">
-							<i class="icon-support-accordion text-ss-pink text-2xl"></i>
+					</div><!-- /.item -->
+					<div class="item rounded-xl border border-ss-pink/30 overflow-hidden [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h5">
+						<button type="button" class="toggleFaqBtn flex items-center gap-5 w-full transition-all py-4 px-6 relative before:absolute before:content-['\e900'] before:right-6 before:top-5 lg:before:top-4 before:font-icomoon"> <i class="icon-support-accordion text-ss-pink text-2xl"></i>
 							<h3>Checking in at the gym</h3>
-						</div>
-						<div class="relative before:absolute before:left-5 before:right-5 before:h-[1px] before:bg-black/10 accordion-content px-6 pt-0 overflow-hidden max-h-0 rounded-b-xl [&_p]:pt-6 [&_p]:opacity-70">
+						</button>
+						<div class="toggleBlock hidden relative before:absolute before:left-5 before:right-5 before:h-[1px] before:bg-black/10 px-6 pt-0 rounded-b-xl [&_p]:pt-6 [&_p]:opacity-70">
 							<p>
 								<span class="font-semibold pb-3 block">Earn points with the John Hancock Vitality app, each time you check in at the gym and workout.</span>
 								5Apple Watch program is not available in New York or Puerto Rico. Apple Watches ordered through John Hancock Vitality may not be shipped to addresses in Guam. Once you become a Vitality PLUS member and complete the Vitality Health Review (VHR), you can order Apple Watch by electronically signing, at checkout, a Retail Installment Agreement with the Vitality Group, for the retail price of the watch. After an initial payment of $25 plus tax, over the next two years, monthly out-of-pocket payments are based on the number of Standard Workouts (10,000 to 14,999 steps) and Advanced Workouts (15,000 steps) or the applicable Active Calorie or heart rate thresholds. The step counts required for Standard and Advanced Workouts are reduced for members beginning at age 71+. One-time upgrade fees plus taxes apply if you choose (GPS + Cellular) versions of Apple Watch, larger watch case sizes, and certain bands and case materials. For more information, please visit JohnHancock.com. Apple is not a participant in or sponsor of this promotion. Apple Watch Series 7 requires iPhone 6s or later with iOS 15 or later. Apple Watch SE requires iPhone 6s or later with iOS 14 or later. Apple Watch is a registered trademark of Apple Inc. All rights reserved.
 							</p>
 						</div>
-					</div>
+					</div><!-- /.item -->
 				</div>
 			</div>
 		</div>
@@ -561,67 +559,67 @@ get_header();
 				<p class="section-tag">Benefits</p>
 				<h2>Feel Confident With John Hancock Vitality Term</h2>
 			</div>
-			<div class="accordion counter-increment">
-				<div class="transition rounded-xl">
-					<div class="accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
+			<div class="benefit-accordion counter-increment">
+				<div class="item rounded-xl overflow-hidden">
+					<button type="button" class="toggleFaqBtn cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
 						<div class="[&_p]:bg-primary [&_p]:rounded-full [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:m-0 [&_p]:justify-center [&_p]:items-center">
 							<p><span class="list-number"></span></p>
 						</div>
 						<h3>Savings and rewards for healthy living</h3>
-					</div>
-					<div class="accordion-content px-6 pt-0 overflow-hidden max-h-0 rounded-b-xl [&_p]:pl-16 [&_p]:opacity-70">
+					</button>
+					<div class="toggleBlock px-6 pt-0 hidden rounded-b-xl [&_p]:pl-16 [&_p]:opacity-70">
 						<p>
 							Your clients’ policy wil l automatical ly include the John Hancock Vitality PLUS program, which means they can earn premium savings and rewards for the everyday steps they take to live healthy.
 						</p>
 					</div>
 				</div>
-				<div class="transition rounded-xl">
-					<div class="accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
+				<div class="item rounded-xl overflow-hidden">
+					<button type="button" class="toggleFaqBtn cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
 						<div class="[&_p]:bg-primary [&_p]:rounded-full [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:m-0 [&_p]:justify-center [&_p]:items-center">
 							<p><span class="list-number"></span></p>
 						</div>
 						<h3>Guaranteed conversion feature</h3>
-					</div>
-					<div class="accordion-content px-6 pt-0 overflow-hidden max-h-0 rounded-b-xl [&_p]:pl-16 [&_p]:opacity-70">
+					</button>
+					<div class="toggleBlock px-6 pt-0 hidden rounded-b-xl [&_p]:pl-16 [&_p]:opacity-70">
 						<p>
 							Your clients’ policy wil l automatical ly include the John Hancock Vitality PLUS program, which means they can earn premium savings and rewards for the everyday steps they take to live healthy.
 						</p>
 					</div>
 				</div>
-				<div class="transition rounded-xl">
-					<div class="accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
+				<div class="item rounded-xl overflow-hidden">
+					<button type="button" class="toggleFaqBtn cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
 						<div class="[&_p]:bg-primary [&_p]:rounded-full [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:m-0 [&_p]:justify-center [&_p]:items-center">
 							<p><span class="list-number"></span></p>
 						</div>
 						<h3>Extra financial protection to meet the unexpected</h3>
-					</div>
-					<div class="accordion-content px-6 pt-0 overflow-hidden max-h-0 rounded-b-xl [&_p]:pl-16 [&_p]:opacity-70">
+					</button>
+					<div class="toggleBlock px-6 pt-0 hidden rounded-b-xl [&_p]:pl-16 [&_p]:opacity-70">
 						<p>
 							Your clients’ policy wil l automatical ly include the John Hancock Vitality PLUS program, which means they can earn premium savings and rewards for the everyday steps they take to live healthy.
 						</p>
 					</div>
 				</div>
-				<div class="transition rounded-xl">
-					<div class="accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
+				<div class="item rounded-xl overflow-hidden">
+					<button type="button" class="toggleFaqBtn cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
 						<div class="[&_p]:bg-primary [&_p]:rounded-full [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:m-0 [&_p]:justify-center [&_p]:items-center">
 							<p><span class="list-number"></span></p>
 						</div>
 						<h3>Cost-effective coverage for fixed period of time</h3>
-					</div>
-					<div class="accordion-content px-6 pt-0 overflow-hidden max-h-0 rounded-b-xl [&_p]:pl-16 [&_p]:opacity-70">
+					</button>
+					<div class="toggleBlock px-6 pt-0 hidden rounded-b-xl [&_p]:pl-16 [&_p]:opacity-70">
 						<p>
 							Your clients’ policy wil l automatical ly include the John Hancock Vitality PLUS program, which means they can earn premium savings and rewards for the everyday steps they take to live healthy.
 						</p>
 					</div>
 				</div>
-				<div class="transition rounded-xl">
-					<div class="accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
+				<div class="item rounded-xl overflow-hidden">
+					<button type="button" class="toggleFaqBtn cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
 						<div class="[&_p]:bg-primary [&_p]:rounded-full [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:m-0 [&_p]:justify-center [&_p]:items-center">
 							<p><span class="list-number"></span></p>
 						</div>
 						<h3>Simplified Vitality experience</h3>
-					</div>
-					<div class="accordion-content px-6 pt-0 overflow-hidden max-h-0 rounded-b-xl [&_p]:pl-16 [&_p]:opacity-70">
+					</button>
+					<div class="toggleBlock px-6 pt-0 hidden rounded-b-xl [&_p]:pl-16 [&_p]:opacity-70">
 						<p>
 							Your clients’ policy wil l automatical ly include the John Hancock Vitality PLUS program, which means they can earn premium savings and rewards for the everyday steps they take to live healthy.
 						</p>
@@ -680,31 +678,32 @@ get_header();
 				<h2>Have questions Get answers</h2>
 			</div>
 			<div class="faq-accordion">
-				<div class="transition border-b border-ss-dark-blue/20">
-					<div class="relative before:absolute before:content-['\e900'] before:right-0 before:opacity-20 before:top-3 before:font-icomoon accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5">
+				<div class="item border-b border-ss-dark-blue/20 overflow-hidden">
+					<button type="button" class="toggleFaqBtn w-full transition-all relative before:absolute before:content-['\e900'] before:right-0 before:opacity-20 before:top-3 before:font-icomoon [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5 text-left">
 						<h3>Who is Vitality?</h3>
-					</div>
-					<div class="accordion-content pt-0 overflow-hidden max-h-0 [&_p]:opacity-70">
+					</button>
+					<div class="toggleBlock hidden pt-0 [&_p]:opacity-70">
 						<p>
 							We’re collaborating with Vitality because they’re the global leader in integrating wellness benefits with life insurance products. Vitality has an established track-record of creating interactive, personalized programs. Millions of members worldwide use their online tools to identify and track health and lifestyle goals
 						</p>
 					</div>
 				</div>
-				<div class="transition border-b border-ss-dark-blue/20">
-					<div class="relative before:absolute before:content-['\e900'] before:right-0 before:opacity-20 before:top-3 before:font-icomoon accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5">
+				<div class="item border-b border-ss-dark-blue/20 overflow-hidden">
+					<button type="button" class="toggleFaqBtn w-full transition-all relative before:absolute before:content-['\e900'] before:right-0 before:opacity-20 before:top-3 before:font-icomoon [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5 text-left">
 						<h3>Can a client who is rated still benefit from the program?</h3>
-					</div>
-					<div class="accordion-content pt-0 overflow-hidden max-h-0 [&_p]:opacity-70">
+					</button>
+					<div class="toggleBlock hidden pt-0 [&_p]:opacity-70">
 						<p>
 							Yes, even clients with medical impairments can benefit from the program. Remember, they don’t have to be an athlete to participate. Members can earn points by doing simple things like walking, taking online courses, or visiting the dentist. In fact, if your client is living with diabetes, the program offers additional resources and point-earning activities to help them live long, healthy lives. Visit JHSalesHub.com/Aspire for more information.
 						</p>
 					</div>
 				</div>
-				<div class="transition border-b border-ss-dark-blue/20">
-					<div class="relative before:absolute before:content-['\e900'] before:right-0 before:opacity-20 before:top-3 before:font-icomoon accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5">
+
+				<div class="item border-b border-ss-dark-blue/20 overflow-hidden">
+					<button type="button" class="toggleFaqBtn w-full transition-all relative before:absolute before:content-['\e900'] before:right-0 before:opacity-20 before:top-3 before:font-icomoon [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5 text-left">
 						<h3>Can my older clients benefit from the program?</h3>
-					</div>
-					<div class="accordion-content pt-0 overflow-hidden max-h-0 [&_p]:opacity-70">
+					</button>
+					<div class="toggleBlock hidden pt-0 [&_p]:opacity-70">
 						<p>
 							Yes, the Vitality Program is available for issue ages 71 through 90. This customized program takes into account an older client’s unique health and wellness considerations. That means, they’ll get rewarded for the things they do to stay healthy, but at a pace that makes sense for them.
 						</p>
@@ -713,11 +712,13 @@ get_header();
 						</p>
 					</div>
 				</div>
-				<div class="transition border-b border-ss-dark-blue/20">
-					<div class="relative before:absolute before:content-['\e900'] before:right-0 before:opacity-20 before:top-3 before:font-icomoon accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5">
+
+
+				<div class="item border-b border-ss-dark-blue/20 overflow-hidden">
+					<button type="button" class="toggleFaqBtn w-full transition-all relative before:absolute before:content-['\e900'] before:right-0 before:opacity-20 before:top-3 before:font-icomoon [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5 text-left">
 						<h3>How does the Apple Watch program work?</h3>
-					</div>
-					<div class="accordion-content pt-0 overflow-hidden max-h-0">
+					</button>
+					<div class="toggleBlock hidden pt-0">
 						<div class="marker:text-ss-dark-blue [&_p]:opacity-70 marker:opacity-70">
 							<p>
 								The program is available to both new and inforce John Hancock Vitality clients. Here is a brief overview of how the program works:
@@ -797,11 +798,11 @@ get_header();
 						</div>
 					</div>
 				</div>
-				<div class="transition">
-					<div class="relative before:absolute before:content-['\e900'] before:right-0 before:opacity-20 before:top-3 before:font-icomoon accordion-header cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5">
+				<div class="item overflow-hidden">
+					<button type="button" class="toggleFaqBtn w-full transition-all relative before:absolute before:content-['\e900'] before:right-0 before:opacity-20 before:top-3 before:font-icomoon [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5 text-left">
 						<h3>What is considered a Standard or Advanced Workout?</h3>
-					</div>
-					<div class="accordion-content pt-0 overflow-hidden max-h-0 [&_p]:opacity-70">
+					</button>
+					<div class="toggleBlock hidden pt-0 [&_p]:opacity-70">
 						<p>
 							Your clients’ monthly Apple Watch payments will be based on the number of Standard or Advanced Workouts they complete each month. The chart below details the many ways they can accomplish this:
 						</p>
