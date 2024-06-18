@@ -64,6 +64,6 @@
 }
 
 .list-number:before {
-	counter-increment: item + 1;
-	content: counter(item, decimal-leading-zero);
+	counter-increment: item+1;
+	content: counter(item,decimal-leading-zero);
 }
