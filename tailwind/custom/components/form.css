@@ -198,6 +198,7 @@
 .inline-form .gform_body,
 .inline-form .gform_footer {
 	@apply
+	w-full
 	basis-full
 	lg:basis-auto
 	max-w-[100%]
@@ -215,8 +216,6 @@
 .inline-form .gform_footer {
 	@apply
 	lg:max-w-[25%]
-	w-full
-	block
 	;
 }
 

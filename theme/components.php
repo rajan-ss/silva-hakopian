@@ -50,16 +50,16 @@ get_header();
 		</p>
 		<div class="flex ml-[18px]">
 			<figure class="-ml-[18px]">
-				<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/client-4.png" alt="Client 4" width="52" height="52" loading="lazy">
+				<img src="<?php echo site_url() ?>/wp-content/uploads/client-4.png" alt="Client 4" width="52" height="52" loading="lazy">
 			</figure>
 			<figure class="-ml-[18px]">
-				<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/client-3.png" alt="Client 3" width="52" height="52" loading="lazy">
+				<img src="<?php echo site_url() ?>/wp-content/uploads/client-3.png" alt="Client 3" width="52" height="52" loading="lazy">
 			</figure>
 			<figure class="-ml-[18px]">
-				<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/client-2.png" alt="Client 2" width="52" height="52" loading="lazy">
+				<img src="<?php echo site_url() ?>/wp-content/uploads/client-2.png" alt="Client 2" width="52" height="52" loading="lazy">
 			</figure>
 			<figure class="-ml-[18px]">
-				<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/client-1.png" alt="Client 1" width="52" height="52" loading="lazy">
+				<img src="<?php echo site_url() ?>/wp-content/uploads/client-1.png" alt="Client 1" width="52" height="52" loading="lazy">
 			</figure>
 		</div>
 	</div>

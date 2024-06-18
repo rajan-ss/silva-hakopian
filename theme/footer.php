@@ -18,27 +18,27 @@
 	<div class="container pt-12 pb-10 flex max-lg:flex-col max-lg:items-center justify-between gap-4">
 		<div>
 			<figure class="pb-10">
-				<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/header-logo.png" alt="Silva logo" width="198" height="67" loading="lazy">
+				<img src="<?php echo site_url() ?>/wp-content/uploads/header-logo.png" alt="Silva logo" width="198" height="67" loading="lazy">
 			</figure>
 			<div class="flex flex-row gap-2">
 				<a href="#">
 					<figure>
-						<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/Insta.png" alt="Insta" width="34" height="35" loading="lazy">
+						<img src="<?php echo site_url() ?>/wp-content/uploads/Insta.png" alt="Insta" width="34" height="35" loading="lazy">
 					</figure>
 				</a>
 				<a href="#">
 					<figure>
-						<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/Linkedin.png" alt="Linkedin" width="34" height="35" loading="lazy">
+						<img src="<?php echo site_url() ?>/wp-content/uploads/Linkedin.png" alt="Linkedin" width="34" height="35" loading="lazy">
 					</figure>
 				</a>
 				<a href="#">
 					<figure>
-						<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/Twitter.png" alt="Twitter" width="34" height="35" loading="lazy">
+						<img src="<?php echo site_url() ?>/wp-content/uploads/Twitter.png" alt="Twitter" width="34" height="35" loading="lazy">
 					</figure>
 				</a>
 				<a href="#">
 					<figure>
-						<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/Facebook.png" alt="Facebook" width="34" height="35" loading="lazy">
+						<img src="<?php echo site_url() ?>/wp-content/uploads/Facebook.png" alt="Facebook" width="34" height="35" loading="lazy">
 					</figure>
 				</a>
 

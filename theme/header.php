@@ -35,7 +35,7 @@
 		<header class="site-header bg-ss-dark-blue">
 			<div class="container flex justify-between py-12">
 				<figure>
-					<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/header-logo.png" alt="Silva logo" width="198" height="67" loading="lazy">
+					<img src="<?php echo site_url() ?>/wp-content/uploads/header-logo.png" alt="Silva logo" width="198" height="67" loading="lazy">
 				</figure>
 				<div class="flex flex-wrap justify-end items-center gap-2 sm:space-x-4 lg::space-x-8 text-lg font-semibold leading-[1.11]">
 					<a href="mailto:insurance@healthyhabit4life.com" class="flex items-center group">
@@ -71,7 +71,7 @@
 						<!-- Calendly link widget end -->
 					</div>
 					<figure class="lg:absolute right-0 bottom-12">
-						<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/header-banner.png" alt="Hero Banner" width="778" height="500" loading="lazy">
+						<img src="<?php echo site_url() ?>/wp-content/uploads/header-banner.png" alt="Hero Banner" width="778" height="500" loading="lazy">
 					</figure>
 				</div>
 			</section>
