@@ -52,7 +52,7 @@ var ss;
 				function () {
 					if (
 						location.pathname.replace(/^\//, '') ==
-						this.pathname.replace(/^\//, '') &&
+							this.pathname.replace(/^\//, '') &&
 						location.hostname == this.hostname
 					) {
 						var target = jQuery(this.hash);
@@ -62,7 +62,9 @@ var ss;
 						if (target.length) {
 							jQuery('html, body').animate(
 								{
-									scrollTop: target.offset().top - ($('.site-header').innerHeight()),
+									scrollTop:
+										target.offset().top -
+										$('.site-header').innerHeight(),
 								},
 								1e3
 							);
@@ -117,7 +119,7 @@ var ss;
 				}
 
 				// Initial calls
-				siteContentOffset();
+				/*siteContentOffset();
 				handleStickyHeader();
 
 				// Call the function when the window is scrolled
@@ -133,7 +135,7 @@ var ss;
 						siteContentOffset();
 						$('.clsFix').removeClass('.clsFix');
 					}, 1000);
-				});
+				});*/
 
 				//match-height
 				$('[data-fix="height"]').matchHeight();
@@ -154,13 +156,11 @@ var ss;
 						stickyFooter();
 					}, 250);
 				});
-
 			} catch (err) {
 				console.log(err);
 			}
 		},
 		togglers: function () {
-
 			// Faq accordion
 			$(document).on('click', '.toggleFaqBtn', function (e) {
 				e.stopPropagation(); // Prevents the event from bubbling up the DOM tree
@@ -168,8 +168,14 @@ var ss;
 				var clickedToggleBtn = $(this); // Refers to the specific button that was clicked
 
 				$('.toggleFaqBtn').not(clickedToggleBtn).removeClass('active'); // Removes 'active' class from other buttons
-				$('.toggleFaqBtn').not(clickedToggleBtn).parent('.item').removeClass('active'); // Removes 'active' class from other parent elements
-				$('.toggleFaqBtn').not(clickedToggleBtn).siblings('.toggleBlock').slideUp(); // Hides other toggleBlock elements
+				$('.toggleFaqBtn')
+					.not(clickedToggleBtn)
+					.parent('.item')
+					.removeClass('active'); // Removes 'active' class from other parent elements
+				$('.toggleFaqBtn')
+					.not(clickedToggleBtn)
+					.siblings('.toggleBlock')
+					.slideUp(); // Hides other toggleBlock elements
 
 				clickedToggleBtn.toggleClass('active'); // Toggles 'active' class on the clicked button
 				clickedToggleBtn.parent('.item').toggleClass('active'); // Toggles 'active' class on the parent element
@@ -178,28 +184,25 @@ var ss;
 
 			// Footer toggleBtn
 			$('.toggleBtn').click(function () {
-				$('.toggleBtn')
-					.not(this)
-					.siblings('.toggleBlock')
-					.slideUp();
+				$('.toggleBtn').not(this).siblings('.toggleBlock').slideUp();
 				$(this).toggleClass('active');
 				$('.toggleBtn').not(this).removeClass('active');
 				$(this).siblings('.toggleBlock').slideToggle();
 			});
 			//custom tab
-			$(".tab-btn").click(function () {
+			$('.tab-btn').click(function () {
 				// Remove 'active' class from all tab btns
-				$(".tab-btn").removeClass("active");
+				$('.tab-btn').removeClass('active');
 
 				// Add 'active' class to the clicked tab btn
-				$(this).addClass("active");
+				$(this).addClass('active');
 
 				// Hide all tab content panes
-				$(".tab-item").addClass("hidden");
+				$('.tab-item').addClass('hidden');
 
 				// Get the target tab content based on data-target attribute
-				var targetId = $(this).attr("data-target");
-				$(targetId).removeClass("hidden");
+				var targetId = $(this).attr('data-target');
+				$(targetId).removeClass('hidden');
 			});
 
 			// Custom tab and dropdown on mobile
@@ -216,15 +219,25 @@ var ss;
 				// Function to handle tab click
 				function handleTabClick(e) {
 					// Check if the clicked element is a navigation item
-					if (e.target.classList.contains("nav-item")) {
+					if (e.target.classList.contains('nav-item')) {
 						e.preventDefault(); // Prevent default link behavior
-						const itemTarget = e.target.getAttribute("href").replace("#", "");
+						const itemTarget = e.target
+							.getAttribute('href')
+							.replace('#', '');
 						const tabPane = document.getElementById(itemTarget); // Get the target tab pane
 
 						if (tabPane) {
 							// Remove 'active' class from all navigation items and hide all tab panes
-							document.querySelectorAll('.nav-item').forEach(navItem => navItem.classList.remove('active'));
-							document.querySelectorAll('.tabPane').forEach(tabPane => tabPane.classList.add('hidden'));
+							document
+								.querySelectorAll('.nav-item')
+								.forEach((navItem) =>
+									navItem.classList.remove('active')
+								);
+							document
+								.querySelectorAll('.tabPane')
+								.forEach((tabPane) =>
+									tabPane.classList.add('hidden')
+								);
 
 							// Add 'active' class to the clicked navigation item and show the corresponding tab pane
 							e.target.classList.add('active');
@@ -252,7 +265,9 @@ var ss;
 				});
 
 				// Update drop button text initially
-				const initialActiveNavItem = document.querySelector('.ss-custom-tab .nav-item.active');
+				const initialActiveNavItem = document.querySelector(
+					'.ss-custom-tab .nav-item.active'
+				);
 				if (initialActiveNavItem) {
 					updateDropButtonText(initialActiveNavItem.textContent);
 				}
@@ -307,53 +322,53 @@ var ss;
 	});
 })(jQuery);
 
-const accordionHeader = document.querySelectorAll(".accordion-header");
+const accordionHeader = document.querySelectorAll('.accordion-header');
 accordionHeader.forEach((header) => {
-	header.addEventListener("click", function () {
-		const accordionContent = header.parentElement.querySelector(".accordion-content");
+	header.addEventListener('click', function () {
+		const accordionContent =
+			header.parentElement.querySelector('.accordion-content');
 		const accordionMaxHeight = accordionContent.style.maxHeight;
 
 		// Condition handling
-		if (accordionMaxHeight == "0px" || accordionMaxHeight.length == 0) {
+		if (accordionMaxHeight == '0px' || accordionMaxHeight.length == 0) {
 			accordionContent.style.maxHeight = `${accordionContent.scrollHeight + 32}px`;
-			accordionContent.classList.add("bg-white");
-			header.parentElement.classList.add("active");
+			accordionContent.classList.add('bg-white');
+			header.parentElement.classList.add('active');
 		} else {
 			accordionContent.style.maxHeight = `0px`;
-			header.parentElement.classList.remove("active");
+			header.parentElement.classList.remove('active');
 		}
 	});
 });
 
 //Tabs
-const tabs = document.querySelectorAll('[data-tab-target]')
-const tabContents = document.querySelectorAll('[data-tab-content]')
+const tabs = document.querySelectorAll('[data-tab-target]');
+const tabContents = document.querySelectorAll('[data-tab-content]');
 
 tabs.forEach((tab) => {
 	tab.addEventListener('click', () => {
-		const target = document.querySelector(tab.dataset.tabTarget)
+		const target = document.querySelector(tab.dataset.tabTarget);
 		tabContents.forEach((tab) => {
-			tab.classList.add('hidden')
-		})
+			tab.classList.add('hidden');
+		});
 		tabs.forEach((tab) => {
 			if (tab.classList.contains('selected')) {
-				tab.classList.remove('selected')
+				tab.classList.remove('selected');
 			}
-		})
-		target.classList.remove('hidden')
-		tab.classList.add('selected')
-	})
+		});
+		target.classList.remove('hidden');
+		tab.classList.add('selected');
+	});
 });
 
 //Video Play Button
-const playVideo = document.getElementById('play-video')
-const video = document.getElementById('video')
-const videoOverlay = document.getElementById('video-overlay')
+const playVideo = document.getElementById('play-video');
+const video = document.getElementById('video');
+const videoOverlay = document.getElementById('video-overlay');
 playVideo.addEventListener('click', () => {
-	video.play()
-	console.log(videoOverlay)
-	videoOverlay.classList.add('hidden')
+	video.play();
+	console.log(videoOverlay);
+	videoOverlay.classList.add('hidden');
 	// console.log(videoOverlay.parentElement)
-	videoOverlay.parentElement.classList.add('before:opacity-0')
+	videoOverlay.parentElement.classList.add('before:opacity-0');
 });
-

@@ -2731,10 +2731,6 @@ address {
   bottom: 0px;
 }
 
-.bottom-12 {
-  bottom: 3rem;
-}
-
 .end-1 {
   inset-inline-end: 0.25rem;
 }
@@ -2745,10 +2741,6 @@ address {
 
 .left-1\/2 {
   left: 50%;
-}
-
-.right-0 {
-  right: 0px;
 }
 
 .start-1 {
@@ -2773,6 +2765,10 @@ address {
 
 .z-10 {
   z-index: 10;
+}
+
+.z-\[1\] {
+  z-index: 1;
 }
 
 .float-start {
@@ -2875,8 +2871,8 @@ address {
   margin-left: -18px;
 }
 
-.-mt-28 {
-  margin-top: -7rem;
+.-mt-16 {
+  margin-top: -4rem;
 }
 
 .mb-4 {
@@ -6994,6 +6990,11 @@ address {
   inset: 0px;
 }
 
+.before\:bottom-0::before {
+  content: var(--tw-content);
+  bottom: 0px;
+}
+
 .before\:left-5::before {
   content: var(--tw-content);
   left: 1.25rem;
@@ -7002,6 +7003,11 @@ address {
 .before\:right-0::before {
   content: var(--tw-content);
   right: 0px;
+}
+
+.before\:right-1\/2::before {
+  content: var(--tw-content);
+  right: 50%;
 }
 
 .before\:right-5::before {
@@ -7024,6 +7030,11 @@ address {
   top: 1.25rem;
 }
 
+.before\:-z-\[1\]::before {
+  content: var(--tw-content);
+  z-index: -1;
+}
+
 .before\:mx-auto::before {
   content: var(--tw-content);
   margin-left: auto;
@@ -7041,9 +7052,46 @@ address {
   height: 1px;
 }
 
+.before\:h-\[567px\]::before {
+  content: var(--tw-content);
+  height: 567px;
+}
+
+.before\:h-full::before {
+  content: var(--tw-content);
+  height: 100%;
+}
+
+.before\:w-\[700px\]::before {
+  content: var(--tw-content);
+  width: 700px;
+}
+
 .before\:w-\[80\%\]::before {
   content: var(--tw-content);
   width: 80%;
+}
+
+.before\:w-\[120\%\]::before {
+  content: var(--tw-content);
+  width: 120%;
+}
+
+.before\:w-\[150\%\]::before {
+  content: var(--tw-content);
+  width: 150%;
+}
+
+.before\:translate-x-1\/2::before {
+  content: var(--tw-content);
+  --tw-translate-x: 50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.before\:translate-x-\[20\%\]::before {
+  content: var(--tw-content);
+  --tw-translate-x: 20%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .before\:rounded-2xl::before {
@@ -7066,6 +7114,11 @@ address {
   background-image: url('http://work/silvahakopian.com/www/wp-content/uploads/Cash-back-Option.png');
 }
 
+.before\:bg-\[url\(\'images\/banner-bg\.png\'\)\]::before {
+  content: var(--tw-content);
+  background-image: url('images/banner-bg.png');
+}
+
 .before\:bg-gradient-to-t::before {
   content: var(--tw-content);
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
@@ -7081,6 +7134,11 @@ address {
 .before\:to-\[\#fe7b7c66\]::before {
   content: var(--tw-content);
   --tw-gradient-to: #fe7b7c66 var(--tw-gradient-to-position);
+}
+
+.before\:bg-auto::before {
+  content: var(--tw-content);
+  background-size: auto;
 }
 
 .before\:bg-contain::before {
@@ -7348,6 +7406,24 @@ address {
   .max-lg\:items-center {
     align-items: center;
   }
+
+  .max-lg\:before\:translate-x-1\/2::before {
+    content: var(--tw-content);
+    --tw-translate-x: 50%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .max-lg\:before\:-translate-x-1\/2::before {
+    content: var(--tw-content);
+    --tw-translate-x: -50%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .max-lg\:before\:-translate-x-1\/4::before {
+    content: var(--tw-content);
+    --tw-translate-x: -25%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
 }
 
 @media not all and (min-width: 768px) {
@@ -7399,6 +7475,10 @@ address {
     top: 4rem;
   }
 
+  .sm\:-mt-24 {
+    margin-top: -6rem;
+  }
+
   .sm\:mb-8 {
     margin-bottom: 2rem;
   }
@@ -7448,8 +7528,16 @@ address {
     padding-bottom: 3rem;
   }
 
+  .sm\:pb-12 {
+    padding-bottom: 3rem;
+  }
+
   .sm\:pr-\[14px\] {
     padding-right: 14px;
+  }
+
+  .sm\:pt-12 {
+    padding-top: 3rem;
   }
 
   .sm\:underline {
@@ -7513,16 +7601,16 @@ address {
 }
 
 @media (min-width: 1024px) {
-  .lg\:absolute {
-    position: absolute;
-  }
-
   .lg\:z-10 {
     z-index: 10;
   }
 
   .lg\:-mr-12 {
     margin-right: -3rem;
+  }
+
+  .lg\:-mt-28 {
+    margin-top: -7rem;
   }
 
   .lg\:mr-8 {
@@ -7533,8 +7621,8 @@ address {
     margin-right: 14px;
   }
 
-  .lg\:min-h-\[600px\] {
-    min-height: 600px;
+  .lg\:max-h-\[600px\] {
+    max-height: 600px;
   }
 
   .lg\:w-1\/2 {
@@ -7643,9 +7731,9 @@ address {
     top: 1rem;
   }
 
-  .lg\:before\:bg-\[url\(\'http\:\/\/work\/silvahakopian\.com\/www\/wp-content\/uploads\/Dotted-Line\.png\'\)\]::before {
+  .lg\:before\:-right-24::before {
     content: var(--tw-content);
-    background-image: url('http://work/silvahakopian.com/www/wp-content/uploads/Dotted-Line.png');
+    right: -6rem;
   }
 
   .lg\:before\:bg-\[url\(\'\.\/images\/dotted-line\.png\'\)\]::before {
@@ -7665,6 +7753,16 @@ address {
 
   .xl\:items-start {
     align-items: flex-start;
+  }
+
+  .xl\:before\:-right-24::before {
+    content: var(--tw-content);
+    right: -6rem;
+  }
+
+  .xl\:before\:w-\[843px\]::before {
+    content: var(--tw-content);
+    width: 843px;
   }
 }
 

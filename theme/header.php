@@ -62,21 +62,21 @@
 		</header>
 
 		<div id="content" class="site-content">
-			<section class="bg-ss-dark-blue relative">
-				<div class="container py-8 sm:py-12 lg:py-16 lg:min-h-[600px]">
+			<section class="bg-ss-dark-blue">
+				<div class="container flex justify-between max-lg:flex-col max-lg:items-center pt-8 sm:pt-12 lg:pt-16 pb-8 sm:pb-12 lg:max-h-[600px]">
 					<div class="text-white lg:[&_p]:mb-10 [&_p]:w-4/5 [&_h1]:mb-4 lg:w-3/5 relative lg:z-10">
 						<h1>Secure The Future Of Your Family & Improve Your Health With Simple Term Vitality</h1>
 						<p>Book a <a href="#" class="text-ss-pink hover:text-white">FREE 15 minute</a> consultation call with Independent Life Agent Silva Hakopian CSL # 4318303</p>
 						<a href="" class="btn btn-primary mb-4" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/silvah-ffl/free-consultation'});return false;">Schedule an Appointment </a>
 						<!-- Calendly link widget end -->
 					</div>
-					<figure class="lg:absolute right-0 bottom-12">
-						<img src="<?php echo site_url() ?>/wp-content/uploads/header-banner.png" alt="Hero Banner" width="778" height="500" loading="lazy">
+					<figure class="relative z-[1] before:bg-[url('images/banner-bg.png')] before:absolute before:right-0 before:translate-x-[20%] before:w-[150%] before:h-full">
+						<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/hero-cover-img.png" alt="Hero Cover Image" width="578" height="500" loading="lazy">
 					</figure>
 				</div>
 			</section>
 			<div class="container py-8 sm:py-12 lg:py-16">
-				<div class="inline-form rounded-xl border-t-8 border-ss-pink shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] py-11 px-10 [&_h2]:pb-6 -mt-28 relative bg-white z-10">
+				<div class="inline-form rounded-xl border-t-8 border-ss-pink shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] py-11 px-10 [&_h2]:pb-6 -mt-16 sm:-mt-24 lg:-mt-28 relative bg-white z-10">
 					<h2>Get An Insurance Quote To Get Started!</h2>
 					<?php echo do_shortcode('[gravityform id="1" title="false" description="false" ajax=true]'); ?>
 				</div>
