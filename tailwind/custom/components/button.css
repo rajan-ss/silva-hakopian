@@ -35,10 +35,6 @@
 	focus:bg-white
   focus:text-primary
   focus:border-primary
-
-	active:bg-white
-  active:text-primary
-  active:border-primary;
 }
 
 .btn-secondary {
@@ -51,10 +47,6 @@
 	focus:bg-primary
   focus:text-ss-dark-blue
   focus:border-ss-dark-blue
-
-	active:bg-primary
-  active:text-ss-dark-blue
-  active:border-ss-dark-blue;
 }
 
 .btn-block {

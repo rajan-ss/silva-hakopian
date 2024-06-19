@@ -52,7 +52,7 @@ var ss;
 				function () {
 					if (
 						location.pathname.replace(/^\//, '') ==
-							this.pathname.replace(/^\//, '') &&
+						this.pathname.replace(/^\//, '') &&
 						location.hostname == this.hostname
 					) {
 						var target = jQuery(this.hash);
@@ -62,12 +62,8 @@ var ss;
 						if (target.length) {
 							jQuery('html, body').animate(
 								{
-									scrollTop:
-										target.offset().top -
-										$('.site-header').innerHeight(),
-								},
-								1e3
-							);
+									scrollTop: target.offset().top - 20
+								}, 1000);
 							return false;
 						}
 					}
@@ -138,7 +134,7 @@ var ss;
 				});*/
 
 				//match-height
-				$('[data-fix="height"]').matchHeight();
+				// $('[data-fix="height"]').matchHeight();
 
 				// New script for stick footer
 				function stickyFooter() {
@@ -294,28 +290,28 @@ var ss;
 				},
 			});
 		},
-		gallery: function () {
-			try {
-				$('.fancybox').fancybox({
-					openEffect: 'none',
-					closeEffect: 'none',
-				});
-			} catch (err) {
-				console.log(err);
-			}
-			// try {
-			//     var fix = function () {
-			//         var t = $(".woocommerce-product-gallery__trigger"), h = t.next(".flex-viewport").outerHeight() - 16;
-			//         t.height(h);
-			//     };
-			//     $(window).bind("load resize", fix);
-			//     $(".woocommerce-product-gallery .flex-control-nav li").on("click", function () {
-			//         setTimeout(fix, 500);
-			//     });
-			// } catch (err) {
-			//     console.log(err);
-			// }
-		},
+		// gallery: function () {
+		// 	try {
+		// 		$('.fancybox').fancybox({
+		// 			openEffect: 'none',
+		// 			closeEffect: 'none',
+		// 		});
+		// 	} catch (err) {
+		// 		console.log(err);
+		// 	}
+		// 	try {
+		// 	    var fix = function () {
+		// 	        var t = $(".woocommerce-product-gallery__trigger"), h = t.next(".flex-viewport").outerHeight() - 16;
+		// 	        t.height(h);
+		// 	    };
+		// 	    $(window).bind("load resize", fix);
+		// 	    $(".woocommerce-product-gallery .flex-control-nav li").on("click", function () {
+		// 	        setTimeout(fix, 500);
+		// 	    });
+		// 	} catch (err) {
+		// 	    console.log(err);
+		// 	}
+		// },
 	};
 	$(function () {
 		ss.init();

@@ -33,6 +33,19 @@
 	font-icomoon;
 }
 
+.dropBtn.active {
+	@apply
+	relative;
+}
+
+.dropBtn.active::after{
+	@apply content-['\e908']
+	absolute
+	right-4
+	top-3.5
+	font-icomoon;
+}
+
 .faq-accordion .active {
 	@apply relative;
 }
@@ -40,7 +53,7 @@
 	@apply content-['\e908']
 	absolute
 	top-3
-	right-0
+	right-1
 	font-icomoon;
 }
 
@@ -49,6 +62,11 @@
 	[&_p]:text-white
 	[&_p]:font-bold
 	[&_p]:opacity-100
+	[&_i]:text-white;
+}
+.nav-item.active {
+	@apply bg-ss-pink
+	text-white
 	[&_i]:text-white;
 }
 

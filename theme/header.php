@@ -54,7 +54,7 @@
 						</span>
 						<span class="text-white group-hover:text-ss-pink max-lg:hidden transition ease-in-out duration-300">442-229-2409</span>
 					</a>
-					<a href="#gform_3" class="btn btn-secondary uppercase bg-white/10 text-white js-has-smooth">
+					<a href="#get-in-touch-form" class="btn btn-secondary uppercase bg-white/10 text-white js-has-smooth-scroll">
 						Get a quote
 					</a>
 				</div>
@@ -66,12 +66,12 @@
 				<div class="container flex justify-between max-lg:flex-col max-lg:items-center pt-8 sm:pt-12 lg:pt-16 pb-8 sm:pb-12 lg:max-h-[600px]">
 					<div class="text-white lg:[&_p]:mb-10 [&_p]:w-4/5 [&_h1]:mb-4 lg:w-3/5 relative lg:z-10">
 						<h1>Secure The Future Of Your Family & Improve Your Health With Simple Term Vitality</h1>
-						<p>Book a <a href="#" class="text-ss-pink hover:text-white">FREE 15 minute</a> consultation call with Independent Life Agent Silva Hakopian CSL # 4318303</p>
+						<p>Book a <a href="" class="text-ss-pink hover:text-white" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/silvah-ffl/free-consultation'});return false;">FREE 15 minute</a> consultation call with Independent Life Agent Silva Hakopian CSL # 4318303</p>
 						<a href="" class="btn btn-primary mb-4" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/silvah-ffl/free-consultation'});return false;">Schedule an Appointment </a>
 						<!-- Calendly link widget end -->
 					</div>
-					<figure class="relative z-[1] before:bg-[url('images/banner-bg.png')] before:absolute before:right-0 before:translate-x-[20%] before:w-[150%] before:h-full">
-						<img src="<?php echo site_url() ?>/wp-content/uploads/2024/06/hero-cover-img.png" alt="Hero Cover Image" width="578" height="500" loading="lazy">
+					<figure class="relative z-[1] before:bg-[url('images/banner-bg.png')] before:bg-no-repeat before:-z-[1] before:absolute before:right-0 before:translate-x-[20%] before:w-[150%] before:h-full">
+						<img src="<?php echo site_url() ?>/wp-content/uploads/hero-cover-img.png" alt="Hero Cover Image" width="578" height="500" loading="lazy">
 					</figure>
 				</div>
 			</section>

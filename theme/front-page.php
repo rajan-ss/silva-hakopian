@@ -151,262 +151,266 @@ get_header();
 
 <!--Start of Vitality Rewards Section-->
 <section class="pt-8 md:pt-12 lg:pt-16 pb-16 md:pb-24 lg:pb-32">
-	<div class="container flex flex-col lg:flex-row gap-12">
-		<div class="lg:w-1/2 w-full">
-			<div>
-				<p><span class="section-tag">Vitality Rewards</span></p>
-				<h2>Supporting You & Earning Points</h2>
-				<div class="[&_p]:opacity-70 [&_p]:pb-5">
-					<p>Select tiles that match your interests and learn how John Hancock Vitality can support you and help you earn rewards.</p>
+	<div class="container">
+		<div class="ss-custom-tab space-y-4 flex flex-col justify-between lg:flex-row">
+			<div class="mobile-dropdown mb-8 xl:mb-10 lg:w-1/2 flex flex-col">
+				<div class="lg:max-w-[570px]">
+					<p><span class="section-tag">Vitality Rewards</span></p>
+					<h2>Supporting You & Earning Points</h2>
+					<div class="[&_p]:opacity-70 [&_p]:pb-5">
+						<p>Select tiles that match your interests and learn how John Hancock Vitality can support you and help you earn rewards.</p>
+					</div>
+				</div>
+				<button class="dropBtn order-2 lg:order-none relative inline-block text-left w-full py-3 px-4 pr-12 leading-normal border border-gray-300 text-[15px] lg:text-[16px] capitalize after:content-['\e900'] after:font-icomoon after:text-[14px] after:absolute after:right-4 after:top-3.5 lg:hidden">Select Option</button>
+				<ul class="tabNav order-2 lg:order-none list-none space-y-0 pl-0 lg:flex flex-col gap-5 max-lg:border max-lg:border-ss-gray-350 hidden [&_a]:text-ss-dark-blue [&_a]:text-left lg:max-w-[450px]">
+					<li class="max-lg:border-t bg-ss-light-grey max-lg:border-t-gray-300 max-lg:first:border-t-0 max-lg:p-2"><a href="#tab-being-active" class="nav-item relative border w-full text-center rounded-lg transition-all duration-300 lg:hover:border-ss-pink active flex gap-5 items-center py-3 px-6 [&_p]:mb-0">
+							<i class="icon-support-accordion text-ss-pink text-2xl"></i>
+							Being active and exercising
+						</a></li>
+					<li class="max-lg:border-t bg-ss-light-grey max-lg:border-t-gray-300 max-lg:first:border-t-0 max-lg:p-2"><a href="#tab-eat-healthy" class="nav-item relative border w-full text-center rounded-lg transition-all duration-300 lg:hover:border-ss-pink flex gap-5 items-center py-3 px-6">
+							<i class="icon-support-accordion text-ss-pink text-2xl"></i>
+							Eat a healthy diet
+						</a></li>
+					<li class="max-lg:border-t bg-ss-light-grey max-lg:border-t-gray-300 max-lg:first:border-t-0 max-lg:p-2"><a href="#tab-improve-sleep" class="nav-item relative border w-full text-center rounded-lg transition-all duration-300 lg:hover:border-ss-pink flex gap-5 items-center py-3 px-6">
+							<i class="icon-support-accordion text-ss-pink text-2xl"></i>
+							Improving your sleep
+						</a></li>
+					<li class="max-lg:border-t bg-ss-light-grey max-lg:border-t-gray-300 max-lg:first:border-t-0 max-lg:p-2"><a href="#tab-mental-health" class="nav-item relative border w-full text-center rounded-lg transition-all duration-300 lg:hover:border-ss-pink flex gap-5 items-center py-3 px-6">
+							<i class="icon-support-accordion text-ss-pink text-2xl"></i>
+							Caring for your mental health
+						</a></li>
+					<li class="max-lg:border-t bg-ss-light-grey max-lg:border-t-gray-300 max-lg:first:border-t-0 max-lg:p-2"><a href="#tab-building-wellness" class="nav-item relative border w-full text-center rounded-lg transition-all duration-300 lg:hover:border-ss-pink flex gap-5 items-center py-3 px-6">
+							<i class="icon-support-accordion text-ss-pink text-2xl"></i>
+							Building on your wellness knowledge
+						</a></li>
+					<li class="max-lg:border-t bg-ss-light-grey max-lg:border-t-gray-300 max-lg:first:border-t-0 max-lg:p-2"><a href="#tab-preventive-care" class="nav-item relative border w-full text-center rounded-lg transition-all duration-300 lg:hover:border-ss-pink flex gap-5 items-center py-3 px-6">
+							<i class="icon-support-accordion text-ss-pink text-2xl"></i>
+							Prioritizing preventative care
+						</a></li>
+				</ul>
+				<div class="text-center lg:text-start order-1 lg:order-none mb-8 lg:mb-0">
+					<a href="tel:4422292409" class="btn btn-secondary group">
+						<i class="icon-call text-primary mr-3 group-hover:text-ss-dark-blue"></i>
+						442-229-2409
+					</a>
 				</div>
 			</div>
-			<div class="flex flex-col gap-4 max-w-[450px] max-lg:w-full max-lg:mx-auto pb-6">
-				<div class="rounded-lg bg-ss-light-grey tab-header selected" data-tab-target="#tab1">
-					<div class="cursor-pointer flex gap-5 items-center [&_p]:m-0 [&_p]:opacity-70 py-3 px-6">
-						<i class="icon-support-accordion text-ss-pink text-2xl"></i>
-						<p>Being active and exercising</p>
-					</div>
-				</div>
-				<div class="rounded-lg bg-ss-light-grey tab-header" data-tab-target="#tab2">
-					<div class="cursor-pointer flex gap-5 items-center [&_p]:m-0 [&_p]:opacity-70 py-3 px-6">
-						<i class="icon-support-accordion text-ss-pink text-2xl"></i>
-						<p>Eat a healthy diet</p>
-					</div>
-				</div>
-				<div class="rounded-lg bg-ss-light-grey tab-header" data-tab-target="#tab3">
-					<div class="cursor-pointer flex gap-5 items-center [&_p]:m-0 [&_p]:opacity-70 py-3 px-6">
-						<i class="icon-support-accordion text-ss-pink text-2xl"></i>
-						<p>Improving your sleep</p>
-					</div>
-				</div>
-				<div class="rounded-lg bg-ss-light-grey tab-header" data-tab-target="#tab4">
-					<div class="cursor-pointer flex gap-5 items-center [&_p]:m-0 [&_p]:opacity-70 py-3 px-6">
-						<i class="icon-support-accordion text-ss-pink text-2xl"></i>
-						<p>Caring for your mental health</p>
-					</div>
-				</div>
-				<div class="rounded-lg bg-ss-light-grey tab-header" data-tab-target="#tab5">
-					<div class="cursor-pointer flex gap-5 items-center [&_p]:m-0 [&_p]:opacity-70 py-3 px-6">
-						<i class="icon-support-accordion text-ss-pink text-2xl"></i>
-						<p>Building on your wellness knowledge</p>
-					</div>
-				</div>
-				<div class="rounded-lg bg-ss-light-grey tab-header" data-tab-target="#tab6">
-					<div class="cursor-pointer flex gap-5 items-center [&_p]:m-0 [&_p]:opacity-70 py-3 px-6">
-						<i class="icon-support-accordion text-ss-pink text-2xl"></i>
-						<p>Prioritizing preventative care</p>
-					</div>
-				</div>
-			</div>
-			<div class="text-center lg:text-start">
-				<a href="tel:4422292409" class="btn btn-secondary group">
-					<i class="icon-call text-primary mr-3 group-hover:text-ss-dark-blue"></i>
-					442-229-2409
-				</a>
-			</div>
-		</div>
-		<div class="lg:w-1/2 w-full rounded-xl border-t-8 border-ss-pink shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] [&_h4]:h5 py-5 md:py-9 px-4 md:px-8" id="tab1" data-tab-content>
-			<div>
-				<div class="h-20 w-20 bg-ss-dark-blue rounded-full flex justify-center items-center">
-					<i class="icon-supprot text-white text-4xl"></i>
-				</div>
-				<div class="[&_h3]:py-6 [&_h4]:h5">
-					<h3>Being active and exercising</h3>
-					<h4>Earn Vitality Points by:</h4>
-				</div>
-				<div class="vitality-accordion space-y-6">
-					<div class="item rounded-xl border border-ss-pink/30 overflow-hidden [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h5">
-						<button type="button" class="toggleFaqBtn flex items-center gap-5 w-full transition-all py-4 px-6 relative before:absolute before:content-['\e900'] before:right-6 before:top-5 lg:before:top-4 before:font-icomoon"> <i class="icon-support-accordion text-ss-pink text-2xl"></i>
-							<h3>Wearing a fitness device</h3>
-						</button>
-						<div class="toggleBlock hidden relative before:absolute before:left-5 before:right-5 before:h-[1px] before:bg-black/10 px-6 pt-0 rounded-b-xl [&_p]:pt-6 [&_p]:opacity-70">
-							<p>
-								Vitality PLUS members can choose from a list of new free or discounted fitness devices, earn the latest Apple Watch for as little as $25 plus tax5, or use a compatible device they already own. You can earn Vitality Points as your device logs your activity level — in steps, calories burned & heart rate.
-							</p>
+			<div class="lg:w-1/2 tabContent">
+				<div class="tabPane" id="tab-being-active">
+					<div class="w-full rounded-xl border-t-8 border-ss-pink shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] [&_h4]:h5 py-5 md:py-9 px-4 md:px-8">
+						<div class="h-20 w-20 bg-ss-dark-blue rounded-full flex justify-center items-center">
+							<i class="icon-supprot text-white text-4xl"></i>
 						</div>
-					</div><!-- /.item -->
-					<div class="item rounded-xl border border-ss-pink/30 overflow-hidden [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h5">
-						<button type="button" class="toggleFaqBtn flex items-center gap-5 w-full transition-all py-4 px-6 relative before:absolute before:content-['\e900'] before:right-6 before:top-5 lg:before:top-4 before:font-icomoon"> <i class="icon-support-accordion text-ss-pink text-2xl"></i>
-							<h3>Checking in at the gym</h3>
-						</button>
-						<div class="toggleBlock hidden relative before:absolute before:left-5 before:right-5 before:h-[1px] before:bg-black/10 px-6 pt-0 rounded-b-xl [&_p]:pt-6 [&_p]:opacity-70">
-							<p>
-								<span class="font-semibold pb-3 block">Earn points with the John Hancock Vitality app, each time you check in at the gym and workout.</span>
-								5Apple Watch program is not available in New York or Puerto Rico. Apple Watches ordered through John Hancock Vitality may not be shipped to addresses in Guam. Once you become a Vitality PLUS member and complete the Vitality Health Review (VHR), you can order Apple Watch by electronically signing, at checkout, a Retail Installment Agreement with the Vitality Group, for the retail price of the watch. After an initial payment of $25 plus tax, over the next two years, monthly out-of-pocket payments are based on the number of Standard Workouts (10,000 to 14,999 steps) and Advanced Workouts (15,000 steps) or the applicable Active Calorie or heart rate thresholds. The step counts required for Standard and Advanced Workouts are reduced for members beginning at age 71+. One-time upgrade fees plus taxes apply if you choose (GPS + Cellular) versions of Apple Watch, larger watch case sizes, and certain bands and case materials. For more information, please visit JohnHancock.com. Apple is not a participant in or sponsor of this promotion. Apple Watch Series 7 requires iPhone 6s or later with iOS 15 or later. Apple Watch SE requires iPhone 6s or later with iOS 14 or later. Apple Watch is a registered trademark of Apple Inc. All rights reserved.
-							</p>
+						<div class="[&_h3]:py-6 [&_h4]:h5">
+							<h3>Being active and exercising</h3>
+							<h4>Earn Vitality Points by:</h4>
 						</div>
-					</div><!-- /.item -->
+						<div class="vitality-accordion space-y-6">
+							<div class="item rounded-xl border border-ss-pink/30 overflow-hidden [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h5">
+								<button type="button" class="toggleFaqBtn flex items-center text-left gap-5 w-full transition-all py-4 px-6 relative before:absolute before:content-['\e900'] before:right-6 before:top-5 lg:before:top-4 before:font-icomoon"> <i class="icon-support-accordion text-ss-pink text-2xl"></i>
+									<h3>Wearing a fitness device</h3>
+								</button>
+								<div class="toggleBlock hidden relative before:absolute before:left-5 before:right-5 before:h-[1px] before:bg-black/10 px-6 pt-0 rounded-b-xl [&_p]:pt-6 [&_p]:opacity-70">
+									<p>
+										Vitality PLUS members can choose from a list of new free or discounted fitness devices, earn the latest Apple Watch for as little as $25 plus tax5, or use a compatible device they already own. You can earn Vitality Points as your device logs your activity level — in steps, calories burned & heart rate.
+									</p>
+								</div>
+							</div><!-- /.item -->
+							<div class="item rounded-xl border border-ss-pink/30 overflow-hidden [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h5">
+								<button type="button" class="toggleFaqBtn flex items-center text-left gap-5 w-full transition-all py-4 px-6 relative before:absolute before:content-['\e900'] before:right-6 before:top-5 lg:before:top-4 before:font-icomoon"> <i class="icon-support-accordion text-ss-pink text-2xl"></i>
+									<h3>Checking in at the gym</h3>
+								</button>
+								<div class="toggleBlock hidden relative before:absolute before:left-5 before:right-5 before:h-[1px] before:bg-black/10 px-6 pt-0 rounded-b-xl [&_p]:pt-6 [&_p]:opacity-70">
+									<p>
+										<span class="font-semibold pb-3 block">Earn points with the John Hancock Vitality app, each time you check in at the gym and workout.</span>
+										5Apple Watch program is not available in New York or Puerto Rico. Apple Watches ordered through John Hancock Vitality may not be shipped to addresses in Guam. Once you become a Vitality PLUS member and complete the Vitality Health Review (VHR), you can order Apple Watch by electronically signing, at checkout, a Retail Installment Agreement with the Vitality Group, for the retail price of the watch. After an initial payment of $25 plus tax, over the next two years, monthly out-of-pocket payments are based on the number of Standard Workouts (10,000 to 14,999 steps) and Advanced Workouts (15,000 steps) or the applicable Active Calorie or heart rate thresholds. The step counts required for Standard and Advanced Workouts are reduced for members beginning at age 71+. One-time upgrade fees plus taxes apply if you choose (GPS + Cellular) versions of Apple Watch, larger watch case sizes, and certain bands and case materials. For more information, please visit JohnHancock.com. Apple is not a participant in or sponsor of this promotion. Apple Watch Series 7 requires iPhone 6s or later with iOS 15 or later. Apple Watch SE requires iPhone 6s or later with iOS 14 or later. Apple Watch is a registered trademark of Apple Inc. All rights reserved.
+									</p>
+								</div>
+							</div><!-- /.item -->
+						</div>
+					</div>
 				</div>
-			</div>
-		</div>
-		<div class="lg:w-1/2 w-full rounded-xl border-t-8 border-ss-pink shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] [&_h4]:h5 py-5 md:py-9 px-4 md:px-8 hidden" id="tab2" data-tab-content>
-			<div>
-				<div class="h-20 w-20 bg-ss-dark-blue rounded-full flex justify-center items-center">
-					<i class="icon-supprot text-white text-4xl"></i>
-				</div>
-				<div class="[&_h3]:py-6">
-					<h3>Save money when you buy healthy food</h3>
-					<h4><span class="block font-normal pb-3">John Hancock Vitality makes it easier to buy healthy food3 at participating grocery stores.</span>Each month, Vitality PLUS members can:</h4>
-				</div>
-			</div>
-			<div class="[&_p]:capitalize [&_p]:m-0 lg:[&_p]:text-xl [&>ul_>li]:flex [&>ul_>li]:flex-row [&>ul_>li]:items-start [&>ul_>li]:gap-[18px] [&_ul]:pl-0">
-				<ul>
-					<li>
-						<i class="icon-support-accordion text-ss-pink text-2xl"></i>
-						<p>
-							Save up to $50 on fresh produce
-						</p>
-					</li>
-					<li>
-						<i class="icon-support-accordion text-ss-pink text-2xl"></i>
-						<p>
-							Earn up to 50 Vitality Points for fresh produce purchases
-						</p>
-					</li>
-					<li>
-						<i class="icon-support-accordion text-ss-pink text-2xl"></i>
-						<p>
-							Save up to $120 on special, promoted healthy items
-						</p>
-					</li>
-				</ul>
-				<h4><span class="block font-normal pb-3">*Remember to check which grocery stores participate before you shop.</span>3 HealthyFood savings are based on qualifying purchases and may vary based on the terms of the John Hancock Vitality Program. The HealthyFood program is currently not available in Guam.</h4>
-			</div>
-		</div>
-		<div class="lg:w-1/2 w-full rounded-xl border-t-8 border-ss-pink shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] [&_h4]:h5 py-5 md:py-9 px-4 md:px-8 hidden" id="tab3" data-tab-content>
-			<div>
-				<div class="h-20 w-20 bg-ss-dark-blue rounded-full flex justify-center items-center">
-					<i class="icon-supprot text-white text-4xl"></i>
-				</div>
-				<div class="[&_h3]:py-6">
-					<h3>Sleep better Get rewarded</h3>
-					<h4><span class="font-normal pb-3">John Hancock Vitality rewards you for a good night’s sleep</span> — a key to overall wellness.</h4>
-				</div>
-			</div>
-			<h4><span class="block font-normal pb-3">There are two ways you can earn points:"</span></h4>
-			<div class="[&_p]:capitalize [&_p]:m-0 lg:[&_p]:text-xl [&>ul_>li]:flex [&>ul_>li]:flex-row [&>ul_>li]:items-start [&>ul_>li]:gap-[18px] [&_ul]:pl-0">
-				<ul>
-					<li>
-						<i class="icon-support-accordion text-ss-pink text-2xl"></i>
-						<p>
-							Use the Vitality mobile app timer to document your sleep.
-						</p>
-					</li>
-				</ul>
-			</div>
-		</div>
-		<div class="lg:w-1/2 w-full rounded-xl border-t-8 border-ss-pink shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] [&_h4]:h5 py-5 md:py-9 px-4 md:px-8 hidden" id="tab4" data-tab-content>
-			<div>
-				<div class="h-20 w-20 bg-ss-dark-blue rounded-full flex justify-center items-center">
-					<i class="icon-supprot text-white text-4xl"></i>
-				</div>
-				<div class="[&_h3]:py-6">
-					<h3>Support your mental health</h3>
-					<h4><span class="block font-normal pb-3">Mental health is an essential part of your overall wellness. To support members’ well-being, Vitality PLUS offers a free, one-year subscription to Headspace®7 — a leading meditation app.</span> You can also earn Vitality Points using:</h4>
-				</div>
-			</div>
-			<div class="[&_p]:capitalize [&_p]:m-0 lg:[&_p]:text-xl [&>ul_>li]:flex [&>ul_>li]:flex-row [&>ul_>li]:items-start [&>ul_>li]:gap-[18px] [&_ul]:pl-0">
-				<ul>
-					<li>
-						<i class="icon-support-accordion text-ss-pink text-2xl"></i>
-						<p>
-							Compatible meditation apps.
-						</p>
-					</li>
-					<li>
-						<i class="icon-support-accordion text-ss-pink text-2xl"></i>
-						<p>
-							Calm
-						</p>
-					</li>
-					<li>
-						<i class="icon-support-accordion text-ss-pink text-2xl"></i>
-						<p>
-							Buddhify
-						</p>
-					</li>
-				</ul>
-				<h4><span class="block font-normal pb-3">7 The meditation portion of the program is compatible with apps such as Breathe, Buddhify, Calm and Headspace.</span></h4>
-			</div>
-		</div>
-		<div class="lg:w-1/2 w-full rounded-xl border-t-8 border-ss-pink shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] [&_h4]:h5 py-5 md:py-9 px-4 md:px-8 hidden" id="tab5" data-tab-content>
-			<div>
-				<div class="h-20 w-20 bg-ss-dark-blue rounded-full flex justify-center items-center">
-					<i class="icon-supprot text-white text-4xl"></i>
-				</div>
-				<div class="[&_h3]:py-6 [&_h4]:h5">
-					<h3>Find new ways to live a longer, healthier life</h3>
-					<h4><span class="block font-normal pb-3">John Hancock Vitality makes it easy to explore new ways to prioritize your health and well-being. </span>Earn Vitality Points when you:</h4>
-				</div>
-			</div>
-			<div class="[&_p]:capitalize [&_p]:m-0 lg:[&_p]:text-xl [&>ul_>li]:flex [&>ul_>li]:flex-row [&>ul_>li]:items-start [&>ul_>li]:gap-[18px] [&>ol_>li]:marker:text-ss-dark-blue [&>ol_>li]:marker:text-xl [&_ul]:pl-0">
-				<ul>
-					<li>
-						<i class="icon-support-accordion text-ss-pink text-2xl"></i>
-						<p>
-							Complete online courses and reviews
-						</p>
-					</li>
-					<li>
-						<i class="icon-support-accordion text-ss-pink text-2xl"></i>
+				<div class="tabPane hidden" id="tab-eat-healthy">
+					<div class="w-full rounded-xl border-t-8 border-ss-pink shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] [&_h4]:h5 py-5 md:py-9 px-4 md:px-8 ">
 						<div>
-							<p>
-								Watch Tufts Friedman School of Nutrition webinars
-							</p>
-							<ol>
-								<li>
-									<p>Find a topic</p>
-								</li>
-								<li>
-									<p>Take a short quiz</p>
-								</li>
-								<li>
-									<p>Receive Vitality Points</p>
-								</li>
-							</ol>
+							<div class="h-20 w-20 bg-ss-dark-blue rounded-full flex justify-center items-center">
+								<i class="icon-supprot text-white text-4xl"></i>
+							</div>
+							<div class="[&_h3]:py-6">
+								<h3>Save money when you buy healthy food</h3>
+								<h4><span class="block font-normal pb-3">John Hancock Vitality makes it easier to buy healthy food3 at participating grocery stores.</span>Each month, Vitality PLUS members can:</h4>
+							</div>
 						</div>
-					</li>
-				</ul>
-			</div>
-		</div>
-		<div class="lg:w-1/2 w-full rounded-xl border-t-8 border-ss-pink shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] [&_h4]:h5 py-5 md:py-9 px-4 md:px-8 hidden" id="tab6" data-tab-content>
-			<div>
-				<div class="h-20 w-20 bg-ss-dark-blue rounded-full flex justify-center items-center">
-					<i class="icon-supprot text-white text-4xl"></i>
+						<div class="[&_p]:capitalize [&_p]:m-0 lg:[&_p]:text-xl [&>ul_>li]:flex [&>ul_>li]:flex-row [&>ul_>li]:items-start [&>ul_>li]:gap-[18px] [&_ul]:pl-0">
+							<ul>
+								<li>
+									<i class="icon-support-accordion text-ss-pink text-2xl"></i>
+									<p>
+										Save up to $50 on fresh produce
+									</p>
+								</li>
+								<li>
+									<i class="icon-support-accordion text-ss-pink text-2xl"></i>
+									<p>
+										Earn up to 50 Vitality Points for fresh produce purchases
+									</p>
+								</li>
+								<li>
+									<i class="icon-support-accordion text-ss-pink text-2xl"></i>
+									<p>
+										Save up to $120 on special, promoted healthy items
+									</p>
+								</li>
+							</ul>
+							<h4><span class="block font-normal pb-3">*Remember to check which grocery stores participate before you shop.</span>3 HealthyFood savings are based on qualifying purchases and may vary based on the terms of the John Hancock Vitality Program. The HealthyFood program is currently not available in Guam.</h4>
+						</div>
+					</div>
+
 				</div>
-				<div class="[&_h3]:py-6 [&_h4]:h5">
-					<h3>Get credit for your annual checkups and visits</h3>
-					<h4><span class="block font-normal pb-3">John Hancock Vitality PLUS members can earn thousands of Vitality Points every year for attending preventative care appointments including:</span></h4>
+				<div class="tabPane hidden" id="tab-improve-sleep">
+					<div class="w-full rounded-xl border-t-8 border-ss-pink shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] [&_h4]:h5 py-5 md:py-9 px-4 md:px-8">
+						<div>
+							<div class="h-20 w-20 bg-ss-dark-blue rounded-full flex justify-center items-center">
+								<i class="icon-supprot text-white text-4xl"></i>
+							</div>
+							<div class="[&_h3]:py-6">
+								<h3>Sleep better Get rewarded</h3>
+								<h4><span class="font-normal pb-3">John Hancock Vitality rewards you for a good night’s sleep</span> — a key to overall wellness.</h4>
+							</div>
+						</div>
+						<h4><span class="block font-normal pb-3">There are two ways you can earn points:"</span></h4>
+						<div class="[&_p]:capitalize [&_p]:m-0 lg:[&_p]:text-xl [&>ul_>li]:flex [&>ul_>li]:flex-row [&>ul_>li]:items-start [&>ul_>li]:gap-[18px] [&_ul]:pl-0">
+							<ul>
+								<li>
+									<i class="icon-support-accordion text-ss-pink text-2xl"></i>
+									<p>
+										Use the Vitality mobile app timer to document your sleep.
+									</p>
+								</li>
+							</ul>
+						</div>
+					</div>
 				</div>
-			</div>
-			<div class="[&_p]:capitalize [&_p]:m-0 lg:[&_p]:text-xl [&>ul_>li]:flex [&>ul_>li]:flex-row [&>ul_>li]:items-start [&>ul_>li]:gap-[18px] [&>ol_>li]:marker:text-ss-dark-blue [&>ol_>li]:marker:text-xl [&_ul]:pl-0">
-				<ul>
-					<li>
-						<i class="icon-support-accordion text-ss-pink text-2xl"></i>
-						<p>
-							Dental checkups
-						</p>
-					</li>
-					<li>
-						<i class="icon-support-accordion text-ss-pink text-2xl"></i>
-						<p>
-							Vaccinations (flu, COVID-19)
-						</p>
-					</li>
-					<li>
-						<i class="icon-support-accordion text-ss-pink text-2xl"></i>
-						<p>
-							Mammograms and pap smears
-						</p>
-					</li>
-					<li>
-						<i class="icon-support-accordion text-ss-pink text-2xl"></i>
-						<p>
-							Vitality Health Check – check of your blood pressure,
-							glucose/HbA1c levels, cholesterol and BMI
-						</p>
-					</li>
-				</ul>
+				<div class="tabPane hidden" id="tab-mental-health">
+					<div class="w-full rounded-xl border-t-8 border-ss-pink shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] [&_h4]:h5 py-5 md:py-9 px-4 md:px-8">
+						<div>
+							<div class="h-20 w-20 bg-ss-dark-blue rounded-full flex justify-center items-center">
+								<i class="icon-supprot text-white text-4xl"></i>
+							</div>
+							<div class="[&_h3]:py-6">
+								<h3>Support your mental health</h3>
+								<h4><span class="block font-normal pb-3">Mental health is an essential part of your overall wellness. To support members’ well-being, Vitality PLUS offers a free, one-year subscription to Headspace®7 — a leading meditation app.</span> You can also earn Vitality Points using:</h4>
+							</div>
+						</div>
+						<div class="[&_p]:capitalize [&_p]:m-0 lg:[&_p]:text-xl [&>ul_>li]:flex [&>ul_>li]:flex-row [&>ul_>li]:items-start [&>ul_>li]:gap-[18px] [&_ul]:pl-0">
+							<ul>
+								<li>
+									<i class="icon-support-accordion text-ss-pink text-2xl"></i>
+									<p>
+										Compatible meditation apps.
+									</p>
+								</li>
+								<li>
+									<i class="icon-support-accordion text-ss-pink text-2xl"></i>
+									<p>
+										Calm
+									</p>
+								</li>
+								<li>
+									<i class="icon-support-accordion text-ss-pink text-2xl"></i>
+									<p>
+										Buddhify
+									</p>
+								</li>
+							</ul>
+							<h4><span class="block font-normal pb-3">7 The meditation portion of the program is compatible with apps such as Breathe, Buddhify, Calm and Headspace.</span></h4>
+						</div>
+					</div>
+				</div>
+				<div class="tabPane hidden" id="tab-building-wellness">
+					<div class="w-full rounded-xl border-t-8 border-ss-pink shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] [&_h4]:h5 py-5 md:py-9 px-4 md:px-8">
+						<div>
+							<div class="h-20 w-20 bg-ss-dark-blue rounded-full flex justify-center items-center">
+								<i class="icon-supprot text-white text-4xl"></i>
+							</div>
+							<div class="[&_h3]:py-6 [&_h4]:h5">
+								<h3>Find new ways to live a longer, healthier life</h3>
+								<h4><span class="block font-normal pb-3">John Hancock Vitality makes it easy to explore new ways to prioritize your health and well-being. </span>Earn Vitality Points when you:</h4>
+							</div>
+						</div>
+						<div class="[&_p]:capitalize [&_p]:m-0 lg:[&_p]:text-xl [&>ul_>li]:flex [&>ul_>li]:flex-row [&>ul_>li]:items-start [&>ul_>li]:gap-[18px] [&>ol_>li]:marker:text-ss-dark-blue [&>ol_>li]:marker:text-xl [&_ul]:pl-0">
+							<ul>
+								<li>
+									<i class="icon-support-accordion text-ss-pink text-2xl"></i>
+									<p>
+										Complete online courses and reviews
+									</p>
+								</li>
+								<li>
+									<i class="icon-support-accordion text-ss-pink text-2xl"></i>
+									<div>
+										<p>
+											Watch Tufts Friedman School of Nutrition webinars
+										</p>
+										<ol>
+											<li>
+												<p>Find a topic</p>
+											</li>
+											<li>
+												<p>Take a short quiz</p>
+											</li>
+											<li>
+												<p>Receive Vitality Points</p>
+											</li>
+										</ol>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="tabPane hidden" id="tab-preventive-care">
+					<div class="w-full rounded-xl border-t-8 border-ss-pink shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] [&_h4]:h5 py-5 md:py-9 px-4 md:px-8">
+						<div>
+							<div class="h-20 w-20 bg-ss-dark-blue rounded-full flex justify-center items-center">
+								<i class="icon-supprot text-white text-4xl"></i>
+							</div>
+							<div class="[&_h3]:py-6 [&_h4]:h5">
+								<h3>Get credit for your annual checkups and visits</h3>
+								<h4><span class="block font-normal pb-3">John Hancock Vitality PLUS members can earn thousands of Vitality Points every year for attending preventative care appointments including:</span></h4>
+							</div>
+						</div>
+						<div class="[&_p]:capitalize [&_p]:m-0 lg:[&_p]:text-xl [&>ul_>li]:flex [&>ul_>li]:flex-row [&>ul_>li]:items-start [&>ul_>li]:gap-[18px] [&>ol_>li]:marker:text-ss-dark-blue [&>ol_>li]:marker:text-xl [&_ul]:pl-0">
+							<ul>
+								<li>
+									<i class="icon-support-accordion text-ss-pink text-2xl"></i>
+									<p>
+										Dental checkups
+									</p>
+								</li>
+								<li>
+									<i class="icon-support-accordion text-ss-pink text-2xl"></i>
+									<p>
+										Vaccinations (flu, COVID-19)
+									</p>
+								</li>
+								<li>
+									<i class="icon-support-accordion text-ss-pink text-2xl"></i>
+									<p>
+										Mammograms and pap smears
+									</p>
+								</li>
+								<li>
+									<i class="icon-support-accordion text-ss-pink text-2xl"></i>
+									<p>
+										Vitality Health Check – check of your blood pressure,
+										glucose/HbA1c levels, cholesterol and BMI
+									</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -561,7 +565,7 @@ get_header();
 			</div>
 			<div class="benefit-accordion counter-increment">
 				<div class="item rounded-xl overflow-hidden">
-					<button type="button" class="toggleFaqBtn cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
+					<button type="button" class="toggleFaqBtn text-left cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
 						<div class="[&_p]:bg-primary [&_p]:rounded-full [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:m-0 [&_p]:justify-center [&_p]:items-center">
 							<p><span class="list-number"></span></p>
 						</div>
@@ -574,7 +578,7 @@ get_header();
 					</div>
 				</div>
 				<div class="item rounded-xl overflow-hidden">
-					<button type="button" class="toggleFaqBtn cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
+					<button type="button" class="toggleFaqBtn text-left cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
 						<div class="[&_p]:bg-primary [&_p]:rounded-full [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:m-0 [&_p]:justify-center [&_p]:items-center">
 							<p><span class="list-number"></span></p>
 						</div>
@@ -587,7 +591,7 @@ get_header();
 					</div>
 				</div>
 				<div class="item rounded-xl overflow-hidden">
-					<button type="button" class="toggleFaqBtn cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
+					<button type="button" class="toggleFaqBtn text-left cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
 						<div class="[&_p]:bg-primary [&_p]:rounded-full [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:m-0 [&_p]:justify-center [&_p]:items-center">
 							<p><span class="list-number"></span></p>
 						</div>
@@ -600,7 +604,7 @@ get_header();
 					</div>
 				</div>
 				<div class="item rounded-xl overflow-hidden">
-					<button type="button" class="toggleFaqBtn cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
+					<button type="button" class="toggleFaqBtn text-left cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
 						<div class="[&_p]:bg-primary [&_p]:rounded-full [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:m-0 [&_p]:justify-center [&_p]:items-center">
 							<p><span class="list-number"></span></p>
 						</div>
@@ -613,7 +617,7 @@ get_header();
 					</div>
 				</div>
 				<div class="item rounded-xl overflow-hidden">
-					<button type="button" class="toggleFaqBtn cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
+					<button type="button" class="toggleFaqBtn text-left cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
 						<div class="[&_p]:bg-primary [&_p]:rounded-full [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:m-0 [&_p]:justify-center [&_p]:items-center">
 							<p><span class="list-number"></span></p>
 						</div>
@@ -669,7 +673,7 @@ get_header();
 <!--Start of Get In Touch Section-->
 <section class="py-8 md:py-12 lg:py-16">
 	<div class="container flex flex-col lg:flex-row items-start gap-12">
-		<div class="w-full lg:w-2/5 get-in-touch-form shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] p-4 md:p-8 [&_h2]:pb-4 md:[&_h2]:pb-8">
+		<div class="w-full lg:w-2/5 get-in-touch-form shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] p-4 md:p-8 [&_h2]:pb-4 md:[&_h2]:pb-8" id="get-in-touch-form">
 			<h2>Get in Touch</h2>
 			<?php echo do_shortcode('[gravityform id="3" title="false" description="false" ajax=true]'); ?>
 		</div>
@@ -679,7 +683,7 @@ get_header();
 			</div>
 			<div class="faq-accordion">
 				<div class="item border-b border-ss-dark-blue/20 overflow-hidden">
-					<button type="button" class="toggleFaqBtn w-full transition-all relative before:absolute before:content-['\e900'] before:right-0 before:opacity-20 before:top-3 before:font-icomoon [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5 text-left">
+					<button type="button" class="toggleFaqBtn w-full transition-all relative before:absolute before:content-['\e900'] before:right-1 before:opacity-20 before:top-3 before:font-icomoon [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5 text-left">
 						<h3>Who is Vitality?</h3>
 					</button>
 					<div class="toggleBlock hidden pt-0 [&_p]:opacity-70">
@@ -689,7 +693,7 @@ get_header();
 					</div>
 				</div>
 				<div class="item border-b border-ss-dark-blue/20 overflow-hidden">
-					<button type="button" class="toggleFaqBtn w-full transition-all relative before:absolute before:content-['\e900'] before:right-0 before:opacity-20 before:top-3 before:font-icomoon [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5 text-left">
+					<button type="button" class="toggleFaqBtn w-full transition-all relative before:absolute before:content-['\e900'] before:right-1 before:opacity-20 before:top-3 before:font-icomoon [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5 text-left">
 						<h3>Can a client who is rated still benefit from the program?</h3>
 					</button>
 					<div class="toggleBlock hidden pt-0 [&_p]:opacity-70">
@@ -700,7 +704,7 @@ get_header();
 				</div>
 
 				<div class="item border-b border-ss-dark-blue/20 overflow-hidden">
-					<button type="button" class="toggleFaqBtn w-full transition-all relative before:absolute before:content-['\e900'] before:right-0 before:opacity-20 before:top-3 before:font-icomoon [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5 text-left">
+					<button type="button" class="toggleFaqBtn w-full transition-all relative before:absolute before:content-['\e900'] before:right-1 before:opacity-20 before:top-3 before:font-icomoon [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5 text-left">
 						<h3>Can my older clients benefit from the program?</h3>
 					</button>
 					<div class="toggleBlock hidden pt-0 [&_p]:opacity-70">
@@ -715,7 +719,7 @@ get_header();
 
 
 				<div class="item border-b border-ss-dark-blue/20 overflow-hidden">
-					<button type="button" class="toggleFaqBtn w-full transition-all relative before:absolute before:content-['\e900'] before:right-0 before:opacity-20 before:top-3 before:font-icomoon [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5 text-left">
+					<button type="button" class="toggleFaqBtn w-full transition-all relative before:absolute before:content-['\e900'] before:right-1 before:opacity-20 before:top-3 before:font-icomoon [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5 text-left">
 						<h3>How does the Apple Watch program work?</h3>
 					</button>
 					<div class="toggleBlock hidden pt-0">
@@ -799,7 +803,7 @@ get_header();
 					</div>
 				</div>
 				<div class="item overflow-hidden">
-					<button type="button" class="toggleFaqBtn w-full transition-all relative before:absolute before:content-['\e900'] before:right-0 before:opacity-20 before:top-3 before:font-icomoon [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5 text-left">
+					<button type="button" class="toggleFaqBtn w-full transition-all relative before:absolute before:content-['\e900'] before:right-1 before:opacity-20 before:top-3 before:font-icomoon [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5 text-left">
 						<h3>What is considered a Standard or Advanced Workout?</h3>
 					</button>
 					<div class="toggleBlock hidden pt-0 [&_p]:opacity-70">
