@@ -4259,8 +4259,8 @@ address {
   background-color: rgb(255 255 255 / 0.1);
 }
 
-.bg-\[url\(\'http\:\/\/work\/silvahakopian\.com\/www\/wp-content\/uploads\/watch-video-badge\.png\'\)\] {
-  background-image: url('http://work/silvahakopian.com/www/wp-content/uploads/watch-video-badge.png');
+.bg-\[url\(\'\.\/images\/watch-video-badge\.png\'\)\] {
+  background-image: url('./images/watch-video-badge.png');
 }
 
 .decoration-slice {
@@ -7119,9 +7119,9 @@ address {
   background-color: rgb(0 0 0 / 0.1);
 }
 
-.before\:bg-\[url\(\'http\:\/\/work\/silvahakopian\.com\/www\/wp-content\/uploads\/Cash-back-Option\.png\'\)\]::before {
+.before\:bg-\[url\(\'\.\/images\/Cash-back-Option\.png\'\)\]::before {
   content: var(--tw-content);
-  background-image: url('http://work/silvahakopian.com/www/wp-content/uploads/Cash-back-Option.png');
+  background-image: url('./images/Cash-back-Option.png');
 }
 
 .before\:bg-\[url\(\'images\/banner-bg\.png\'\)\]::before {
@@ -7132,6 +7132,11 @@ address {
 .before\:bg-gradient-to-t::before {
   content: var(--tw-content);
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
+}
+
+.before\:bg-\[url\(\'\.\/images\/cash-back-option\.png\'\)\]::before {
+  content: var(--tw-content);
+  background-image: url('./images/cash-back-option.png');
 }
 
 .before\:from-\[\#1c3a4f29\]::before {

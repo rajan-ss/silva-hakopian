@@ -21,7 +21,7 @@ get_header();
 		<div class="flex flex-row justify-center items-end max-sm:relative max-sm:pt-24 max-sm:pb-20 w-full h-full lg:max-w-[611px] max-lg:mb-5 lg:mr-8 xl:mr-0">
 			<div class="flex flex-col h-full justify-between max-sm:pb-14">
 				<figure class="[&_img]:rounded-2xl">
-					<img src="<?php echo site_url() ?>/wp-content/uploads/happy-family.jpg" alt="Happy Family" width="431" height="450" loading="lazy">
+					<img src="<?php echo site_url(); ?>/wp-content/uploads/happy-family.jpg" alt="Happy Family" width="431" height="450" loading="lazy">
 				</figure>
 				<div class="flex flex-row-reverse justify-end items-center max-sm:absolute bottom-0 left-1/2 max-sm:-translate-x-1/2 pt-[18px] pb-[10px] sm:pr-[14px] [&_p]:text-sm [&_p]:leading-[1.14] [&_p]:mb-0 lg:-mr-12 xl:mr-0">
 					<p>
@@ -32,16 +32,16 @@ get_header();
 					</p>
 					<div class="flex ml-[18px]">
 						<figure class="-ml-[18px]">
-							<img src="<?php echo site_url() ?>/wp-content/uploads/Ellipse-Image-4.png" alt="Client 4" width="52" height="52" loading="lazy">
+							<img src="<?php echo site_url(); ?>/wp-content/uploads/Ellipse-Image-4.png" alt="Client 4" width="52" height="52" loading="lazy">
 						</figure>
 						<figure class="-ml-[18px]">
-							<img src="<?php echo site_url() ?>/wp-content/uploads/Ellipse-Image-3.png" alt="Client 3" width="52" height="52" loading="lazy">
+							<img src="<?php echo site_url(); ?>/wp-content/uploads/Ellipse-Image-3.png" alt="Client 3" width="52" height="52" loading="lazy">
 						</figure>
 						<figure class="-ml-[18px]">
-							<img src="<?php echo site_url() ?>/wp-content/uploads/Ellipse-Image-2.png" alt="Client 2" width="52" height="52" loading="lazy">
+							<img src="<?php echo site_url(); ?>/wp-content/uploads/Ellipse-Image-2.png" alt="Client 2" width="52" height="52" loading="lazy">
 						</figure>
 						<figure class="-ml-[18px]">
-							<img src="<?php echo site_url() ?>/wp-content/uploads/Ellipse-Image-1.png" alt="Client 1" width="52" height="52" loading="lazy">
+							<img src="<?php echo site_url(); ?>/wp-content/uploads/Ellipse-Image-1.png" alt="Client 1" width="52" height="52" loading="lazy">
 						</figure>
 					</div>
 				</div>
@@ -52,7 +52,7 @@ get_header();
 					<span class="font-medium text-xl leading-[1.1]">Years of Service</span>
 				</div>
 				<figure class="[&_img]:rounded-2xl">
-					<img src="<?php echo site_url() ?>/wp-content/uploads/take-change-1.jpg" alt="Take Change" width="325" height="372" loading="lazy">
+					<img src="<?php echo site_url(); ?>/wp-content/uploads/take-change-1.jpg" alt="Take Change" width="325" height="372" loading="lazy">
 				</figure>
 			</div>
 		</div>
@@ -137,7 +137,7 @@ get_header();
 <!--Start of Cash Back Option Section-->
 <section class="py-8 md:py-12 lg:py-16">
 	<div class="container">
-		<div class="py-10 z-10 rounded-3xl text-center bg-primary/20 relative before:absolute before:inset-0 before:bg-[url('http://work/silvahakopian.com/www/wp-content/uploads/Cash-back-Option.png')] before:rounded-3xl before:mix-blend-color-burn before:opacity-15 before:bg-no-repeat before:bg-cover before:bg-center">
+		<div class="py-10 z-10 rounded-3xl text-center bg-primary/20 relative before:absolute before:inset-0 before:bg-[url('./images/cash-back-option.png')] before:rounded-3xl before:mix-blend-color-burn before:opacity-15 before:bg-no-repeat before:bg-cover before:bg-center">
 			<div class="[&_h2]:max-w-[955px] [&_h2]:mx-auto [&_h2]:pb-8 relative z-10">
 				<p><span class="section-tag">Cash-back Option</span></p>
 				<h2>100% Return Of Premium Rider On Your Life Insurance Policy</h2>
@@ -493,16 +493,16 @@ get_header();
 				<div class="flex flex-row gap-3 items-center justify-center lg:justify-start bottom-0 left-1/2 pb-5 sm:pr-[14px] lg:-mr-12 xl:mr-0">
 					<div class="flex ml-[18px]">
 						<figure class="-ml-[18px]">
-							<img src="<?php echo site_url() ?>/wp-content/uploads/Ellipse-Image-4.png" alt="Client 4" width="52" height="52" loading="lazy">
+							<img src="<?php echo site_url(); ?>/wp-content/uploads/Ellipse-Image-4.png" alt="Client 4" width="52" height="52" loading="lazy">
 						</figure>
 						<figure class="-ml-[18px]">
-							<img src="<?php echo site_url() ?>/wp-content/uploads/Ellipse-Image-3.png" alt="Client 3" width="52" height="52" loading="lazy">
+							<img src="<?php echo site_url(); ?>/wp-content/uploads/Ellipse-Image-3.png" alt="Client 3" width="52" height="52" loading="lazy">
 						</figure>
 						<figure class="-ml-[18px]">
-							<img src="<?php echo site_url() ?>/wp-content/uploads/Ellipse-Image-2.png" alt="Client 2" width="52" height="52" loading="lazy">
+							<img src="<?php echo site_url(); ?>/wp-content/uploads/Ellipse-Image-2.png" alt="Client 2" width="52" height="52" loading="lazy">
 						</figure>
 						<figure class="-ml-[18px]">
-							<img src="<?php echo site_url() ?>/wp-content/uploads/Ellipse-Image-1.png" width="52" height="52" loading="lazy" alt="Client 1">
+							<img src="<?php echo site_url(); ?>/wp-content/uploads/Ellipse-Image-1.png" width="52" height="52" loading="lazy" alt="Client 1">
 						</figure>
 					</div>
 					<div class="[&_p]:leading-[0.88] [&_p]:mb-0">
@@ -633,14 +633,14 @@ get_header();
 		</div>
 		<div class="flex flex-row-reverse justify-center items-center gap-5 lg:gap-10 lg:w-2/5">
 			<figure class="[&_img]:rounded-2xl">
-				<img src="<?php echo site_url() ?>/wp-content/uploads/Benefits-3.jpg" alt="Benefits-3" width="280" height="465" loading="lazy">
+				<img src="<?php echo site_url(); ?>/wp-content/uploads/Benefits-3.jpg" alt="Benefits-3" width="280" height="465" loading="lazy">
 			</figure>
 			<div class="flex flex-col max-lg:items-center gap-5 sm:translate-x-5">
 				<figure class="[&_img]:rounded-2xl [&_img]:w-full [&_img]:h-full">
-					<img src="<?php echo site_url() ?>/wp-content/uploads/Benefits-1.jpg" alt="Benefits-1" width="242" height="277" loading="lazy">
+					<img src="<?php echo site_url(); ?>/wp-content/uploads/Benefits-1.jpg" alt="Benefits-1" width="242" height="277" loading="lazy">
 				</figure>
 				<figure class="[&_img]:rounded-2xl sm:translate-x-10 [&_img]:w-full [&_img]:h-full">
-					<img src="<?php echo site_url() ?>/wp-content/uploads/authentic-small-youthful-marketing-agency.jpg" alt="authentic-small-youthful-marketing-agency" width="346" height="225" loading="lazy">
+					<img src="<?php echo site_url(); ?>/wp-content/uploads/authentic-small-youthful-marketing-agency.jpg" alt="authentic-small-youthful-marketing-agency" width="346" height="225" loading="lazy">
 				</figure>
 			</div>
 		</div>
@@ -653,17 +653,18 @@ get_header();
 	<div class="container">
 		<div class="relative text-white [&_video]:rounded-2xl [&_video]:w-full max-sm:[&_video]:h-80 [&_video]:object-cover [&_video]:object-center before:rounded-2xl before:absolute before:inset-0 before:bg-gradient-to-t before:to-[#fe7b7c66] before:from-[#1c3a4f29]">
 			<div class="absolute inset-0 top-4 sm:top-16 text-center" id="video-overlay">
-				<div class="bg-[url('http://work/silvahakopian.com/www/wp-content/uploads/watch-video-badge.png')] bg-cover bg-center bg-no-repeat max-w-[155px] mx-auto">
+				<div class="bg-[url('./images/watch-video-badge.png')] bg-cover bg-center bg-no-repeat max-w-[155px] mx-auto">
 					<p>Watch Video</p>
 				</div>
 				<h2>What is John Hancock Vitality?</h2>
 				<figure class="flex justify-center" id="play-video">
-					<img src="http://work/silvahakopian.com/www/wp-content/uploads/Video-Icon.png" alt="">
+					<img src="<?php echo site_url(); ?>/wp-content/uploads/Video-Icon.png" alt="Video Play Icon" width="111" height="112" loading="lazy">
 				</figure>
 			</div>
 			<video width="1280" height="720" id="video">
-				<source src="https://s3-figma-videos-production-sig.figma.com/video/1309113881691748219/TEAM/b1f7/cf81/-88c2-4da2-ba8b-fc97f00806fa?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=g3Iz9dACH-mLTddBx5~Whrkp6oOT74k70~gk1eUoSQ36nyRRmunnHSt37cGjvzq2s1xNMKUECElS0qB3XaCgCPF9nOLx0J2XHj2qpNwSXfzceQmvlzxHY3YpItT~J-a0e27QYriLiq0V1cWePhkJhr5tuFu8mHlwncEF88dznrjkdvo91NHb1jmCBDCqnsfM6kdqDkIBz~8ZWYLEuXnQu78daFNiRM9ty2CVtSCf5KOR4dBPSlgw5Rzem8USRQyvFyNd3bCBGWZO4G3IMkiJqxKl7cRe7fNu0344DzNJbeVHmUpfPXnXjppYJqY5XgQOhzvSuQVZsYcSgUK6qgoPRw__" type="video/mp4">
-				Your browser does not support the video tag.
+				<source src="<?php echo get_template_directory_uri(); ?>/videos/Watch-Video.mp4" type="video/mp4">
+				<source src="<?php echo get_template_directory_uri(); ?>/videos/Watch-Video.webm" type="video/webm">
+				Sorry, your browser doesn\'t support embedded videos, <a href="./videos/Watch-Video.mp4">download</a> and watch with your favorite video player!
 			</video>
 		</div>
 	</div>
@@ -866,63 +867,63 @@ get_header();
 		<div class="swiper-wrapper items-center">
 			<div class="swiper-slide">
 				<figure>
-					<img src="<?php echo site_url() ?>/wp-content/uploads/slider-img-6.png" width="145" height="40" loading="lazy" alt="Slider Image 6">
+					<img src="<?php echo site_url(); ?>/wp-content/uploads/slider-img-6.png" width="145" height="40" loading="lazy" alt="Slider Image 6">
 				</figure>
 			</div>
 			<div class="swiper-slide">
 				<figure>
-					<img src="<?php echo site_url() ?>/wp-content/uploads/slider-img-5.png" width="145" height="40" loading="lazy" alt="Slider Image 5">
+					<img src="<?php echo site_url(); ?>/wp-content/uploads/slider-img-5.png" width="145" height="40" loading="lazy" alt="Slider Image 5">
 				</figure>
 			</div>
 			<div class="swiper-slide">
 				<figure>
-					<img src="<?php echo site_url() ?>/wp-content/uploads/slider-img-4.png" width="145" height="40" loading="lazy" alt="Slider Image 4">
+					<img src="<?php echo site_url(); ?>/wp-content/uploads/slider-img-4.png" width="145" height="40" loading="lazy" alt="Slider Image 4">
 				</figure>
 			</div>
 			<div class="swiper-slide">
 				<figure>
-					<img src="<?php echo site_url() ?>/wp-content/uploads/slider-img-3.png" width="145" height="40" loading="lazy" alt="Slider Image 3">
+					<img src="<?php echo site_url(); ?>/wp-content/uploads/slider-img-3.png" width="145" height="40" loading="lazy" alt="Slider Image 3">
 				</figure>
 			</div>
 			<div class="swiper-slide">
 				<figure>
-					<img src="<?php echo site_url() ?>/wp-content/uploads/slider-img-2.png" width="145" height="40" loading="lazy" alt="Slider Image 2">
+					<img src="<?php echo site_url(); ?>/wp-content/uploads/slider-img-2.png" width="145" height="40" loading="lazy" alt="Slider Image 2">
 				</figure>
 			</div>
 			<div class="swiper-slide">
 				<figure>
-					<img src="<?php echo site_url() ?>/wp-content/uploads/slider-img-1.png" width="145" height="40" loading="lazy" alt="Slider Image 1">
+					<img src="<?php echo site_url(); ?>/wp-content/uploads/slider-img-1.png" width="145" height="40" loading="lazy" alt="Slider Image 1">
 				</figure>
 			</div>
 
 			<div class="swiper-slide">
 				<figure>
-					<img src="<?php echo site_url() ?>/wp-content/uploads/slider-img-6.png" width="145" height="40" loading="lazy" alt="Slider Image 6">
+					<img src="<?php echo site_url(); ?>/wp-content/uploads/slider-img-6.png" width="145" height="40" loading="lazy" alt="Slider Image 6">
 				</figure>
 			</div>
 			<div class="swiper-slide">
 				<figure>
-					<img src="<?php echo site_url() ?>/wp-content/uploads/slider-img-5.png" width="145" height="40" loading="lazy" alt="Slider Image 5">
+					<img src="<?php echo site_url(); ?>/wp-content/uploads/slider-img-5.png" width="145" height="40" loading="lazy" alt="Slider Image 5">
 				</figure>
 			</div>
 			<div class="swiper-slide">
 				<figure>
-					<img src="<?php echo site_url() ?>/wp-content/uploads/slider-img-4.png" width="145" height="40" loading="lazy" alt="Slider Image 4">
+					<img src="<?php echo site_url(); ?>/wp-content/uploads/slider-img-4.png" width="145" height="40" loading="lazy" alt="Slider Image 4">
 				</figure>
 			</div>
 			<div class="swiper-slide">
 				<figure>
-					<img src="<?php echo site_url() ?>/wp-content/uploads/slider-img-3.png" width="145" height="40" loading="lazy" alt="Slider Image 3">
+					<img src="<?php echo site_url(); ?>/wp-content/uploads/slider-img-3.png" width="145" height="40" loading="lazy" alt="Slider Image 3">
 				</figure>
 			</div>
 			<div class="swiper-slide">
 				<figure>
-					<img src="<?php echo site_url() ?>/wp-content/uploads/slider-img-2.png" width="145" height="40" loading="lazy" alt="Slider Image 2">
+					<img src="<?php echo site_url(); ?>/wp-content/uploads/slider-img-2.png" width="145" height="40" loading="lazy" alt="Slider Image 2">
 				</figure>
 			</div>
 			<div class="swiper-slide">
 				<figure>
-					<img src="<?php echo site_url() ?>/wp-content/uploads/slider-img-1.png" width="145" height="40" loading="lazy" alt="Slider Image 1">
+					<img src="<?php echo site_url(); ?>/wp-content/uploads/slider-img-1.png" width="145" height="40" loading="lazy" alt="Slider Image 1">
 				</figure>
 			</div>
 		</div>
