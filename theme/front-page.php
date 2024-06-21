@@ -652,13 +652,13 @@ get_header();
 <section class="pb-8 md:pb-12 lg:pb-16 pt-16 md:pt-24 lg:pt-32">
 	<div class="container">
 		<div class="relative text-white [&_video]:rounded-2xl [&_video]:w-full max-sm:[&_video]:h-80 [&_video]:object-cover [&_video]:object-center before:rounded-2xl before:absolute before:inset-0 before:bg-gradient-to-t before:to-[#fe7b7c66] before:from-[#1c3a4f29]">
-			<div class="absolute inset-0 top-4 sm:top-16 text-center" id="video-overlay">
+			<div class="absolute inset-0 top-4 sm:top-16 text-center" id="videoOverlay">
 				<div class="bg-[url('./images/watch-video-badge.png')] bg-cover bg-center bg-no-repeat max-w-[155px] mx-auto">
 					<p>Watch Video</p>
 				</div>
 				<h2>What is John Hancock Vitality?</h2>
-				<figure class="flex justify-center" id="play-video">
-					<img src="<?php echo site_url(); ?>/wp-content/uploads/Video-Icon.png" alt="Video Play Icon" width="111" height="112" loading="lazy">
+				<figure class="flex justify-center [&_img]:cursor-pointer relative z-[2]">
+					<img src="<?php echo site_url(); ?>/wp-content/uploads/Video-Icon.png" alt="Video Play Icon" width="111" height="112" loading="lazy" id="playVideo">
 				</figure>
 			</div>
 			<video width="1280" height="720" id="video">

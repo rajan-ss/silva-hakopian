@@ -114,6 +114,16 @@ var ss;
 					banner.css('margin-top', headerHeight + 'px');
 				}
 
+				//Video Play Button
+				const playVideo = document.getElementById('playVideo');
+				const video = document.getElementById('video');
+				const videoOverlay = document.getElementById('videoOverlay');
+				playVideo.addEventListener('click', () => {
+					video.play();
+					videoOverlay.classList.add('hidden');
+					videoOverlay.parentElement.classList.add('before:opacity-0');
+				});
+
 				// Initial calls
 				/*siteContentOffset();
 				handleStickyHeader();
@@ -318,53 +328,42 @@ var ss;
 	});
 })(jQuery);
 
-const accordionHeader = document.querySelectorAll('.accordion-header');
-accordionHeader.forEach((header) => {
-	header.addEventListener('click', function () {
-		const accordionContent =
-			header.parentElement.querySelector('.accordion-content');
-		const accordionMaxHeight = accordionContent.style.maxHeight;
+//Accordion
+// const accordionHeader = document.querySelectorAll('.accordion-header');
+// accordionHeader.forEach((header) => {
+// 	header.addEventListener('click', function () {
+// 		const accordionContent =
+// 			header.parentElement.querySelector('.accordion-content');
+// 		const accordionMaxHeight = accordionContent.style.maxHeight;
 
-		// Condition handling
-		if (accordionMaxHeight == '0px' || accordionMaxHeight.length == 0) {
-			accordionContent.style.maxHeight = `${accordionContent.scrollHeight + 32}px`;
-			accordionContent.classList.add('bg-white');
-			header.parentElement.classList.add('active');
-		} else {
-			accordionContent.style.maxHeight = `0px`;
-			header.parentElement.classList.remove('active');
-		}
-	});
-});
+// 		// Condition handling
+// 		if (accordionMaxHeight == '0px' || accordionMaxHeight.length == 0) {
+// 			accordionContent.style.maxHeight = `${accordionContent.scrollHeight + 32}px`;
+// 			accordionContent.classList.add('bg-white');
+// 			header.parentElement.classList.add('active');
+// 		} else {
+// 			accordionContent.style.maxHeight = `0px`;
+// 			header.parentElement.classList.remove('active');
+// 		}
+// 	});
+// });
 
 //Tabs
-const tabs = document.querySelectorAll('[data-tab-target]');
-const tabContents = document.querySelectorAll('[data-tab-content]');
+// const tabs = document.querySelectorAll('[data-tab-target]');
+// const tabContents = document.querySelectorAll('[data-tab-content]');
 
-tabs.forEach((tab) => {
-	tab.addEventListener('click', () => {
-		const target = document.querySelector(tab.dataset.tabTarget);
-		tabContents.forEach((tab) => {
-			tab.classList.add('hidden');
-		});
-		tabs.forEach((tab) => {
-			if (tab.classList.contains('selected')) {
-				tab.classList.remove('selected');
-			}
-		});
-		target.classList.remove('hidden');
-		tab.classList.add('selected');
-	});
-});
-
-//Video Play Button
-const playVideo = document.getElementById('play-video');
-const video = document.getElementById('video');
-const videoOverlay = document.getElementById('video-overlay');
-playVideo.addEventListener('click', () => {
-	video.play();
-	console.log(videoOverlay);
-	videoOverlay.classList.add('hidden');
-	// console.log(videoOverlay.parentElement)
-	videoOverlay.parentElement.classList.add('before:opacity-0');
-});
+// tabs.forEach((tab) => {
+// 	tab.addEventListener('click', () => {
+// 		const target = document.querySelector(tab.dataset.tabTarget);
+// 		tabContents.forEach((tab) => {
+// 			tab.classList.add('hidden');
+// 		});
+// 		tabs.forEach((tab) => {
+// 			if (tab.classList.contains('selected')) {
+// 				tab.classList.remove('selected');
+// 			}
+// 		});
+// 		target.classList.remove('hidden');
+// 		tab.classList.add('selected');
+// 	});
+// });
