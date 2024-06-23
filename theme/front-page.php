@@ -676,7 +676,7 @@ get_header();
 	<div class="container flex flex-col lg:flex-row items-start gap-12">
 		<div class="w-full lg:w-2/5 get-in-touch-form shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] p-4 md:p-8 [&_h2]:pb-4 md:[&_h2]:pb-8" id="get-in-touch-form">
 			<h2>Get in Touch</h2>
-			<?php echo do_shortcode('[gravityform id="3" title="false" description="false" ajax=true]'); ?>
+			<?php echo do_shortcode('[gravityform id="2" title="false" description="false" ajax=true]'); ?>
 		</div>
 		<div class="w-full lg:w-3/5 p-4 md:p-8">
 			<div class="[&_h2]:pb-4 md:[&_h2]:pb-8">
