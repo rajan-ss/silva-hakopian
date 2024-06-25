@@ -2877,6 +2877,10 @@ address {
   margin-bottom: 2rem;
 }
 
+.ml-4 {
+  margin-left: 1rem;
+}
+
 .ml-\[18px\] {
   margin-left: 18px;
 }

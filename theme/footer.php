@@ -49,7 +49,6 @@
 			<p>Please consult your financial representative as to how premium savings may affect the policy you purchase. Premium savings are in comparison to the same John Hancock life insurance policy without Vitality PLUS. The level of premium savings are cumulative over the life of the policy & will vary based upon underwriting status, issue age, policy type, the terms of the policy & the Vitality Status achieved. Premium savings are only available with Vitality PLUS. In New York, entertainment, shopping, & travel rewards are not available & are replaced by healthy living & active lifestyle rewards.If you have a Term policy with Vitality PLUS with a face amount less than $2,000,000: you are only eligible to earn the latest Apple Watch or get a complimentary device, discounts on wearable devices, up to $50 in instant savings per month on fresh produce purchases, a free premium subscription to Headspace, a 15% healthy gear discount, shopping & entertainment discounts, & a free health check in the first Program Year only.</p>
 			<button type="button" class="toggleFaqBtn inline-block transition-all underline text-[13px]">
 				<span class="normal-state">Learn More</span>
-				<span class="hidden-state hidden">Show less</span>
 			</button>
 			<div class="toggleBlock hidden">
 				<p>Term policies with face amounts of $2,000,000 & above are eligible for the full suite of rewards & discounts. The life insurance policy describes coverage under the policy, exclusions & limitations, what you must do to keep your policy inforce, & what would cause your policy to be discontinued. Please contact your licensed agent or John Hancock for more information, costs, & complete details on coverage. Vitality Rewards may vary based on the type of insurance policy purchased for the insured.
@@ -62,6 +61,9 @@
 					John Hancock Life Insurance Company of New York, Valhalla, NY 10595. <br>
 					MLINY060623424-1
 				</p>
+				<button type="button" class="toggleFaqBtn inline-block transition-all underline text-[13px]">
+					<span class="hidden-state hidden">Show less</span>
+				</button>
 			</div>
 		</div>
 	</div>
