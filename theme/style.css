@@ -3037,6 +3037,10 @@ address {
   height: 10rem;
 }
 
+.h-\[250px\] {
+  height: 250px;
+}
+
 .h-full {
   height: 100%;
 }
@@ -4631,6 +4635,10 @@ address {
   line-height: 1;
 }
 
+.text-\[13px\] {
+  font-size: 13px;
+}
+
 .text-\[15px\] {
   font-size: 15px;
 }
@@ -5248,30 +5256,6 @@ address {
   color: rgb(254 123 124 / var(--tw-text-opacity));
 }
 
-.benefit-accordion .active {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.vitality-accordion .active {
-  position: relative;
-}
-
-.vitality-accordion .active::before {
-  position: absolute;
-  right: 1.5rem;
-  top: 1.25rem;
-  font-family: icomoon;
-  --tw-content: '\e908';
-  content: var(--tw-content);
-}
-
-@media (min-width: 1024px) {
-  .vitality-accordion .active::before {
-    top: 1rem;
-  }
-}
-
 .dropBtn.active {
   position: relative;
 }
@@ -5296,6 +5280,14 @@ address {
   font-family: icomoon;
   --tw-content: '\e908';
   content: var(--tw-content);
+}
+
+.learn-more.active .hidden-state {
+  display: block;
+}
+
+.learn-more.active .normal-state {
+  display: none;
 }
 
 .tab-header.selected {
@@ -7744,11 +7736,6 @@ address {
     gap: 2.75rem;
   }
 
-  .lg\:py-0 {
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-
   .lg\:py-16 {
     padding-top: 4rem;
     padding-bottom: 4rem;
@@ -7868,40 +7855,6 @@ address {
   gap: 18px;
 }
 
-.\[\&_\.swiper-slide\]\:w-auto .swiper-slide {
-  width: auto;
-}
-
-.\[\&_\.swiper-slide_img\]\:max-h-\[80px\] .swiper-slide img {
-  max-height: 80px;
-}
-
-.\[\&_\.swiper-slide_img\]\:w-auto .swiper-slide img {
-  width: auto;
-}
-
-.\[\&_\.swiper-slide_img\]\:max-w-\[100\%\] .swiper-slide img {
-  max-width: 100%;
-}
-
-@media (min-width: 640px) {
-  .sm\:\[\&_\.swiper-slide_img\]\:max-h-\[120px\] .swiper-slide img {
-    max-height: 120px;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:\[\&_\.swiper-slide_img\]\:w-full .swiper-slide img {
-    width: 100%;
-  }
-}
-
-@media (min-width: 1280px) {
-  .xl\:\[\&_\.swiper-slide_img\]\:max-h-none .swiper-slide img {
-    max-height: none;
-  }
-}
-
 .\[\&_a\]\:text-left a {
   text-align: left;
 }
@@ -7986,10 +7939,6 @@ address {
   font-weight: 400;
 }
 
-.\[\&_h4\]\:uppercase h4 {
-  text-transform: uppercase;
-}
-
 .\[\&_i\]\:text-4xl i {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -8060,6 +8009,10 @@ address {
 
 .\[\&_p\]\:mb-\[10px\] p {
   margin-bottom: 10px;
+}
+
+.\[\&_p\]\:inline p {
+  display: inline;
 }
 
 .\[\&_p\]\:flex p {
@@ -8138,10 +8091,6 @@ address {
 
 .\[\&_p\]\:pb-5 p {
   padding-bottom: 1.25rem;
-}
-
-.\[\&_p\]\:pl-16 p {
-  padding-left: 4rem;
 }
 
 .\[\&_p\]\:pl-9 p {

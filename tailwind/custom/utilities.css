@@ -15,24 +15,6 @@
 	leading-[1.11];
 }
 
-.benefit-accordion .active {
-	@apply bg-white;
-}
-
-.vitality-accordion .active {
-	@apply
-	relative;
-}
-
-.vitality-accordion .active::before {
-	@apply content-['\e908']
-	absolute
-	right-6
-	top-5
-	lg:top-4
-	font-icomoon;
-}
-
 .dropBtn.active {
 	@apply
 	relative;
@@ -55,6 +37,10 @@
 	top-3
 	right-1
 	font-icomoon;
+}
+.learn-more.active{
+	@apply [&_.hidden-state]:block
+	[&_.normal-state]:hidden;
 }
 
 .tab-header.selected {

@@ -110,7 +110,7 @@ get_header();
 					<p><span class="list-number"></span></p>
 				</div>
 				<div class="[&_p]:opacity-70">
-					<p>Discounts on popular brands like Starbucks, Amazon, REI & More 2</p>
+					<p>Discounts on popular brands like Starbucks, Amazon, REI & More<sup>2</sup></p>
 				</div>
 			</div>
 			<div>
@@ -205,25 +205,25 @@ get_header();
 							<h3>Being active and exercising</h3>
 							<h4>Earn Vitality Points by:</h4>
 						</div>
-						<div class="vitality-accordion space-y-6">
-							<div class="item rounded-xl border border-ss-pink/30 overflow-hidden [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h5">
-								<button type="button" class="toggleFaqBtn flex items-center text-left gap-5 w-full transition-all py-4 px-6 relative before:absolute before:content-['\e900'] before:right-6 before:top-5 lg:before:top-4 before:font-icomoon"> <i class="icon-support-accordion text-ss-pink text-2xl"></i>
+						<div class="space-y-6">
+							<div class="[&_h3]:m-0 [&_h3]:font-normal [&_h3]:h5">
+								<div class="flex items-center text-left gap-4 w-full py-4"> <i class="icon-support-accordion text-ss-pink text-2xl"></i>
 									<h3>Wearing a fitness device</h3>
-								</button>
-								<div class="toggleBlock hidden relative before:absolute before:left-5 before:right-5 before:h-[1px] before:bg-black/10 px-6 pt-0 rounded-b-xl [&_p]:pt-6 [&_p]:opacity-70">
+								</div>
+								<div class="px-6 pt-0 [&_p]:opacity-70">
 									<p>
-										Vitality PLUS members can choose from a list of new free or discounted fitness devices, earn the latest Apple Watch for as little as $25 plus tax5, or use a compatible device they already own. You can earn Vitality Points as your device logs your activity level — in steps, calories burned & heart rate.
+										Vitality PLUS members can choose from a list of new free or discounted fitness devices, earn the latest Apple Watch for as little as $25 plus tax<sup>5</sup>, or use a compatible device they already own. You can earn Vitality Points as your device logs your activity level — in steps, calories burned & heart rate.
 									</p>
 								</div>
 							</div><!-- /.item -->
-							<div class="item rounded-xl border border-ss-pink/30 overflow-hidden [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h5">
-								<button type="button" class="toggleFaqBtn flex items-center text-left gap-5 w-full transition-all py-4 px-6 relative before:absolute before:content-['\e900'] before:right-6 before:top-5 lg:before:top-4 before:font-icomoon"> <i class="icon-support-accordion text-ss-pink text-2xl"></i>
+							<div class="[&_h3]:m-0 [&_h3]:font-normal [&_h3]:h5">
+								<div class="flex items-center text-left gap-4 w-full py-4"> <i class="icon-support-accordion text-ss-pink text-2xl"></i>
 									<h3>Checking in at the gym</h3>
-								</button>
-								<div class="toggleBlock hidden relative before:absolute before:left-5 before:right-5 before:h-[1px] before:bg-black/10 px-6 pt-0 rounded-b-xl [&_p]:pt-6 [&_p]:opacity-70">
+								</div>
+								<div class="px-6 pt-0 [&_p]:opacity-70 h-[250px] overflow-y-scroll">
 									<p>
 										<span class="font-semibold pb-3 block">Earn points with the John Hancock Vitality app, each time you check in at the gym and workout.</span>
-										5Apple Watch program is not available in New York or Puerto Rico. Apple Watches ordered through John Hancock Vitality may not be shipped to addresses in Guam. Once you become a Vitality PLUS member and complete the Vitality Health Review (VHR), you can order Apple Watch by electronically signing, at checkout, a Retail Installment Agreement with the Vitality Group, for the retail price of the watch. After an initial payment of $25 plus tax, over the next two years, monthly out-of-pocket payments are based on the number of Standard Workouts (10,000 to 14,999 steps) and Advanced Workouts (15,000 steps) or the applicable Active Calorie or heart rate thresholds. The step counts required for Standard and Advanced Workouts are reduced for members beginning at age 71+. One-time upgrade fees plus taxes apply if you choose (GPS + Cellular) versions of Apple Watch, larger watch case sizes, and certain bands and case materials. For more information, please visit JohnHancock.com. Apple is not a participant in or sponsor of this promotion. Apple Watch Series 7 requires iPhone 6s or later with iOS 15 or later. Apple Watch SE requires iPhone 6s or later with iOS 14 or later. Apple Watch is a registered trademark of Apple Inc. All rights reserved.
+										<sup>5</sup><small>Apple Watch program is not available in New York or Puerto Rico. Apple Watches ordered through John Hancock Vitality may not be shipped to addresses in Guam. Once you become a Vitality PLUS member and complete the Vitality Health Review (VHR), you can order Apple Watch by electronically signing, at checkout, a Retail Installment Agreement with the Vitality Group, for the retail price of the watch. After an initial payment of $25 plus tax, over the next two years, monthly out-of-pocket payments are based on the number of Standard Workouts (10,000 to 14,999 steps) and Advanced Workouts (15,000 steps) or the applicable Active Calorie or heart rate thresholds. The step counts required for Standard and Advanced Workouts are reduced for members beginning at age 71+. One-time upgrade fees plus taxes apply if you choose (GPS + Cellular) versions of Apple Watch, larger watch case sizes, and certain bands and case materials. For more information, please visit JohnHancock.com. Apple is not a participant in or sponsor of this promotion. Apple Watch Series 7 requires iPhone 6s or later with iOS 15 or later. Apple Watch SE requires iPhone 6s or later with iOS 14 or later. Apple Watch is a registered trademark of Apple Inc. All rights reserved.</small>
 									</p>
 								</div>
 							</div><!-- /.item -->
@@ -238,7 +238,7 @@ get_header();
 							</div>
 							<div class="[&_h3]:py-6">
 								<h3>Save money when you buy healthy food</h3>
-								<h4><span class="block font-normal pb-3">John Hancock Vitality makes it easier to buy healthy food3 at participating grocery stores.</span>Each month, Vitality PLUS members can:</h4>
+								<h4><span class="block font-normal pb-3">John Hancock Vitality makes it easier to buy healthy food<sup>3</sup> at participating grocery stores.</span>Each month, Vitality PLUS members can:</h4>
 							</div>
 						</div>
 						<div class="[&_p]:capitalize [&_p]:m-0 lg:[&_p]:text-xl [&>ul_>li]:flex [&>ul_>li]:flex-row [&>ul_>li]:items-start [&>ul_>li]:gap-[18px] [&_ul]:pl-0">
@@ -262,7 +262,7 @@ get_header();
 									</p>
 								</li>
 							</ul>
-							<h4><span class="block font-normal pb-3">*Remember to check which grocery stores participate before you shop.</span>3 HealthyFood savings are based on qualifying purchases and may vary based on the terms of the John Hancock Vitality Program. The HealthyFood program is currently not available in Guam.</h4>
+							<h4><span class="block font-normal pb-3"><small>*Remember to check which grocery stores participate before you shop.</small></span><sup>3</sup><small>HealthyFood savings are based on qualifying purchases and may vary based on the terms of the John Hancock Vitality Program. The HealthyFood program is currently not available in Guam.</small></h4>
 						</div>
 					</div>
 
@@ -299,7 +299,7 @@ get_header();
 							</div>
 							<div class="[&_h3]:py-6">
 								<h3>Support your mental health</h3>
-								<h4><span class="block font-normal pb-3">Mental health is an essential part of your overall wellness. To support members’ well-being, Vitality PLUS offers a free, one-year subscription to Headspace®7 — a leading meditation app.</span> You can also earn Vitality Points using:</h4>
+								<h4><span class="block font-normal pb-3">Mental health is an essential part of your overall wellness. To support members’ well-being, Vitality PLUS offers a free, one-year subscription to Headspace®<sup>7</sup> — a leading meditation app.</span> You can also earn Vitality Points using:</h4>
 							</div>
 						</div>
 						<div class="[&_p]:capitalize [&_p]:m-0 lg:[&_p]:text-xl [&>ul_>li]:flex [&>ul_>li]:flex-row [&>ul_>li]:items-start [&>ul_>li]:gap-[18px] [&_ul]:pl-0">
@@ -323,7 +323,7 @@ get_header();
 									</p>
 								</li>
 							</ul>
-							<h4><span class="block font-normal pb-3">7 The meditation portion of the program is compatible with apps such as Breathe, Buddhify, Calm and Headspace.</span></h4>
+							<h4><span class="block font-normal pb-3"><sup>7</sup><small>The meditation portion of the program is compatible with apps such as Breathe, Buddhify, Calm and Headspace.</small></span></h4>
 						</div>
 					</div>
 				</div>
@@ -464,7 +464,7 @@ get_header();
 				</div>
 				<div class="text-white [&_p]:opacity-70">
 					<h4>Enjoy the benefits</h4>
-					<p>Once you complete your VHR, you can explore all the John Hancock Vitality benefits, order a free or discounted fitness device, earn the latest Apple Watch for as little as $25 plus tax5, or link a compatible device you already own.</p>
+					<p>Once you complete your VHR, you can explore all the John Hancock Vitality benefits, order a free or discounted fitness device, earn the latest Apple Watch for as little as $25 plus tax<sup>5</sup>, or link a compatible device you already own.</p>
 				</div>
 			</div>
 		</div>
@@ -563,71 +563,36 @@ get_header();
 				<p class="section-tag">Benefits</p>
 				<h2>Feel Confident With John Hancock Vitality Term</h2>
 			</div>
-			<div class="benefit-accordion counter-increment">
-				<div class="item rounded-xl overflow-hidden">
-					<button type="button" class="toggleFaqBtn text-left cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
-						<div class="[&_p]:bg-primary [&_p]:rounded-full [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:m-0 [&_p]:justify-center [&_p]:items-center">
-							<p><span class="list-number"></span></p>
-						</div>
-						<h3>Savings and rewards for healthy living</h3>
-					</button>
-					<div class="toggleBlock px-6 pt-0 hidden rounded-b-xl [&_p]:pl-16 [&_p]:opacity-70">
-						<p>
-							Your clients’ policy wil l automatical ly include the John Hancock Vitality PLUS program, which means they can earn premium savings and rewards for the everyday steps they take to live healthy.
-						</p>
+			<div class="counter-increment">
+				<div class="text-left flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
+					<div class="[&_p]:bg-primary [&_p]:rounded-full [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:m-0 [&_p]:justify-center [&_p]:items-center">
+						<p><span class="list-number"></span></p>
 					</div>
+					<h3>Savings and rewards for healthy living</h3>
 				</div>
-				<div class="item rounded-xl overflow-hidden">
-					<button type="button" class="toggleFaqBtn text-left cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
-						<div class="[&_p]:bg-primary [&_p]:rounded-full [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:m-0 [&_p]:justify-center [&_p]:items-center">
-							<p><span class="list-number"></span></p>
-						</div>
-						<h3>Guaranteed conversion feature</h3>
-					</button>
-					<div class="toggleBlock px-6 pt-0 hidden rounded-b-xl [&_p]:pl-16 [&_p]:opacity-70">
-						<p>
-							Your clients’ policy wil l automatical ly include the John Hancock Vitality PLUS program, which means they can earn premium savings and rewards for the everyday steps they take to live healthy.
-						</p>
+				<div class="text-left flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
+					<div class="[&_p]:bg-primary [&_p]:rounded-full [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:m-0 [&_p]:justify-center [&_p]:items-center">
+						<p><span class="list-number"></span></p>
 					</div>
+					<h3>Guaranteed Conversion Feature</h3>
 				</div>
-				<div class="item rounded-xl overflow-hidden">
-					<button type="button" class="toggleFaqBtn text-left cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
-						<div class="[&_p]:bg-primary [&_p]:rounded-full [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:m-0 [&_p]:justify-center [&_p]:items-center">
-							<p><span class="list-number"></span></p>
-						</div>
-						<h3>Extra financial protection to meet the unexpected</h3>
-					</button>
-					<div class="toggleBlock px-6 pt-0 hidden rounded-b-xl [&_p]:pl-16 [&_p]:opacity-70">
-						<p>
-							Your clients’ policy wil l automatical ly include the John Hancock Vitality PLUS program, which means they can earn premium savings and rewards for the everyday steps they take to live healthy.
-						</p>
+				<div class="text-left flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
+					<div class="[&_p]:bg-primary [&_p]:rounded-full [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:m-0 [&_p]:justify-center [&_p]:items-center">
+						<p><span class="list-number"></span></p>
 					</div>
+					<h3>Extra Financial Protection To Meet The Unexpected</h3>
 				</div>
-				<div class="item rounded-xl overflow-hidden">
-					<button type="button" class="toggleFaqBtn text-left cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
-						<div class="[&_p]:bg-primary [&_p]:rounded-full [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:m-0 [&_p]:justify-center [&_p]:items-center">
-							<p><span class="list-number"></span></p>
-						</div>
-						<h3>Cost-effective coverage for fixed period of time</h3>
-					</button>
-					<div class="toggleBlock px-6 pt-0 hidden rounded-b-xl [&_p]:pl-16 [&_p]:opacity-70">
-						<p>
-							Your clients’ policy wil l automatical ly include the John Hancock Vitality PLUS program, which means they can earn premium savings and rewards for the everyday steps they take to live healthy.
-						</p>
+				<div class="text-left flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
+					<div class="[&_p]:bg-primary [&_p]:rounded-full [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:m-0 [&_p]:justify-center [&_p]:items-center">
+						<p><span class="list-number"></span></p>
 					</div>
+					<h3>Cost-Effective Coverage For Fixed Period Of Time</h3>
 				</div>
-				<div class="item rounded-xl overflow-hidden">
-					<button type="button" class="toggleFaqBtn text-left cursor-pointer transition flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
-						<div class="[&_p]:bg-primary [&_p]:rounded-full [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:m-0 [&_p]:justify-center [&_p]:items-center">
-							<p><span class="list-number"></span></p>
-						</div>
-						<h3>Simplified Vitality experience</h3>
-					</button>
-					<div class="toggleBlock px-6 pt-0 hidden rounded-b-xl [&_p]:pl-16 [&_p]:opacity-70">
-						<p>
-							Your clients’ policy wil l automatical ly include the John Hancock Vitality PLUS program, which means they can earn premium savings and rewards for the everyday steps they take to live healthy.
-						</p>
+				<div class="text-left flex gap-5 items-center [&_h3]:m-0 [&_h3]:font-normal [&_h3]:h4 py-4 px-6">
+					<div class="[&_p]:bg-primary [&_p]:rounded-full [&_p]:w-10 [&_p]:h-10 [&_p]:mx-auto [&_p]:font-medium [&_p]:leading-[1.77] [&_p]:text-white [&_p]:flex [&_p]:m-0 [&_p]:justify-center [&_p]:items-center">
+						<p><span class="list-number"></span></p>
 					</div>
+					<h3>Simplified Vitality Experience</h3>
 				</div>
 			</div>
 		</div>
@@ -662,9 +627,9 @@ get_header();
 				</figure>
 			</div>
 			<video width="1280" height="720" id="video">
-				<source src="<?php echo get_template_directory_uri(); ?>/videos/Watch-Video.mp4" type="video/mp4">
-				<source src="<?php echo get_template_directory_uri(); ?>/videos/Watch-Video.webm" type="video/webm">
-				Sorry, your browser doesn\'t support embedded videos, <a href="./videos/Watch-Video.mp4">download</a> and watch with your favorite video player!
+				<source src="<?php echo get_template_directory_uri(); ?>/videos/watch-video.mp4" type="video/mp4">
+				<source src="<?php echo get_template_directory_uri(); ?>/videos/watch-video.webm" type="video/webm">
+				Sorry, your browser doesn\'t support embedded videos, <a href="./videos/watch-video.mp4">download</a> and watch with your favorite video player!
 			</video>
 		</div>
 	</div>
@@ -703,7 +668,6 @@ get_header();
 						</p>
 					</div>
 				</div>
-
 				<div class="item border-b border-ss-dark-blue/20 overflow-hidden">
 					<button type="button" class="toggleFaqBtn w-full transition-all relative before:absolute before:content-['\e900'] before:right-1 before:opacity-20 before:top-3 before:font-icomoon [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5 text-left">
 						<h3>Can my older clients benefit from the program?</h3>
@@ -717,8 +681,6 @@ get_header();
 						</p>
 					</div>
 				</div>
-
-
 				<div class="item border-b border-ss-dark-blue/20 overflow-hidden">
 					<button type="button" class="toggleFaqBtn w-full transition-all relative before:absolute before:content-['\e900'] before:right-1 before:opacity-20 before:top-3 before:font-icomoon [&_h3]:m-0 [&_h3]:font-medium [&_h3]:h5 py-4 [&_h3]:pr-5 text-left">
 						<h3>How does the Apple Watch program work?</h3>
@@ -858,78 +820,6 @@ get_header();
 </section>
 <!--End of Get In Touch Section-->
 
-<!--Start of Image Slider Section  -->
-<section class="bg-primary/20 py-16">
-	<div class="container text-center pb-10 [&_h4]:uppercase">
-		<h4>Our Trusted Partners</h4>
-	</div>
-	<div class="swiper py-5 lg:py-0 image-slider [&_.swiper-slide_img]:max-h-[80px] sm:[&_.swiper-slide_img]:max-h-[120px] [&_.swiper-slide_img]:max-w-[100%] [&_.swiper-slide_img]:w-auto md:[&_.swiper-slide_img]:w-full xl:[&_.swiper-slide_img]:max-h-none [&_.swiper-slide]:w-auto">
-		<div class="swiper-wrapper items-center">
-			<div class="swiper-slide">
-				<figure>
-					<img src="<?php echo site_url(); ?>/wp-content/uploads/slider-img-6.png" width="145" height="40" loading="lazy" alt="Slider Image 6">
-				</figure>
-			</div>
-			<div class="swiper-slide">
-				<figure>
-					<img src="<?php echo site_url(); ?>/wp-content/uploads/slider-img-5.png" width="145" height="40" loading="lazy" alt="Slider Image 5">
-				</figure>
-			</div>
-			<div class="swiper-slide">
-				<figure>
-					<img src="<?php echo site_url(); ?>/wp-content/uploads/slider-img-4.png" width="145" height="40" loading="lazy" alt="Slider Image 4">
-				</figure>
-			</div>
-			<div class="swiper-slide">
-				<figure>
-					<img src="<?php echo site_url(); ?>/wp-content/uploads/slider-img-3.png" width="145" height="40" loading="lazy" alt="Slider Image 3">
-				</figure>
-			</div>
-			<div class="swiper-slide">
-				<figure>
-					<img src="<?php echo site_url(); ?>/wp-content/uploads/slider-img-2.png" width="145" height="40" loading="lazy" alt="Slider Image 2">
-				</figure>
-			</div>
-			<div class="swiper-slide">
-				<figure>
-					<img src="<?php echo site_url(); ?>/wp-content/uploads/slider-img-1.png" width="145" height="40" loading="lazy" alt="Slider Image 1">
-				</figure>
-			</div>
-
-			<div class="swiper-slide">
-				<figure>
-					<img src="<?php echo site_url(); ?>/wp-content/uploads/slider-img-6.png" width="145" height="40" loading="lazy" alt="Slider Image 6">
-				</figure>
-			</div>
-			<div class="swiper-slide">
-				<figure>
-					<img src="<?php echo site_url(); ?>/wp-content/uploads/slider-img-5.png" width="145" height="40" loading="lazy" alt="Slider Image 5">
-				</figure>
-			</div>
-			<div class="swiper-slide">
-				<figure>
-					<img src="<?php echo site_url(); ?>/wp-content/uploads/slider-img-4.png" width="145" height="40" loading="lazy" alt="Slider Image 4">
-				</figure>
-			</div>
-			<div class="swiper-slide">
-				<figure>
-					<img src="<?php echo site_url(); ?>/wp-content/uploads/slider-img-3.png" width="145" height="40" loading="lazy" alt="Slider Image 3">
-				</figure>
-			</div>
-			<div class="swiper-slide">
-				<figure>
-					<img src="<?php echo site_url(); ?>/wp-content/uploads/slider-img-2.png" width="145" height="40" loading="lazy" alt="Slider Image 2">
-				</figure>
-			</div>
-			<div class="swiper-slide">
-				<figure>
-					<img src="<?php echo site_url(); ?>/wp-content/uploads/slider-img-1.png" width="145" height="40" loading="lazy" alt="Slider Image 1">
-				</figure>
-			</div>
-		</div>
-	</div>
-</section>
-<!--End of Image Slider Section  -->
 
 <?php
 get_footer();
