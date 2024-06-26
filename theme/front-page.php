@@ -150,7 +150,7 @@ get_header();
 <!--End of Cash Back Option Section-->
 
 <!--Start of Vitality Rewards Section-->
-<section class="pt-8 md:pt-12 lg:pt-16 pb-16 md:pb-24 lg:pb-32">
+<section class="pt-8 md:pt-12 lg:pt-16 pb-16 md:pb-24 lg:pb-32" id="rewards">
 	<div class="container">
 		<div class="ss-custom-tab space-y-4 flex flex-col justify-between lg:flex-row">
 			<div class="mobile-dropdown mb-8 xl:mb-10 lg:w-1/2 flex flex-col">
@@ -418,7 +418,7 @@ get_header();
 <!--End of Vitality Rewards Section-->
 
 <!--Start of Working Steps Section-->
-<section class="py-8 md:py-12 lg:pt-16 lg:pb-24 bg-ss-dark-blue">
+<section class="py-8 md:py-12 lg:pt-16 lg:pb-24 bg-ss-dark-blue" id="steps">
 	<div class="container">
 		<div class="text-center [&_h2]:text-white pb-10">
 			<p><span class="section-tag">Working Steps</span></p>
@@ -473,7 +473,7 @@ get_header();
 <!--End of Working Steps Section-->
 
 <!--Start of Why Insurance Section-->
-<section class="py-16 md:py-24 lg:py-32">
+<section class="py-16 md:py-24 lg:py-32 js-has-smooth-scroll" id="why-us">
 	<div class="container">
 		<div class="text-center lg:text-start">
 			<p><span class="section-tag">Why Insurance</span></p>
@@ -556,7 +556,7 @@ get_header();
 <!--End of Why Insurance Section-->
 
 <!--Start of Benefits Section-->
-<section class="bg-primary/10 py-12 md:py-16 lg:py-20">
+<section class="bg-primary/10 py-12 md:py-16 lg:py-20" id="benefits">
 	<div class="container flex flex-col xl:items-start lg:flex-row gap-12">
 		<div class="lg:w-3/5">
 			<div class="text-center lg:text-start">
@@ -637,7 +637,7 @@ get_header();
 <!--End of Videos Section  -->
 
 <!--Start of Get In Touch Section-->
-<section class="py-8 md:py-12 lg:py-16">
+<section class="py-8 md:py-12 lg:py-16" id="faqs">
 	<div class="container flex flex-col lg:flex-row items-start gap-12">
 		<div class="w-full lg:w-2/5 get-in-touch-form shadow-[0_4px_74px_0px_rgba(28,58,79,0.07)] p-4 md:p-8 [&_h2]:pb-4 md:[&_h2]:pb-8" id="get-in-touch-form">
 			<h2>Get in Touch</h2>
