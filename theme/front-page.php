@@ -57,7 +57,7 @@ get_header();
 			</div>
 		</div>
 		<div class="[&_h2]:mb-5 lg:max-w-[560px]">
-			<p><span class="section-tag opacity-100">Take Change</span></p>
+			<p><span class="section-tag opacity-100">Take Charge</span></p>
 			<h2>Making the most of your Vitality PLUS benefits</h2>
 			<p><span class="opacity-70">With John Hancock Vitality, you’re in control. You can participate when and how you want</span></p>
 			<div class="my-10 flex flex-col sm:flex-row max-sm:space-y-3 sm:space-x-6">
@@ -87,7 +87,7 @@ get_header();
 		</div>
 	</div>
 </section>
-<!--End of Take Change Section-->
+<!--End of Take Charge Section-->
 
 <!--Start of Find Your Reason Section-->
 <section class="py-8 md:py-12 lg:py-16">
